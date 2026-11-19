@@ -11,35 +11,33 @@
 
 ## 技术栈
 
-- 网页：React 19 + Vite 8 + TypeScript（`src/industry-map`）
-- 桌面：Electron（`src/desktop`）
-- 可选 Python 数据脚本（`src/industry-map/data`）
+- 网页：React 19 + Vite 8 + TypeScript（`industry-map`）
+- 桌面：Electron（`desktop`）
+- 可选 Python 数据脚本（`industry-map/data`）
 
 ## 从源码运行
 
-源码在 `src/`。本仓库不包含安装包。
+源码在仓库根目录。本仓库不包含安装包。
 
 网页版：
 
 ```bash
-cd src/industry-map
+cd industry-map
 npm install
 npm run build
 ```
-
-桌面版：将网页构建结果放到 `src/desktop/web` 后：
+桌面版：将网页构建结果放到 `desktop/web` 后：
 
 ```bash
-cd src/desktop
+cd desktop
 npm install
 npx electron .          # 调试可用 IM_NOAUTO=1
 ```
-
-本机数据目录（Windows）为 `%APPDATA%\全球产业链地图\industry-data\`。详见 `src/README-构建说明.md` 与 `使用说明.txt`。
+本机数据目录（Windows）为 `%APPDATA%\全球产业链地图\industry-data\`。详见 `README-构建说明.md` 与 `使用说明.txt`。
 
 ## 文档
 
-- [构建说明](src/README-构建说明.md)
+- [构建说明](README-构建说明.md)
 - [使用说明](使用说明.txt)
 
 ---
@@ -59,34 +57,32 @@ npx electron .          # 调试可用 IM_NOAUTO=1
 
 ## Tech stack
 
-- 网页：React 19 + Vite 8 + TypeScript（`src/industry-map`）
-- 桌面：Electron（`src/desktop`）
-- 可选 Python 数据脚本（`src/industry-map/data`）
+- 网页：React 19 + Vite 8 + TypeScript（`industry-map`）
+- 桌面：Electron（`desktop`）
+- 可选 Python 数据脚本（`industry-map/data`）
 
 ## Getting started
 
-Source is under `src/`. This repository does not include installers.
+Source is at the repository root. This repository does not include installers.
 
 Web app:
 
 ```bash
-cd src/industry-map
+cd industry-map
 npm install
 npm run build
 ```
-
-Desktop: copy the web build into `src/desktop/web`, then:
+Desktop: copy the web build into `desktop/web`, then:
 
 ```bash
-cd src/desktop
+cd desktop
 npm install
 npx electron .          # IM_NOAUTO=1 for debug
 ```
-
-On Windows, local data lives in `%APPDATA%\全球产业链地图\industry-data\`. See `src/README-构建说明.md` and `使用说明.txt`.
+On Windows, local data lives in `%APPDATA%\全球产业链地图\industry-data\`. See `README-构建说明.md` and `使用说明.txt`.
 
 ## Documentation
 
-- [构建说明](src/README-构建说明.md)
+- [构建说明](README-构建说明.md)
 - [使用说明](使用说明.txt)
 

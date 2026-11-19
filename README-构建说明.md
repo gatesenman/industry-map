@@ -13,7 +13,6 @@ desktop/        Electron 桌面版
   seed/           别名、营收覆盖、墓碑关系、已扫描年报种子
   web/            构建好的前端 + 内置数据（也可由 industry-map/dist 覆盖）
 ```
-
 ## 数据怎么升级（程序自己能做）
 - **内置基线**：asar 内 `web/data`，断网可用；「恢复内置数据」回到此版。
 - **本机自动更新（默认每天启动检查）**：Yahoo/东方财富股价与汇率、SEC XBRL、GLEIF、Wikidata、World Bank/IMF/FRED、UN Comtrade、Pink Sheet；重算市值/营收。
@@ -24,7 +23,6 @@ desktop/        Electron 桌面版
 ```
 cd industry-map && npm install && npm run build
 ```
-
 ## 构建桌面版（Windows x64）
 ```
 # 把 industry-map/dist 复制到 desktop/web
