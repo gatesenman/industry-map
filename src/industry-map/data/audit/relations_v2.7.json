@@ -1,0 +1,252 @@
+{
+ "round": "v2.7",
+ "date": "2026-10-29",
+ "method": "v2.7 人工逐句复核 SEC 一手原文",
+ "items": [
+  {
+   "key": "ronbay>catl>供货",
+   "verdict": "correct",
+   "comment": "容百科技2025-11-17巨潮公告：宁德时代将容百作为钠电正极粉料第一供应商，年采购不低于总采购量60%，协议至2029-12-31"
+  },
+  {
+   "key": "nsig>shinetsu>竞争",
+   "verdict": "correct",
+   "comment": "沪硅产业2025年报将日本信越化学列为全球前五大硅片厂商"
+  },
+  {
+   "key": "nsig>sumco>竞争",
+   "verdict": "correct",
+   "comment": "沪硅产业2025年报将日本 SUMCO列为全球前五大硅片厂商"
+  },
+  {
+   "key": "nsig>tsmc>供货",
+   "verdict": "correct",
+   "comment": "沪硅产业2025年报披露客户名单含台积电"
+  },
+  {
+   "key": "nsig>umc>供货",
+   "verdict": "correct",
+   "comment": "沪硅产业2025年报披露客户名单含联电"
+  },
+  {
+   "key": "nsig>st>供货",
+   "verdict": "correct",
+   "comment": "沪硅产业2025年报披露客户名单含意法半导体"
+  },
+  {
+   "key": "nsig>smic>供货",
+   "verdict": "correct",
+   "comment": "沪硅产业2025年报披露客户名单含中芯国际"
+  },
+  {
+   "key": "nsig>huahong>供货",
+   "verdict": "correct",
+   "comment": "沪硅产业2025年报披露客户名单含华虹宏力"
+  },
+  {
+   "key": "jsg>nsig>供货",
+   "verdict": "correct",
+   "comment": "晶盛机电2025年报主要客户名单点名沪硅集团"
+  },
+  {
+   "key": "jsg>jinko>供货",
+   "verdict": "correct",
+   "comment": "晶盛机电2025年报主要客户名单点名晶科能源"
+  },
+  {
+   "key": "jsg>tongwei>供货",
+   "verdict": "correct",
+   "comment": "晶盛机电2025年报主要客户名单点名通威股份"
+  },
+  {
+   "key": "jsg>ja>供货",
+   "verdict": "correct",
+   "comment": "晶盛机电2025年报主要客户名单点名晶澳科技"
+  },
+  {
+   "key": "jsg>trina>供货",
+   "verdict": "correct",
+   "comment": "晶盛机电2025年报主要客户名单点名天合光能"
+  },
+  {
+   "key": "maxwell>longi>供货",
+   "verdict": "correct",
+   "comment": "迈为股份2025年报披露与隆基股份等主流光伏企业深度合作"
+  },
+  {
+   "key": "maxwell>tongwei>供货",
+   "verdict": "correct",
+   "comment": "迈为股份2025年报披露与通威股份等主流光伏企业深度合作"
+  },
+  {
+   "key": "maxwell>trina>供货",
+   "verdict": "correct",
+   "comment": "迈为股份2025年报披露与天合光能等主流光伏企业深度合作"
+  },
+  {
+   "key": "maxwell>jinko>供货",
+   "verdict": "correct",
+   "comment": "迈为股份2025年报披露与晶科能源等主流光伏企业深度合作"
+  },
+  {
+   "key": "maxwell>ja>供货",
+   "verdict": "correct",
+   "comment": "迈为股份2025年报披露与晶澳科技等主流光伏企业深度合作"
+  },
+  {
+   "key": "putailai>catl>供货",
+   "verdict": "correct",
+   "comment": "璞泰来2025年报客户名单点名宁德时代"
+  },
+  {
+   "key": "putailai>lges>供货",
+   "verdict": "correct",
+   "comment": "璞泰来2025年报客户名单点名LG 新能源"
+  },
+  {
+   "key": "putailai>samsungsdi>供货",
+   "verdict": "correct",
+   "comment": "璞泰来2025年报客户名单点名三星 SDI"
+  },
+  {
+   "key": "putailai>byd>供货",
+   "verdict": "correct",
+   "comment": "璞泰来2025年报客户名单点名比亚迪"
+  },
+  {
+   "key": "putailai>calb>供货",
+   "verdict": "correct",
+   "comment": "璞泰来2025年报客户名单点名中创新航"
+  },
+  {
+   "key": "putailai>eve>供货",
+   "verdict": "correct",
+   "comment": "璞泰来2025年报客户名单点名亿纬锂能"
+  },
+  {
+   "key": "starpower>sungrow>供货",
+   "verdict": "correct",
+   "comment": "斯达半导2025年报：连续三年荣获阳光电源战略伙伴奖"
+  },
+  {
+   "key": "tgood>byd>供货",
+   "verdict": "correct",
+   "comment": "特锐德2025年报披露为比亚迪等头部客户提供电力设备"
+  },
+  {
+   "key": "tgood>eve>供货",
+   "verdict": "correct",
+   "comment": "特锐德2025年报披露为亿纬锂能等头部客户提供电力设备"
+  },
+  {
+   "key": "tok>shinetsu>持股",
+   "verdict": "correct",
+   "comment": "东京应化 FY2025 有价证券报告书：将信越化学列为重要取引先/采购先并持股保有"
+  },
+  {
+   "key": "jsg>huahong>供货",
+   "verdict": "correct",
+   "comment": "晶盛机电2025年报主要客户含华虹集团（图谱节点为华虹半导体，集团口径评B）"
+  },
+  {
+   "key": "dke>longi>供货",
+   "verdict": "correct",
+   "comment": "帝科股份2025年报点名隆基绿能为导电浆料长期合作客户"
+  },
+  {
+   "key": "dke>jinko>供货",
+   "verdict": "correct",
+   "comment": "帝科股份2025年报点名晶科能源为导电浆料长期合作客户"
+  },
+  {
+   "key": "dke>ja>供货",
+   "verdict": "correct",
+   "comment": "帝科股份2025年报点名晶澳太阳能为导电浆料长期合作客户"
+  },
+  {
+   "key": "dke>tongwei>供货",
+   "verdict": "correct",
+   "comment": "帝科股份2025年报点名通威太阳能为导电浆料长期合作客户"
+  },
+  {
+   "key": "dke>aiko>供货",
+   "verdict": "correct",
+   "comment": "帝科股份2025年报点名爱旭股份为导电浆料长期合作客户"
+  },
+  {
+   "key": "jsg>shuangliang>供货",
+   "verdict": "correct",
+   "comment": "晶盛机电2025年报将双良节能列为主要客户"
+  },
+  {
+   "key": "jsg>tclzh>供货",
+   "verdict": "correct",
+   "comment": "晶盛机电2025年报将TCL 中环列为主要客户"
+  },
+  {
+   "key": "starpower>inovance>供货",
+   "verdict": "correct",
+   "comment": "斯达半导2025年报：获汇川技术“战略供应商奖”"
+  },
+  {
+   "key": "ginlong>sunrun>供货",
+   "verdict": "correct",
+   "comment": "Sunrun 2025 IE/EX-99.1 AVL 逆变器供应商名单点名锦浪科技(Ginlong)"
+  },
+  {
+   "key": "enphase>sunrun>供货",
+   "verdict": "correct",
+   "comment": "Sunrun 2025 IE/EX-99.1 AVL 逆变器供应商名单点名Enphase"
+  },
+  {
+   "key": "solaredge>sunrun>供货",
+   "verdict": "correct",
+   "comment": "Sunrun 2025 IE/EX-99.1 AVL 逆变器供应商名单点名SolarEdge"
+  },
+  {
+   "key": "canadian>sunrun>供货",
+   "verdict": "correct",
+   "comment": "Sunrun 2025 IE/EX-99.1 AVL 组件供应商名单点名Canadian Solar"
+  },
+  {
+   "key": "jinko>sunrun>供货",
+   "verdict": "correct",
+   "comment": "Sunrun 2025 IE/EX-99.1 AVL 组件供应商名单点名JinkoSolar"
+  },
+  {
+   "key": "longi>sunrun>供货",
+   "verdict": "correct",
+   "comment": "Sunrun 2025 IE/EX-99.1 AVL 组件供应商名单点名LONGi Solar"
+  },
+  {
+   "key": "chint>sunrun>供货",
+   "verdict": "correct",
+   "comment": "Sunrun AVL 点名 Astronergy (Chint)；图谱节点为正泰电器，关联子公司口径评B"
+  },
+  {
+   "key": "lges>sunrun>供货",
+   "verdict": "correct",
+   "comment": "Sunrun AVL BESS 点名 LG Chem Ltd.；图谱节点为LGES，母公司口径评B"
+  },
+  {
+   "key": "maxwell>canadian>供货",
+   "verdict": "correct",
+   "comment": "迈为股份2025年报：光伏领域与阿特斯等保持多年深度合作"
+  },
+  {
+   "key": "dke>jietai>供货",
+   "verdict": "correct",
+   "comment": "帝科股份2025年报点名捷泰科技为导电浆料长期合作客户"
+  },
+  {
+   "key": "dke>canadian>供货",
+   "verdict": "correct",
+   "comment": "帝科股份2025年报点名阿特斯为导电浆料长期合作客户"
+  },
+  {
+   "key": "jsg>jcet>供货",
+   "verdict": "correct",
+   "comment": "晶盛机电2025年报将长电科技列为主要客户并称长期战略合作"
+  }
+ ]
+}

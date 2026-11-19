@@ -1,0 +1,1055 @@
+{
+  "entries": [
+    {
+      "version": "v3.3",
+      "date": "2026-11-04",
+      "notes": [
+        "管线硬化：data/evolve.py（步骤重试、版本快照、changelog）",
+        "应用内 Changelog / 数据版本历史（Sources 页）",
+        "refresh 关键路径增加有限重试"
+      ],
+      "auto": [
+        "关系 604 → 618",
+        "A/B 关系 547 → 561"
+      ],
+      "accuracy": {
+        "overallVerified": {
+          "n": 719,
+          "correct": 677,
+          "acc": 0.9416,
+          "ci95": [
+            0.922,
+            0.9565
+          ],
+          "meets98": false,
+          "pointMeets98": false
+        },
+        "relationsVerified": {
+          "n": 559,
+          "correct": 559,
+          "acc": 1.0,
+          "ci95": [
+            0.9932,
+            1.0
+          ],
+          "meets98": true,
+          "pointMeets98": true,
+          "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+          "blocking": null
+        }
+      }
+    },
+    {
+      "version": "v3.2",
+      "date": "2026-11-03",
+      "notes": [
+        "主题轮换：新能源汽车（整车/锂电/智驾芯片/充电）",
+        "本轮 48 项：新增 27、升级 6（B→A）、复核刷新 15；待核实 3 维持",
+        "一手来源：Polestar/Lucid/Albemarle/SQM/Tesla/GM/onsemi/Li Auto/NIO/ChargePoint/Mobileye/Stellantis/XPeng/Rivian 最新年报原句"
+      ],
+      "auto": [
+        "关系 577 → 604",
+        "A/B 关系 520 → 547"
+      ],
+      "accuracy": {
+        "overallVerified": {
+          "n": 709,
+          "correct": 673,
+          "acc": 0.9492,
+          "ci95": [
+            0.9305,
+            0.9631
+          ],
+          "meets98": false,
+          "pointMeets98": false
+        },
+        "relationsVerified": {
+          "n": 545,
+          "correct": 545,
+          "acc": 1.0,
+          "ci95": [
+            0.993,
+            1.0
+          ],
+          "meets98": true,
+          "pointMeets98": true,
+          "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+          "blocking": null
+        }
+      }
+    },
+    {
+      "version": "v3.1",
+      "date": "2026-11-02",
+      "notes": [
+        "v3.1：主题轮换至消费电子（PC/手机芯片/零售渠道），核查 28 项；新增 10、升级 9（B→A）、复核刷新证据 9、待核实不变（3）",
+        "一手来源：HP Inc. 10-K FY2025、Qualcomm 10-K FY2025、Best Buy 10-K FY2026（SEC EDGAR）",
+        "宏观：周末无新发布；国家统计局 data.stats.gov.cn 接口仍不可用（回退发布页正常）；Yahoo MAXN 仍 404"
+      ],
+      "auto": [
+        "关系 567 → 577",
+        "A/B 关系 510 → 520"
+      ],
+      "accuracy": {
+        "overallVerified": {
+          "n": 718,
+          "correct": 718,
+          "acc": 1.0,
+          "ci95": [
+            0.9947,
+            1.0
+          ],
+          "meets98": true,
+          "pointMeets98": true
+        },
+        "relationsVerified": {
+          "n": 518,
+          "correct": 518,
+          "acc": 1.0,
+          "ci95": [
+            0.9926,
+            1.0
+          ],
+          "meets98": true,
+          "pointMeets98": true,
+          "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+          "blocking": null
+        }
+      }
+    },
+    {
+      "version": "v3.0",
+      "date": "2026-11-01",
+      "notes": [
+        "v3.0：主题轮换至光伏/储能（组件与储能竞争格局、EMS 代工、多晶硅采购与合资），核查 35 项；新增 26、升级 6（B→A）、待核实不变（3）",
+        "一手来源：Canadian Solar 20-F、JinkoSolar 20-F、First Solar 10-K、Enphase 10-K、SolarEdge 10-K、Eos 10-K、Stem 10-K、Maxeon 20-F、Daqo 20-F（SEC EDGAR）",
+        "宏观：国家统计局 10 月制造业 PMI 49.3%（较 9 月 −0.8 个百分点），非制造业商务活动指数 49.7%（−0.5）"
+      ],
+      "auto": [
+        "关系 541 → 567",
+        "A/B 关系 485 → 510"
+      ],
+      "accuracy": {
+        "overallVerified": {
+          "n": 708,
+          "correct": 708,
+          "acc": 1.0,
+          "ci95": [
+            0.9946,
+            1.0
+          ],
+          "meets98": true,
+          "pointMeets98": true
+        },
+        "relationsVerified": {
+          "n": 508,
+          "correct": 508,
+          "acc": 1.0,
+          "ci95": [
+            0.9925,
+            1.0
+          ],
+          "meets98": true,
+          "pointMeets98": true,
+          "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+          "blocking": null
+        }
+      }
+    },
+    {
+      "version": "v2.9",
+      "date": "2026-10-31",
+      "notes": [
+        "v2.9：主题轮换至生物医药（创新药授权/竞争/CDMO 供货），核查 38 项；新增 27、升级 2（待核实→C）、降级 1；待核实 5 → 3",
+        "来源：BeOne(百济神州)/BMS/AbbVie/Merck/Pfizer/Moderna/Amgen/Regeneron/Lilly/J&J/Gilead 最新 10-K，Novartis/Novo/AstraZeneca 20-F，Moderna 官方声明，药明生物港交所公告",
+        "修复：refresh→verify 会把人工降级/待核实关系自动改回（v2.8 的 8 条被改写），已从备份恢复，并新增 manualGrade 人工复核锁",
+        "修复：国家统计局 easyquery 接口 403(UrlACL)，新增 stats.gov.cn 数据发布页回退抓取"
+      ],
+      "auto": [
+        "关系 514 → 541",
+        "A/B 关系 461 → 485"
+      ],
+      "accuracy": {
+        "overallVerified": {
+          "n": 683,
+          "correct": 683,
+          "acc": 1.0,
+          "ci95": [
+            0.9944,
+            1.0
+          ],
+          "meets98": true,
+          "pointMeets98": true
+        },
+        "relationsVerified": {
+          "n": 483,
+          "correct": 483,
+          "acc": 1.0,
+          "ci95": [
+            0.9921,
+            1.0
+          ],
+          "meets98": true,
+          "pointMeets98": true,
+          "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+          "blocking": null
+        }
+      }
+    },
+    {
+      "version": "v2.8",
+      "date": "2026-10-30",
+      "notes": [
+        "v2.8：半导体竞争格局/客户关系核查 49 项；新增 29、升级 6、删除错误关系 7、降级 6、新标待核实 1",
+        "清理早期 SEC 自动抽取错误（控股/供货方向与实体错挂）",
+        "来源：NXP/Qualcomm/Cadence/AMD/NVIDIA/Intel 最新 10-K、UMC 20-F"
+      ],
+      "auto": [
+        "关系 492 → 514",
+        "A/B 关系 446 → 461"
+      ],
+      "accuracy": {
+        "overallVerified": {
+          "n": 659,
+          "correct": 659,
+          "acc": 1.0,
+          "ci95": [
+            0.9942,
+            1.0
+          ],
+          "meets98": true,
+          "pointMeets98": true
+        },
+        "relationsVerified": {
+          "n": 459,
+          "correct": 459,
+          "acc": 1.0,
+          "ci95": [
+            0.9917,
+            1.0
+          ],
+          "meets98": true,
+          "pointMeets98": true,
+          "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+          "blocking": null
+        }
+      }
+    },
+    {
+      "version": "v2.7",
+      "date": "2026-10-29",
+      "notes": [
+        "产业轮换：半导体硅片/设备、光伏设备、锂电材料、功率器件、户用光伏供应链；优先孤立公司",
+        "新增 49 条一手引用关系（A=46 / B=3）",
+        "待核实 4 条仍无新一手证据，未改动",
+        "宏观刷新：World Bank / IMF / UN Comtrade / FRED / Pink Sheet 成功；国家统计局失败；Yahoo fail 2（MAXN 403）",
+        "字段抽样 audit 因 Yahoo 403/空响应导致 ticker/marketCap 回源失败（基础设施）；关系已验证 486/486"
+      ],
+      "auto": [
+        "关系 443 → 492",
+        "A/B 关系 397 → 446"
+      ],
+      "accuracy": {
+        "overallVerified": {
+          "n": 657,
+          "correct": 615,
+          "acc": 0.9361,
+          "ci95": [
+            0.9147,
+            0.9524
+          ],
+          "meets98": false,
+          "pointMeets98": false
+        },
+        "relationsVerified": {
+          "n": 486,
+          "correct": 486,
+          "acc": 1.0,
+          "ci95": [
+            0.9922,
+            1.0
+          ],
+          "method": "v2.7 人工逐句复核 SEC 一手原文",
+          "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+          "meets98": true,
+          "pointMeets98": true,
+          "blocking": null
+        }
+      }
+    },
+    {
+      "version": "v2.6",
+      "date": "2026-10-28",
+      "notes": [
+        "v2.6 关系核查与扩充 + Catalent 上市状态修复（2026-10-28 Asia/Shanghai）",
+        "目标：约 30–50 项核查；只写有公开 URL + 原句 quote；本轮轮换至图像传感器、HIV/抗体授权、CDMO、锂电隔膜/电解液、汽车底盘零部件（拓普）、绿电 PPA、电池材料合资，优先覆盖孤立公司。",
+        "## 统计",
+        "- 核查 37 项：关系 changes 30 条（新增 29：A=22 / B=7；升级 1：eve>fluence>供货 B→A）；Catalent 上市状态修正 1；gwm 营收来源 URL 修正 1（http→https）；待核实复核 4 条（均维持）；另检索 Sunrun/Lucid/Daqo/UMC/Sony 等无可引用原句，未写入",
+        "- 删除 0；仍待核实 4",
+        "- 孤立公司（无任何关系）：51 → 35；关系总数 414 → 443",
+        "## 新增代表性 key",
+        "- 图像传感器：onsemi>omnivision / onsemi>sony>竞争（onsemi FY2025 10-K，A）",
+        "- 医药授权/供货：lilly>innovent（Tyvyt，A）；innovent>roche（IBI3009，HKEX，A）；gilead>merck、jnj>gilead、gilead>jnj（Gilead 10-K，A）；catalent>beigene>供货（BRUKINSA，A）",
+        "- 半导体/AI：gf>huahong>竞争（B：HuaHong Group 集团口径）；nvidia>huawei>竞争（B：节点为华为数字能源）",
+        "- 锂电材料：semcorp>lges（2025–2027 35.5 亿㎡，A）；capchem>catl（电解液协议至 2028，A）；senior>lges、tinci>lges、tinci>tesla（2021 年协议，B）；umicore>vw>合资（PowerCo JV，A）",
+        "- 汽车：tuopu>seres/xiaomi/xpeng/gwm/byd/saic/bmw/lucid/liauto>供货（拓普 2025 年报，A）；bmw>gwm>合资（光束汽车 50/50，A）；seres>huawei>投资（引望 10%，B）",
+        "- 能源/光伏：iberdrola>microsoft>供货（PPA ~500MW，A）；jinko>laplace>持股（B：JKS 母公司口径）",
+        "## 升级",
+        "- eve>fluence>供货：B → A（Fluence 官方新闻稿 2026-09-24：与 EVE Power 签多年期主供货协议，买方侧一手确认）",
+        "## 修正",
+        "- catalent：NYSE:CTLT 为历史代码；2024-12-18 Novo Holdings 完成收购、NYSE 停牌（SEC 8-K Item 3.01），同日 Form 25-NSE，2024-12-30 Form 15-12G；新增 data/listing_status.json，refresh 不再抓 Yahoo 行情，verify.ticker 判 X（附 SEC 一手来源）",
+        "- gwm 营收来源 URL：http://static.cninfo.com.cn → https（http 返回 500，audit 回源失败风险）",
+        "## 仍待核实（4）",
+        "sanhua>tesla（2026 半年报仍未点名特斯拉）；tongwei>longi（通威 2025 年报未提及隆基）；lges>fluence（Fluence 2026-09 新协议为 EVE Power，非 LGES）；wuxibiologics>novo（无一手协议）"
+      ],
+      "auto": [
+        "关系 414 → 443",
+        "A/B 关系 368 → 397"
+      ],
+      "accuracy": {
+        "overallVerified": {
+          "n": 595,
+          "correct": 595,
+          "acc": 1.0,
+          "ci95": [
+            0.9936,
+            1.0
+          ],
+          "meets98": true,
+          "pointMeets98": true
+        },
+        "relationsVerified": {
+          "n": 395,
+          "correct": 395,
+          "acc": 1.0,
+          "ci95": [
+            0.9904,
+            1.0
+          ],
+          "meets98": true,
+          "pointMeets98": true,
+          "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+          "blocking": null
+        }
+      }
+    },
+    {
+      "version": "v2.5",
+      "date": "2026-10-27",
+      "notes": [
+        "v2.5 关系核查与扩充 + 营收单位修复（2026-10-27 Asia/Shanghai）",
+        "目标：约 30–50 条核查；只写有公开 URL + 原句 quote；本轮轮换至光伏跟踪支架、自动驾驶芯片、晶圆材料、PC、封测、中国药企对外授权、汽车合资等环节，并修复 leapmotor/gwm/bydelec 营收单位异常。",
+        "## 统计",
+        "- 核查 33 项：关系 changes 25 条（新增 24：A=23 / B=1；升级 1：catl>fluence>供货 待核实→B）；营收修正 3 家；待核实复核 4 条（均维持）",
+        "- 删除 0；仍待核实 4（5→4）",
+        "- 孤立公司（无任何关系）：65 → 51；关系总数 390 → 414",
+        "## 新增代表性 key",
+        "- 光伏跟踪支架：nextracker>arctech/trina（Nextpower FY2026 10-K，A）；array>nextracker（Array FY2025 10-K，A）",
+        "- 自动驾驶芯片：mobileye>blacksesame/horizon/renesas/ti/huawei（Mobileye FY2025 10-K，A）",
+        "- 半导体：shinetsu/sumco/gwc>umc>供货（UMC FY2025 20-F 硅片供应商，A）；amkor>jcet>竞争（A）；amd>hygon>合资（THATIC JV，B：主体命名口径）",
+        "- 授权：qualcomm>transsion（4G/5G 专利许可，A）；hansoh>regeneron、hansoh>merck、cspc>astrazeneca（A）",
+        "- 汽车/能源/PC：stellantis>leapmotor>合资（LPMI 51/49，A）；gm>saic>合资（SGM 50%，A）；brookfieldre>microsoft>供货（10.5GW 框架，A）；hp>lenovo/microsoft/huawei>竞争（A）；tcltech>tclzh>持股（29.91%，A）",
+        "## 升级",
+        "- catl>fluence>供货：待核实 → B（宁德时代官网 2024-06-21 新闻稿点名 Fluence 为储能合作伙伴；Fluence 侧未确认，一方披露）",
+        "## 营收修正（Wikidata P2139 单位异常 → 交易所一手披露）",
+        "- leapmotor：FY2025 收入 RMB 64,731,860 千元（HKEX 2026-03-16 年度业绩公告）→ ≈9.71B USD（原 ≈2.3 USD）",
+        "- gwm：FY2025 营业总收入 RMB 222,824,238,516.25（上交所 2025 年报，巨潮 2026-03-28）→ ≈33.41B USD（原 ≈26 USD）",
+        "- bydelec：FY2025 收入 RMB 179,477,404 千元（HKEX 2026-03-27 全年业绩公告）→ ≈26.91B USD（原 ≈19 USD）",
+        "- 机制：新增 data/revenue_overrides.json；refresh.py 在无 SEC 营收时优先使用；verify.py 作为 T1 主来源（与 Yahoo 交叉，三家均 A）；audit.py 新增 PDF 回源核对",
+        "## 仍待核实（4）",
+        "sanhua>tesla（半年报客户名单未列特斯拉，冲突取一手）；tongwei>longi（仅研报/媒体）；lges>fluence（未点名供应商）；wuxibiologics>novo（无 2026 一手）",
+        "## 冲突与数据质量",
+        "- catalent ticker（CTLT）Yahoo 404：已于 2024-12 被 Novo Holdings 私有化退市，种子名录仍标 A，本轮 audit 唯一失败项，列为下轮修复"
+      ],
+      "auto": [
+        "关系 390 → 414",
+        "A/B 关系 343 → 368"
+      ],
+      "accuracy": {
+        "overallVerified": {
+          "n": 566,
+          "correct": 565,
+          "acc": 0.9982,
+          "ci95": [
+            0.9901,
+            0.9997
+          ],
+          "meets98": true,
+          "pointMeets98": true
+        },
+        "relationsVerified": {
+          "n": 366,
+          "correct": 366,
+          "acc": 1.0,
+          "ci95": [
+            0.9896,
+            1.0
+          ],
+          "meets98": true,
+          "pointMeets98": true,
+          "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+          "blocking": null
+        }
+      }
+    },
+    {
+      "version": "v2.4",
+      "date": "2026-10-26",
+      "notes": [
+        "v2.4 关系核查与扩充（2026-10-26 Asia/Shanghai）",
+        "目标：约 30–50 条可应用改动；只写有公开 URL + 原句 quote；本轮轮换至医药（此前仅 9 条关系）、半导体材料/测试、光伏多晶硅、储能/充电等覆盖薄弱环节。",
+        "## 统计",
+        "- changes 条数：39（全部 op=set 新增；修正 0；删除 0）",
+        "- 新增：39（A=35 / B=4）",
+        "- 仍待核实：5（与 v2.3 相同，本轮再搜仍无一手原句，未硬升）",
+        "- 孤立公司（无任何关系）：92 → 65",
+        "## 新增代表性 key",
+        "- 医药竞争网（Amgen FY2025 10-K 竞争表）：amgen>novartis/regeneron/abbvie/lilly/jnj/bms/pfizer（A）",
+        "- 医药竞争网（Regeneron FY2025 10-K）：regeneron>roche/novartis（EYLEA）、merck/bms/astrazeneca（Libtayo）、lilly/abbvie/pfizer（Dupixent）（A）",
+        "- amgen>beigene>授权（BeOne FY2025 10-K Amgen Collaboration Agreement，A）",
+        "- 半导体：teradyne>advantest（A）；linde>airliquide（A）；entegris>airliquide/linde/danaher（A）；tfme>amd>合资（AMD 10-K 两家 ATMP JV，A）",
+        "- 光伏多晶硅：daqo>wacker/oci/gcltech/xinte/tongwei（Daqo FY2025 20-F，A）；solaredge>sma（A）；tclzh>maxeon>控股（Maxeon FY2024 20-F，B：现 MAXNQ 状态待跟踪）",
+        "- NEV/储能/充电：catl>polestar>供货（Polestar FY2025 20-F，A）；chargepoint>tesla、enphase>chargepoint（A）；eosenergy>fluence/tesla/catl/sungrow（A）；sungrow>steminc、tesla>steminc 供货（Stem 10-K 附件索引，2020/2021 协议，B）；eve>fluence>供货（Fluence 官方新闻稿 2026-09-24 亿纬动力多年主供货协议，B）",
+        "## 仍待核实（5）— 2026-10-26 再搜结论",
+        "1. sanhua>tesla>供货：2026 半年报（cninfo 2026-08-27）汽车客户名单仍未列特斯拉；仅行业媒体 chinaiol 二手称订单涵盖特斯拉（不可作一手）；记冲突，维持待核实。",
+        "2. tongwei>longi>竞争：Daqo 20-F 仅点名 Tongwei Yongxiang 为多晶硅竞争者（已据此新增 daqo>tongwei），未涉隆基；维持待核实。",
+        "3. catl>fluence>供货：Fluence FY2025 10-K（2025-11-25）仍仅将 CATL 列为 key competitors；2026-09 新供货协议对象为 EVE Power 而非 CATL；维持待核实。",
+        "4. lges>fluence>供货：仅韩媒推测 Tennessee 供应商可能为 LGES；LGES 官方 ESS 客户列表未含 Fluence；维持待核实。",
+        "5. wuxibiologics>novo>供货：检索到的药明生物一手合同为 Viridian 等（SEC 8-K 2026-05），未点名诺和诺德；维持待核实。",
+        "## 候选未写入（缺合格类型/原句）",
+        "- gilead>merck（10-K 为 islatravir+lenacapavir 合作，非 供货/授权 明确原句）、merck>moderna（个体化新抗原疗法合作）、jnj>gilead（Odefsey 含 Janssen rilpivirine）：类型不符，未写入。",
+        "- entegris>shinetsu：竞争表点名 Shin-Etsu Polymer（子公司口径需另行核证），未写入。",
+        "## 冲突与数据质量",
+        "- 三花智控客户口径冲突：一手年报 vs 媒体二手，取一手（不写入）。",
+        "- 发现 leapmotor/gwm/bydelec 的 Wikidata 营收 raw 值异常小（疑似单位为“十亿”），折美元≈0；本轮未改数（无替代一手值），列为待核实/后续修复项。",
+        "## 宏观/微观刷新（refresh 2026-10-26 06:41–06:43 Asia/Shanghai）",
+        "- Yahoo Finance：恢复可用（ok 235 / fail 3，仅 CTLT 已退市 404）；quotes 222；FX 13 币种刷新（USD/CNY 6.6606→6.6697）。周末无新交易日，股价最新收盘仍为 2026-10-23（美东周五）。",
+        "- SEC EDGAR ok 85；GLEIF ok 114；Wikidata/Wikipedia ok；World Bank ok 7（lastUpdated 2026-10-08，数值未变）；IMF ok 3（未变）；FRED ok 7（最新点未变：DFF 3.88%、DGS10 4.96% @2026-10-22）；UN Comtrade ok 63（flows 748，未变）；Pink Sheet ok（最新 2026M09，未变）",
+        "- 失败：国家统计局 data.stats.gov.cn（JSON 空）；CTLT 行情 404（Catalent 已私有化退市）",
+        "- audit --round v2.4 --n 200：fields 200/200；relations 383/383；overall 583/583 acc=1.0，meets98=true",
+        "## 文件",
+        "- data/rounds/v2.4.json（39 条）；data/audit/relations_v2.4.json；备份 data/backup/pre-v2.4-20261026-064056/"
+      ],
+      "auto": [
+        "关系 351 → 390",
+        "A/B 关系 304 → 343"
+      ],
+      "accuracy": {
+        "overallVerified": {
+          "n": 541,
+          "correct": 541,
+          "acc": 1.0,
+          "ci95": [
+            0.9929,
+            1.0
+          ],
+          "meets98": true,
+          "pointMeets98": true
+        },
+        "relationsVerified": {
+          "n": 341,
+          "correct": 341,
+          "acc": 1.0,
+          "ci95": [
+            0.9889,
+            1.0
+          ],
+          "meets98": true,
+          "pointMeets98": true,
+          "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+          "blocking": null
+        }
+      }
+    },
+    {
+      "version": "v2.3",
+      "date": "2026-10-25",
+      "notes": [
+        "v2.3 关系核查与扩充（2026-10-25 Asia/Shanghai）",
+        "目标：约 30–50 条可应用改动；只写有公开 URL + 原句 quote。",
+        "## 统计",
+        "- changes 条数：38（全部 op=set；删除 0）",
+        "- 新增：22",
+        "- 升级/刷新既有证据：16",
+        "- 仍待核实：5（与 v2.2 相同，本轮再搜仍无一手原句，未硬升、未写入 changes）",
+        "## 等级分布（本轮 set）",
+        "- A：22（半导体制造设备竞争网 Lam/KLA/ASML/TEL/AMAT/ASMI/Screen；Foundry intel↔gf/umc/smic；GLP-1 lilly>novo；mRNA moderna↔pfizer；ESS fluence>sungrow/tesla 刷新）",
+        "- B：8（WoodMac 逆变器：sungrow>huawei 升 B；goodwe/apsystems↔sungrow/huawei；enphase↔goodwe；samsungsdi>bmw 升 B）",
+        "- C：8（catl>nio/mercedes 证据刷新；Apple 名单再核 flex/ase/sony/murata/samsung/foxconn）",
+        "## 代表性 key",
+        "- 新增设备竞争：lam>amat/tel/asmi/screen；kla>amat/asml；asml>amat；对称 amat>lam、tel>lam、asmi>lam、screen>lam",
+        "- 新增代工：gf>intel、intel>gf；intel>umc/smic 及对称",
+        "- 新增制药：lilly>novo（Novo 20-F）；moderna↔pfizer（Moderna 10-K）",
+        "- 升级：samsungsdi>bmw C→B（BMW Group €2.9B 长期供货）；sungrow>huawei C→B（WoodMac 2026 并列第一）",
+        "- 刷新：catl>nio（NIO 2025 换电合作）、catl>mercedes（CATL major supplier 原句）、Apple 供应商名单再核",
+        "## 仍待核实（5）— 2026-10-25 再搜结论",
+        "1. sanhua>tesla>供货：2025 年报客户列奔驰/宝马/比亚迪等，未点名特斯拉；前五大客户匿名；券商二手称最大客户特斯拉不可作一手。维持待核实。",
+        "2. tongwei>longi>竞争：通威/隆基年报仍无「竞争对手」互指原句；供货/合资另有 B。维持待核实。",
+        "3. catl>fluence>供货：Fluence FY2025 10-K 仍仅列 CATL 为 key competitors，未披露为电芯供应商（披露供应商为 AESC/Northvolt 等）。维持待核实。",
+        "4. lges>fluence>供货：Fluence 10-K 未点名 LGES 供应商。维持待核实。",
+        "5. wuxibiologics>novo>供货：药明生物公开材料未点名诺和诺德；检索到的一手供货多为 Amicus 等。维持待核实。",
+        "## 薄弱 C 未升（缺一手或类型不符）",
+        "- catl>lges>竞争、tesla>byd>竞争：CATL 年报竞争段未点名 LGES；Tesla FY2025 10-K 未点名 BYD；仍仅 Wikipedia，未写入本轮。",
+        "- thermofisher>pfizer>供货：官方为 NGS「collaboration」，非材料/CDMO 供货原句，类型不符，未硬升。",
+        "- wuxiapptec>pfizer>供货：可核一手多为 2006 前后陈旧合同，未升。",
+        "## 冲突与失败来源",
+        "- Yahoo Finance chart/quote 接口 2026-10-25 返回 403，refresh 行情阶段长时间无进展；已中止后以 --only macro,trade,fred,relations,sec,gleif --no-verify 完成增量。quotes 沿用缓存，记 Yahoo fail。",
+        "- 国家统计局 data.stats.gov.cn 仍 fail（JSON 空）。",
+        "- Apple FY2024/FY2025 独立 Supplier List PDF 仍未检出；继续用 FY2023 官方名单。",
+        "- 未删除任何关系；未编造数字。",
+        "## 宏观/微观刷新",
+        "- SEC EDGAR ok 85；GLEIF ok 114；World Bank / IMF / FRED / UN Comtrade ok",
+        "- Trade flows: 748",
+        "- Yahoo Finance：本轮 fail（403）",
+        "- 国家统计局：fail",
+        "## 文件",
+        "- data/rounds/v2.3.json（38 条）"
+      ],
+      "auto": [
+        "关系 329 → 351",
+        "A/B 关系 280 → 304"
+      ],
+      "accuracy": {
+        "overallVerified": {
+          "n": 473,
+          "correct": 422,
+          "acc": 0.8922,
+          "ci95": [
+            0.861,
+            0.917
+          ],
+          "meets98": false,
+          "pointMeets98": false
+        },
+        "relationsVerified": {
+          "n": 302,
+          "correct": 302,
+          "acc": 1.0,
+          "ci95": [
+            0.9874,
+            1.0
+          ],
+          "meets98": true,
+          "pointMeets98": true,
+          "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+          "blocking": null
+        }
+      }
+    },
+    {
+      "version": "v2.2",
+      "date": "2026-10-24",
+      "notes": [
+        "v2.2 关系核查与扩充（2026-10-24 Asia/Shanghai）",
+        "目标：约 30–50 条可应用改动；只写有公开 URL + 原句 quote；不跑 apply/refresh、不改 core.json。",
+        "## 统计",
+        "- changes 条数：37（全部 op=set；删除 0）",
+        "- 新增：17",
+        "- 升级/刷新既有证据：20",
+        "- 仍待核实：5（与 v2.1 相同，本轮仍无一手原句，未硬升）",
+        "## 等级分布（本轮 set）",
+        "- A：7（tsmc>marvell；panasonic/catl>tesla 刷新；novo>lilly；sungrow/tesla>fluence；catl>fluence>竞争）",
+        "- B：19（含 lges>tesla DOI 合同、lges>hyundai 50% JV、PV/ESS/foundry 竞争网）",
+        "- C：11（Apple 供应商名单替换 Wikipedia×6、hesai>liauto 官方稿、samsungsdi>bmw ASSB、catl>nio、wuxiapptec>lilly）",
+        "## 代表性 key",
+        "- 升级：tsmc>marvell>供货（C→A，Marvell 10-Q 独家代工）；lges>tesla>供货（C→B，DOI.gov $4.3B Megapack 供货）；lges>hyundai>合资（C→B，各 50%）",
+        "- 新增：novo>lilly>竞争（A，Novo 20-F GLP-1）；jinko>longi/trina/canadian/ja>竞争（B）；gf>smic>竞争（B）；enphase/solaredge↔sungrow/huawei/tesla/byd ESS 竞争网；catl>fluence>竞争（A，与供货待核实区分）",
+        "- 证据替换：foxconn/pegatron/luxshare/quanta/boe/lgd>apple 由 Wikipedia → Apple Supplier List FY2023",
+        "## 仍待核实（5）— 再搜一轮结论",
+        "1. sanhua>tesla>供货：深交所/公司年报客户名单仍点名奔驰/宝马/比亚迪等，未点名特斯拉；媒体「Tier1/机器人」为二手。维持待核实。",
+        "2. tongwei>longi>竞争：通威/隆基年报互有供货与合资（云南通威）已有 B；两份年报均未将对方列为「竞争对手」原句。维持待核实。",
+        "3. catl>fluence>供货：Fluence FY2025 10-K 将 CATL 列为 key competitors（本轮已新增 catl>fluence>竞争 A），全文未点名 CATL/LGES 为电芯供应商（仅写 Tier-1 全球制造商）。维持供货待核实。",
+        "4. lges>fluence>供货：同上，Fluence 10-K 未点名 LGES；旧 LG Chem→AES 新闻与今日主体不等同。维持待核实。",
+        "5. wuxibiologics>novo>供货：药明生物 HKEX 年报/公告未点名诺和诺德；公开材料更多指向药明康德 TIDES 等。维持待核实。",
+        "## 薄弱 C 未升（缺一手或关系类型不符）",
+        "- catl>lges>竞争、tesla>byd>竞争：仍仅 Wikipedia/市占二手；CATL 招股书竞争段未点名 LGES/BYD 为 competitors（仅市占图表并列）；Tesla 10-K 未点名 BYD。保留原 C，未写入本轮。",
+        "- thermofisher>pfizer>供货：Pfizer/Thermo 官方为 NGS 检测「collaboration」，非电芯/材料式供货原句，类型不符，未硬升。",
+        "- wuxiapptec>pfizer>供货：公开可核一手多为陈旧合同/未点名年报，未升；另新增 wuxiapptec>lilly>供货（C，2015 官方制造合作原句）。",
+        "## 冲突与失败来源",
+        "- Tesla FY2025 10-K 仍只点名 Panasonic + CATL 电芯供应商 → 与 DOI 披露的 LGES Megapack 供货并存：公司监管文件未点名 LGES，故 lges>tesla 给 B（政府官方合同披露）而非 A。",
+        "- Fluence 将 CATL 列为竞争对手 ≠ 供货；本轮用竞争关系落 A，供货继续待核实，避免类型混用。",
+        "- UMC 2024/2025 20-F 竞争段未稳定点名 TSMC 字符串 → 未写 umc>tsmc；改用 GF 20-F 写 gf>smic/umc/tsmc。",
+        "- Apple FY2025 单独 Supplier List PDF 未检出；继续用 FY2023 官方名单（2024-04 发布）。",
+        "- 未删除任何关系；未编造数字。",
+        "## 文件",
+        "- data/rounds/v2.2.json（37 条）",
+        "- 请父进程执行：python3 data/rounds/apply.py v2.2 data/rounds/v2.2.json"
+      ],
+      "auto": [
+        "关系 312 → 329",
+        "新增产业：ce, ess, nev, pharma, pv, semi"
+      ],
+      "accuracy": {
+        "overallVerified": {
+          "n": 478,
+          "correct": 478,
+          "acc": 1.0,
+          "ci95": [
+            0.992,
+            1.0
+          ],
+          "meets98": true,
+          "pointMeets98": true
+        },
+        "relationsVerified": {
+          "n": 278,
+          "correct": 278,
+          "acc": 1.0,
+          "ci95": [
+            0.9864,
+            1.0
+          ],
+          "meets98": true,
+          "pointMeets98": true,
+          "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+          "blocking": null
+        }
+      }
+    },
+    {
+      "version": "v2.0",
+      "date": "2026-10-23",
+      "notes": [
+        "v2.0 待核实清仓：arm>apple 授权升 A（Arm 424B4 + 法院 ALA 动议）；samsung>samsungsdi 持股升 B（SDI IR 19.4%）；catl>nio / flex>ford / tel>intel / catl>sungrow / sungrow>huawei 升 C（公司官方或 WoodMac）",
+        "v2.0 仍待核实 6 条：sanhua>tesla（年报未点名特斯拉）、tongwei>longi 竞争（已有供货/合资，竞争缺监管原句）、tsmc>samsung 竞争（缺监管点名）、catl>fluence 供货（Fluence 10-K 将其列为竞争对手，供货缺一手）、lges>fluence、wuxibiologics>novo（无可引用公开合同）",
+        "v2.0 NVIDIA 供应链升档：skhynix/samsung>nvidia 供货升 A（NVIDIA 10-K + 官方第二来源）；micron>nvidia 复核 B；tsmc>nvidia 复核 A",
+        "v2.0 Fluence 竞争固 A：fluence>{catl,sungrow,tesla} 竞争用 FY2025 10-K 原句",
+        "v2.0 Intel Foundry 竞争网：intel>{tsmc,samsung} 升 A；新增 intel/smic/umc 双向竞争 B；asml>intel EUV 唯一供应复核 A",
+        "v2.0 Tesla 电芯：panasonic/catl>tesla 用 Tesla 10-K 原句固 A；Lam/KLA 主要客户表复核 B",
+        "v2.0 refresh：relations 305 未降、companies 228、AB≥250；国家统计局失败；Yahoo 3 次失败（含 CTLT/MAXN）"
+      ],
+      "auto": [
+        "关系 305 → 310",
+        "A/B 关系 250 → 258"
+      ],
+      "accuracy": {
+        "overallVerified": {
+          "n": 458,
+          "correct": 458,
+          "acc": 1.0,
+          "ci95": [
+            0.9917,
+            1.0
+          ],
+          "meets98": true,
+          "pointMeets98": true
+        },
+        "relationsVerified": {
+          "n": 258,
+          "correct": 258,
+          "acc": 1.0,
+          "ci95": [
+            0.9853,
+            1.0
+          ],
+          "meets98": true,
+          "pointMeets98": true,
+          "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+          "blocking": null
+        }
+      }
+    },
+    {
+      "version": "v1.9",
+      "date": "2026-10-22",
+      "notes": [
+        "## v1.9（2026-10-22，Asia/Shanghai）",
+        "- 关系等级：A24/B217/C49/待核实13（303）→ A30/B220/C42/待核实13（305）。",
+        "- 升 A（监管+独立第二来源）：tsmc>apple（TSMC 6-K 2025-03-03）、micron>apple（Micron 8-K 2025-06-12）、catl>liauto、horizon>liauto（Li Auto 20-F）、tianqi>sqm（SQM 20-F，约21.9%）、byd>bydelec（比亚迪2025年报子公司表 65.76%）。",
+        "- 待核实→B：robosense>xpeng（RoboSense HKEX 2024 年报）；新增 robosense>geely(B)、tel>tsmc(B，FY2026 占比12.9%)；tel>samsung 换为干净原句+占比15.1%。",
+        "- 新增结束/部分终止字段（ended，含原句）：hanwha>nextera（2016-12 合同期结束）、mobileye>geely（2024Q3 部分终止）、intel>apple（2020 Mac CPU 部分终止）。UI 增加“已结束/部分终止”与“客户占比”徽章。",
+        "- samsung>samsungsdi 无可引用原句，C→待核实。thermofisher>pfizer、wuxiapptec>pfizer 补审（C，正确）。",
+        "- 审计口径修正：关系总体=当前 A/B/C 主张；已删除/待核实的历史条目移出并在 relationsLegacy 中如实保留（已删除按错误计：294/299）。",
+        "- 审计：字段 200/200 [98.12,100]；关系(全等级) 292/292 [98.70,100]；总体 492/492 [99.23,100]；A/B 关系 250/250 [98.49,100]。",
+        "- 未找到来源：tsmc>samsung、tel>intel、wuxibiologics>novo、sungrow>huawei、catl>nio 等仍为待核实。"
+      ],
+      "auto": [
+        "关系 303 → 305",
+        "A/B 关系 241 → 250"
+      ],
+      "accuracy": {
+        "overallVerified": {
+          "n": 450,
+          "correct": 450,
+          "acc": 1.0,
+          "ci95": [
+            0.9915,
+            1.0
+          ],
+          "meets98": true,
+          "pointMeets98": true
+        },
+        "relationsVerified": {
+          "n": 250,
+          "correct": 250,
+          "acc": 1.0,
+          "ci95": [
+            0.9849,
+            1.0
+          ],
+          "meets98": true,
+          "pointMeets98": true,
+          "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+          "blocking": null
+        }
+      }
+    },
+    {
+      "version": "v1.8",
+      "date": "2026-10-22",
+      "notes": [
+        "v1.8 苹果官方供应商名单（Apple Supplier List FY2023，2024-04 发布，s203.q4cdn.com 苹果投资者关系站）：samsung/sony/murata/quanta/ase>apple 由待核实升 C；tsmc/foxconn/boe/lgd/luxshare/pegatron>apple 补充第二来源（仍 C）；新增 23 条库内公司>apple 供货（C，名单原文名称记于 listedAs）",
+        "v1.8 摘牌检测 data/delist.py（SEC Form 25/25-NSE/15-12B/15-12G，需晚于最近定期报告、需涉及普通股/ADS、需库内有美国上市记录）：确认 catalent；排除 merck（债券到期摘牌）、smic/ja（美国 ADR 已退，库内仅记 A/H 股）",
+        "v1.8 中文名匹配 data/aliases.py：228 家公司 658 个别名（全称/简称/英文/代码），并入 filings_cn；拉丁字母别名改整词匹配（修复 'NIO' 命中 'TOP UNION' 的误报）",
+        "v1.8 A 股年报原句（人工逐句复核）：nvidia>byd、mobileye>geely 升 B（SEC）；新增 tongwei>longi 供货+合资（隆基/通威 2025 年报）及当升/聚和/奥特维/横店东磁/国轩 等 18 条供货（B）",
+        "v1.8 抽检：A/B 关系 241/241（CI 98.43–100%）；字段 200/200（CI 98.12–100%）；全部等级合计 492/494（CI 98.54–99.89%，达 98%）；仅关系全部等级 292/294（CI 97.55–99.81%，未达）"
+      ],
+      "auto": [
+        "关系 260 → 303",
+        "A/B 关系 219 → 241"
+      ],
+      "accuracy": {
+        "overallVerified": {
+          "n": 441,
+          "correct": 441,
+          "acc": 1.0,
+          "ci95": [
+            0.9914,
+            1.0
+          ],
+          "meets98": true,
+          "pointMeets98": true
+        },
+        "relationsVerified": {
+          "n": 241,
+          "correct": 241,
+          "acc": 1.0,
+          "ci95": [
+            0.9843,
+            1.0
+          ],
+          "meets98": true,
+          "pointMeets98": true,
+          "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+          "blocking": null
+        }
+      }
+    },
+    {
+      "version": "v1.7",
+      "date": "2026-10-22",
+      "notes": [
+        "v1.7 竞品学习（Altana/Sayari N 层上游 + 单一来源；Sayari 证据包）：检查器新增「N 层上游追溯」（1–4 层，可只走 A/B 关系，显示整条路径最弱等级、库内单一来源）",
+        "v1.7 「导出证据包」：一键导出该公司全部关系、等级、披露日期、披露方和一手原句（Markdown）",
+        "v1.7 待核实复核：longi>jinko 竞争 升 B；新增 trina/canadian/ja>jinko 竞争（B）——均来自 JinkoSolar 20-F（FY2025）原句",
+        "v1.7 抽检发现 catalent 股票代码 CTLT 已于 2024-12 摘牌（SEC Form 25-NSE），种子名录过期；该字段已改为 X 级并注明摘牌来源，本轮如实计 1 错",
+        "v1.7 抽检：A/B 关系 219/219（CI 98.28–100%）；字段 199/200（CI 97.22–99.91%）；全部等级 442/447（CI 97.41–99.52%，未达 98%）"
+      ],
+      "auto": [
+        "关系 257 → 260",
+        "A/B 关系 215 → 219"
+      ],
+      "accuracy": {
+        "overallVerified": {
+          "n": 419,
+          "correct": 418,
+          "acc": 0.9976,
+          "ci95": [
+            0.9866,
+            0.9996
+          ],
+          "meets98": true,
+          "pointMeets98": true
+        },
+        "relationsVerified": {
+          "n": 219,
+          "correct": 219,
+          "acc": 1.0,
+          "ci95": [
+            0.9828,
+            1.0
+          ],
+          "meets98": true,
+          "pointMeets98": true,
+          "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+          "blocking": null
+        }
+      }
+    },
+    {
+      "version": "v1.6",
+      "date": "2026-10-22",
+      "notes": [
+        "v1.6 竞品学习（Bloomberg SPLC 双栏 + 4 年时效；FactSet Revere 直接/反向披露 + 类型分类）：检查器新增「供应链双栏」（供应商/客户/竞争合资股权），按等级与日期排序，悬停看原句",
+        "v1.6 每条关系显示最新证据披露日；超过 4 年标「可能过期」（当前 7 条），关系表新增「最新证据」列；标注本方/对方/第三方披露",
+        "v1.6 待核实复核：hanwha>nextera 供货 升 B（Hanwha SolarOne 6-K，2015 年合同，已标可能过期）；pilbara>ganfeng 供货 升 B（ASX 公告）；samsungsdi>bmw、catl>mercedes 供货 升 C（公司官方新闻稿，非监管文件）",
+        "v1.6 抽检：字段 200/200（CI 98.12–100%）；A/B 关系 215/215（CI 98.24–100%）；全部等级 439/443（CI 97.70–99.65%，未达 98%）"
+      ],
+      "auto": [
+        "A/B 关系 213 → 215"
+      ],
+      "accuracy": {
+        "overallVerified": {
+          "n": 415,
+          "correct": 415,
+          "acc": 1.0,
+          "ci95": [
+            0.9908,
+            1.0
+          ],
+          "meets98": true,
+          "pointMeets98": true
+        },
+        "relationsVerified": {
+          "n": 215,
+          "correct": 215,
+          "acc": 1.0,
+          "ci95": [
+            0.9824,
+            1.0
+          ],
+          "meets98": true,
+          "pointMeets98": true,
+          "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+          "blocking": null
+        }
+      }
+    },
+    {
+      "version": "v1.5",
+      "date": "2026-10-22",
+      "notes": [
+        "v1.5 竞品学习（FactSet Revere/Bloomberg SPLC 透明度弹窗）：关系边按验证等级加粗/虚线，悬停显示等级、证据条数、申报表单+日期+原句",
+        "v1.5 表格字段级来源徽章（一手/二手/种子），可开关并附图例；关系表证据悬停预览全部证据",
+        "v1.5 待核实关系人工逐句复核 SEC 原文：arm>qualcomm 授权、catl>ford 授权、hesai>byd 供货 升 B；新增 catl>ford 供货、catl>nio 合资、nvidia>marvell 持股（B）",
+        "v1.5 删除 3 条错误自动抽取：marvell>nvidia 持股（方向反）、amazon>apple 供货（命中 Globalstar 协议）、intel>micron 竞争（intellectual 误匹配）",
+        "v1.5 抽检：A/B 关系 213/213（CI 98.23–100%）；字段 199/200（jietai 市值 Yahoo 回源差 7.1%，超 5% 容差，如实计错）；全部等级 434/439（CI 97.36–99.51%，未达 98%）"
+      ],
+      "auto": [
+        "A/B 关系 207 → 213"
+      ],
+      "accuracy": {
+        "overallVerified": {
+          "n": 413,
+          "correct": 412,
+          "acc": 0.9976,
+          "ci95": [
+            0.9864,
+            0.9996
+          ],
+          "meets98": true,
+          "pointMeets98": true
+        },
+        "relationsVerified": {
+          "n": 213,
+          "correct": 213,
+          "acc": 1.0,
+          "ci95": [
+            0.9823,
+            1.0
+          ],
+          "meets98": true,
+          "pointMeets98": true,
+          "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+          "blocking": null
+        }
+      }
+    },
+    {
+      "version": "v1.4",
+      "date": "2026-10-22",
+      "notes": [
+        "关系：新增 SEC 一手证据 7 条（Moderna 8-K→Lonza；Toyota 20-F→Prime Planet Energy；NVIDIA 8-K→Mercedes；Mobileye 8-K→VW design win；Fluence 10-Q→CATL/Sungrow 竞争）",
+        "关系等级：A 21→24，B 180→183，C 20→19，待核实 34→31；总数 255→257（新增 fluence→catl、fluence→sungrow 竞争）",
+        "否决/维持：arm→qualcomm（仅 Nuvia 诉讼句）；thermofisher→pfizer（SEC 原句为 NGS 检测合作，不支持供货）；catl→fluence/sungrow 供货（Fluence 10-Q 列为竞争对手，无供货证据）——均维持原等级不升级",
+        "字段：由已验证(A/B)多源记录回填 市值 76 家、营收 65 家（中位数÷Yahoo 汇率；附来源）",
+        "新数据源：InfoLink 光伏现货价 27 行（C 级，附取数日）；中国行业平台可达性/robots 测试见 research/data_sourcing.md",
+        "UX：新手引导、链条风险视图、价格视图、关系搜索（A → B）、分享链接、工具栏不折行；见 research/ux_audit.md",
+        "管线：refresh 合并式 + 不降级守卫（v1.3）沿用",
+        "管线硬化：data/evolve.py（步骤重试、版本快照、changelog）",
+        "应用内 Changelog / 数据版本历史（Sources 页）",
+        "refresh 关键路径增加有限重试"
+      ],
+      "auto": [
+        "关系 255 → 257",
+        "A/B 关系 201 → 207"
+      ],
+      "accuracy": {
+        "overallVerified": {
+          "n": 404,
+          "correct": 404,
+          "acc": 1.0,
+          "ci95": [
+            0.9906,
+            1.0
+          ],
+          "meets98": true,
+          "pointMeets98": true
+        },
+        "relationsVerified": {
+          "n": 207,
+          "correct": 207,
+          "acc": 1.0,
+          "ci95": [
+            0.9818,
+            1.0
+          ],
+          "meets98": true,
+          "pointMeets98": true,
+          "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+          "blocking": null
+        }
+      }
+    },
+    {
+      "version": "v1.3",
+      "date": "2026-10-22",
+      "notes": [
+        "管线硬化：data/evolve.py（步骤重试、版本快照、changelog）",
+        "应用内 Changelog / 数据版本历史（Sources 页）",
+        "refresh 关键路径增加有限重试"
+      ],
+      "auto": [],
+      "accuracy": {
+        "overallVerified": {
+          "n": 401,
+          "correct": 401,
+          "acc": 1.0,
+          "ci95": [
+            0.9905,
+            1.0
+          ],
+          "meets98": true,
+          "pointMeets98": true
+        },
+        "relationsVerified": {
+          "n": 201,
+          "correct": 201,
+          "acc": 1.0,
+          "ci95": [
+            0.9812,
+            1.0
+          ],
+          "meets98": true,
+          "pointMeets98": true,
+          "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+          "blocking": null
+        }
+      }
+    },
+    {
+      "version": "v1.2",
+      "date": "2026-10-22",
+      "notes": [
+        "微观刷新：Yahoo 行情 196→222 家（新增 26 家，含医药/储能），SEC EDGAR 66→84 家，GLEIF 93→114 家，汇率更新",
+        "refresh.py 修复：种子关系端点 huawei 不在公司名录导致 KeyError（已加端点校验）",
+        "完整 refresh 会以旧版种子重写 core.json（关系 255→87、版本回退 v0.7、多条 A 级降为 C），已回滚 core/audit/verification，仅保留 micro 刷新",
+        "失败来源：国家统计局 data.stats.gov.cn（返回非 JSON）、Yahoo 个别财务（MAXN 等 3 次）；macro.json 本轮无变化"
+      ],
+      "auto": [],
+      "accuracy": {
+        "overallVerified": {
+          "n": 401,
+          "correct": 401,
+          "acc": 1.0,
+          "ci95": [
+            0.9905,
+            1.0
+          ],
+          "meets98": true,
+          "pointMeets98": true
+        },
+        "relationsVerified": {
+          "n": 201,
+          "correct": 201,
+          "acc": 1.0,
+          "ci95": [
+            0.9812,
+            1.0
+          ],
+          "meets98": true,
+          "pointMeets98": true,
+          "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+          "blocking": null
+        }
+      }
+    },
+    {
+      "version": "v1.1",
+      "date": "2026-10-22",
+      "notes": [
+        "导出 JSON 切片；收藏 favourites.json 导入/导出",
+        "README + portable/README.txt 便携说明",
+        "终局抽检 v1.1"
+      ],
+      "auto": [],
+      "accuracy": {
+        "overallVerified": {
+          "n": 401,
+          "correct": 401,
+          "acc": 1.0,
+          "ci95": [
+            0.9905,
+            1.0
+          ],
+          "meets98": true,
+          "pointMeets98": true
+        },
+        "relationsVerified": {
+          "n": 201,
+          "correct": 201,
+          "acc": 1.0,
+          "ci95": [
+            0.9812,
+            1.0
+          ],
+          "meets98": true,
+          "pointMeets98": true,
+          "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+          "blocking": null
+        }
+      }
+    },
+    {
+      "version": "v0.9",
+      "date": "2026-10-22",
+      "notes": [
+        "已存视图、路径栏、快捷键帮助"
+      ],
+      "auto": [],
+      "accuracy": null
+    },
+    {
+      "version": "v0.8",
+      "date": "2026-10-22",
+      "notes": [
+        "新增医药/储能全产业",
+        "公司 199→228",
+        "Open Supply Hub API 401 需 token"
+      ],
+      "auto": [],
+      "accuracy": null
+    },
+    {
+      "version": "v0.7",
+      "date": "2026-10-22",
+      "notes": [
+        "Samsung IR 客户/供应商原句",
+        "LEI A 78→93；字段 X 清零",
+        "EDINET/DART/MOPS 探测失败如实记录"
+      ],
+      "auto": [],
+      "accuracy": null
+    },
+    {
+      "version": "v0.6",
+      "date": "2026-10-22",
+      "notes": [
+        "SEC 扩充 A/B 关系至 194，relationsVerified CI 下界≥98%",
+        "HKEX 未打通改走 SEC"
+      ],
+      "auto": [],
+      "accuracy": null
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+ "round": "v2.5",
+ "date": "2026-10-27",
+ "method": "v2.5 人工逐句复核 SEC 一手原文",
+ "items": [
+  {
+   "key": "nextracker>arctech>竞争",
+   "verdict": "correct",
+   "comment": "Nextpower（原 Nextracker）FY2026 Form 10-K（2026-05-19）主要竞争对手名单点名 Arctech Solar（中信博）"
+  },
+  {
+   "key": "nextracker>trina>竞争",
+   "verdict": "correct",
+   "comment": "Nextpower（原 Nextracker）FY2026 Form 10-K（2026-05-19）主要竞争对手名单点名 TrinaSolar（天合光能，含天合跟踪）"
+  },
+  {
+   "key": "mobileye>blacksesame>竞争",
+   "verdict": "correct",
+   "comment": "Mobileye FY2025 Form 10-K（2026-02-12）芯片竞争对手名单点名 Black Sesame Technologies（黑芝麻智能）"
+  },
+  {
+   "key": "mobileye>horizon>竞争",
+   "verdict": "correct",
+   "comment": "Mobileye FY2025 Form 10-K（2026-02-12）芯片竞争对手名单点名 Horizon Robotics（地平线）"
+  },
+  {
+   "key": "mobileye>renesas>竞争",
+   "verdict": "correct",
+   "comment": "Mobileye FY2025 Form 10-K（2026-02-12）芯片竞争对手名单点名 Renesas Electronics（瑞萨）"
+  },
+  {
+   "key": "mobileye>ti>竞争",
+   "verdict": "correct",
+   "comment": "Mobileye FY2025 Form 10-K（2026-02-12）芯片竞争对手名单点名 Texas Instruments"
+  },
+  {
+   "key": "mobileye>huawei>竞争",
+   "verdict": "correct",
+   "comment": "Mobileye FY2025 Form 10-K（2026-02-12）芯片竞争对手名单点名 Huawei"
+  },
+  {
+   "key": "qualcomm>transsion>授权",
+   "verdict": "correct",
+   "comment": "Qualcomm FY2025 Form 10-K（2025-11-05）披露与传音签订 4G/5G 全面专利许可协议"
+  },
+  {
+   "key": "stellantis>leapmotor>合资",
+   "verdict": "correct",
+   "comment": "Stellantis FY2025 Form 20-F（2026-02-26）披露零跑国际（LPMI）为双方合资，Stellantis 51%/零跑 49%"
+  },
+  {
+   "key": "hansoh>regeneron>授权",
+   "verdict": "correct",
+   "comment": "Regeneron FY2025 Form 10-K（2026-02-04）披露与翰森制药的 HS-20094 许可协议于 2025-07 生效"
+  },
+  {
+   "key": "hansoh>merck>授权",
+   "verdict": "correct",
+   "comment": "Merck FY2025 Form 10-K（2026-02-24）披露向翰森支付 1.12 亿美元的全球许可协议"
+  },
+  {
+   "key": "shinetsu>umc>供货",
+   "verdict": "correct",
+   "comment": "UMC FY2025 Form 20-F（2026-04-30）披露大部分硅片采购自 Shin-Etsu Handotai（信越半导体） 等"
+  },
+  {
+   "key": "sumco>umc>供货",
+   "verdict": "correct",
+   "comment": "UMC FY2025 Form 20-F（2026-04-30）披露大部分硅片采购自 Sumco Group 等"
+  },
+  {
+   "key": "gwc>umc>供货",
+   "verdict": "correct",
+   "comment": "UMC FY2025 Form 20-F（2026-04-30）披露大部分硅片采购自 GlobalWafers（环球晶圆） 等"
+  },
+  {
+   "key": "brookfieldre>microsoft>供货",
+   "verdict": "correct",
+   "comment": "Brookfield Renewable FY2025 Form 20-F（2026-02-27）披露与微软签订 10.5GW+ 全球可再生能源框架协议（2026–2030）"
+  },
+  {
+   "key": "cspc>astrazeneca>授权",
+   "verdict": "correct",
+   "comment": "AstraZeneca FY2025 Form 20-F 附件（2026-02-24）披露 2024-10 与石药集团签订 Lp(a) 小分子独家许可协议"
+  },
+  {
+   "key": "amd>hygon>合资",
+   "verdict": "correct",
+   "comment": "AMD FY2025 Form 10-K（2026-02-04）披露与 THATIC（海光信息技术）组建两家合资企业；10-K 写作 Higon Information Technology，与上市主体海光信息命名对应但需注意主体口径，故定 B"
+  },
+  {
+   "key": "hp>lenovo>竞争",
+   "verdict": "correct",
+   "comment": "HP FY2025 Form 10-K（2025-12-10）主要竞争对手名单点名 Lenovo Group"
+  },
+  {
+   "key": "hp>microsoft>竞争",
+   "verdict": "correct",
+   "comment": "HP FY2025 Form 10-K（2025-12-10）主要竞争对手名单点名 Microsoft"
+  },
+  {
+   "key": "hp>huawei>竞争",
+   "verdict": "correct",
+   "comment": "HP FY2025 Form 10-K（2025-12-10）主要竞争对手名单点名 Huawei"
+  },
+  {
+   "key": "tcltech>tclzh>持股",
+   "verdict": "correct",
+   "comment": "Maxeon FY2024 Form 20-F（2025-04-30，最新年报）：TCL 科技直接及间接合计持有 TCL 中环 29.91%（截至 2024-12-31）"
+  },
+  {
+   "key": "gm>saic>合资",
+   "verdict": "correct",
+   "comment": "GM FY2025 Form 10-K（2026-01-27）中国合资企业持股表：上汽通用（SGM）50%"
+  },
+  {
+   "key": "array>nextracker>竞争",
+   "verdict": "correct",
+   "comment": "Array Technologies FY2025 Form 10-K（2026-02-25）主要跟踪支架竞争对手点名 Nextpower（原 Nextracker）"
+  },
+  {
+   "key": "amkor>jcet>竞争",
+   "verdict": "correct",
+   "comment": "Amkor FY2025 Form 10-K（2026-02-20）竞争对手点名 JCET Group（长电科技）"
+  },
+  {
+   "key": "catl>fluence>供货",
+   "verdict": "correct",
+   "comment": "v2.5 升级：宁德时代官网新闻稿（2024-06-21）称与 Fluence 等储能集成商建立合作并落地储能项目（一手公司披露）；Fluence 10-K 未点名电芯供应商且将 CATL 列为竞争对手（另有 fluence>catl>竞争 A）。供货为公司自述合作，未披露量/期限，定 B"
+  }
+ ]
+}

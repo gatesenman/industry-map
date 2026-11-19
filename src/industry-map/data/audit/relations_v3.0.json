@@ -1,0 +1,167 @@
+{
+ "round": "v3.0",
+ "date": "2026-11-01",
+ "method": "v3.0 人工逐句复核 SEC 一手原文",
+ "items": [
+  {
+   "key": "canadian>firstsolar>竞争",
+   "verdict": "correct",
+   "comment": "Canadian Solar FY2025 20-F（2026-04-10）风险因素点名 First Solar 为组件竞争对手"
+  },
+  {
+   "key": "canadian>longi>竞争",
+   "verdict": "correct",
+   "comment": "Canadian Solar FY2025 20-F（2026-04-10）风险因素点名 LONGi（隆基） 为组件竞争对手"
+  },
+  {
+   "key": "canadian>trina>竞争",
+   "verdict": "correct",
+   "comment": "Canadian Solar FY2025 20-F（2026-04-10）风险因素点名 Trina Solar（天合） 为组件竞争对手"
+  },
+  {
+   "key": "canadian>jinko>竞争",
+   "verdict": "correct",
+   "comment": "Canadian Solar FY2025 20-F（2026-04-10）风险因素点名 JinkoSolar（晶科） 为组件竞争对手"
+  },
+  {
+   "key": "canadian>ja>竞争",
+   "verdict": "correct",
+   "comment": "Canadian Solar FY2025 20-F（2026-04-10）风险因素点名 JA Solar（晶澳） 为组件竞争对手"
+  },
+  {
+   "key": "canadian>tongwei>竞争",
+   "verdict": "correct",
+   "comment": "Canadian Solar FY2025 20-F（2026-04-10）风险因素点名 Tongwei Solar（通威） 为组件竞争对手"
+  },
+  {
+   "key": "canadian>tesla>竞争",
+   "verdict": "correct",
+   "comment": "Canadian Solar FY2025 20-F（2026-04-10）风险因素点名 Tesla 为储能竞争对手"
+  },
+  {
+   "key": "canadian>fluence>竞争",
+   "verdict": "correct",
+   "comment": "Canadian Solar FY2025 20-F（2026-04-10）风险因素点名 Fluence Energy 为储能竞争对手"
+  },
+  {
+   "key": "canadian>sungrow>竞争",
+   "verdict": "correct",
+   "comment": "Canadian Solar FY2025 20-F（2026-04-10）风险因素点名 Sungrow（阳光电源） 为储能竞争对手"
+  },
+  {
+   "key": "jinko>longi>竞争",
+   "verdict": "correct",
+   "comment": "JinkoSolar FY2025 20-F（2026-04-29）点名 LONGi（隆基） 为竞争对手，B→A"
+  },
+  {
+   "key": "jinko>trina>竞争",
+   "verdict": "correct",
+   "comment": "JinkoSolar FY2025 20-F（2026-04-29）点名 Trina（天合） 为竞争对手，B→A"
+  },
+  {
+   "key": "jinko>canadian>竞争",
+   "verdict": "correct",
+   "comment": "JinkoSolar FY2025 20-F（2026-04-29）点名 Canadian Solar（阿特斯） 为竞争对手，B→A"
+  },
+  {
+   "key": "jinko>ja>竞争",
+   "verdict": "correct",
+   "comment": "JinkoSolar FY2025 20-F（2026-04-29）点名 JA Solar（晶澳） 为竞争对手，B→A"
+  },
+  {
+   "key": "jinko>xinte>合资",
+   "verdict": "correct",
+   "comment": "JinkoSolar 20-F：2021-06-18 与特变电工旗下新特能源、晶澳签股东协议合资设立内蒙古新特硅材料（晶科持股 9%）"
+  },
+  {
+   "key": "ja>xinte>合资",
+   "verdict": "correct",
+   "comment": "JinkoSolar 20-F：2021-06-18 晶科与新特能源、晶澳共同签股东协议合资设立内蒙古新特硅材料"
+  },
+  {
+   "key": "xinte>jinko>供货",
+   "verdict": "correct",
+   "comment": "JinkoSolar 20-F：2023/2024/2025 年分别向内蒙古新特硅材料（新特能源控股的合资公司）采购多晶硅 15.37/4.21/2.34 亿元。供方为新特合资子公司而非上市主体本身，定 B"
+  },
+  {
+   "key": "tongwei>jinko>供货",
+   "verdict": "correct",
+   "comment": "JinkoSolar 20-F：2024/2025 年向四川永祥科技（与通威旗下四川永祥股份、京运通合资，晶科持股 15%）采购多晶硅 5.96/3.02 亿元；大全 20-F 将其称为“Tongwei Yongxiang”。实体归属为推断，定 B"
+  },
+  {
+   "key": "firstsolar>canadian>竞争",
+   "verdict": "correct",
+   "comment": "First Solar FY2025 10-K（2026-02-24）：2026-02-24 向美国 ITC 申请，指控 Canadian Solar 关联实体进口销售的 TOPCon 产品侵犯其专利——专利诉讼表明为美国组件市场直接竞争者（非竞品名单原句），定 B"
+  },
+  {
+   "key": "firstsolar>ja>竞争",
+   "verdict": "correct",
+   "comment": "First Solar FY2025 10-K（2026-02-24）：2026-02-24 向美国 ITC 申请，指控 JA Solar 关联实体进口销售的 TOPCon 产品侵犯其专利——专利诉讼表明为美国组件市场直接竞争者（非竞品名单原句），定 B"
+  },
+  {
+   "key": "firstsolar>jinko>竞争",
+   "verdict": "correct",
+   "comment": "First Solar FY2025 10-K（2026-02-24）：2026-02-24 向美国 ITC 申请，指控 JinkoSolar 关联实体进口销售的 TOPCon 产品侵犯其专利——专利诉讼表明为美国组件市场直接竞争者（非竞品名单原句），定 B"
+  },
+  {
+   "key": "firstsolar>trina>竞争",
+   "verdict": "correct",
+   "comment": "First Solar FY2025 10-K（2026-02-24）：2026-02-24 向美国 ITC 申请，指控 Trina Solar 关联实体进口销售的 TOPCon 产品侵犯其专利——专利诉讼表明为美国组件市场直接竞争者（非竞品名单原句），定 B"
+  },
+  {
+   "key": "firstsolar>hanwha>竞争",
+   "verdict": "correct",
+   "comment": "First Solar FY2025 10-K（2026-02-24）：2026-02-24 向美国 ITC 申请，指控 Hanwha QCells（韩华 Solutions 子公司） 关联实体进口销售的 TOPCon 产品侵犯其专利——专利诉讼表明为美国组件市场直接竞争者（非竞品名单原句），定 B"
+  },
+  {
+   "key": "flex>enphase>供货",
+   "verdict": "correct",
+   "comment": "Enphase FY2025 10-K（2026-02-17）：使用 Flex 组装测试 IQ 微逆、IQ 电池、EV 充电器与网关"
+  },
+  {
+   "key": "sunwoda>enphase>供货",
+   "verdict": "correct",
+   "comment": "Enphase FY2025 10-K：使用欣旺达（Sunwoda）组装测试 IQ 微逆、IQ 电池等产品"
+  },
+  {
+   "key": "jabil>solaredge>供货",
+   "verdict": "correct",
+   "comment": "SolarEdge FY2025 10-K（2026-02-25）：太阳能产品由 Jabil 与 Flex 两家 EMS 代工"
+  },
+  {
+   "key": "flex>solaredge>供货",
+   "verdict": "correct",
+   "comment": "SolarEdge FY2025 10-K：太阳能产品由 Jabil 与 Flex 两家 EMS 代工"
+  },
+  {
+   "key": "solaredge>stellantis>供货",
+   "verdict": "correct",
+   "comment": "SolarEdge FY2025 10-K：2023-10 决定终止向唯一客户 Stellantis 供应轻型商用车电驱产品——历史关系，定 C"
+  },
+  {
+   "key": "amazon>steminc>供货",
+   "verdict": "correct",
+   "comment": "Stem FY2025 10-K（2026-03-05）：PowerTrack 平台与储能网络运营托管于 Amazon Web Services 数据中心"
+  },
+  {
+   "key": "eosenergy>panasonic>竞争",
+   "verdict": "correct",
+   "comment": "Eos Energy FY2025 10-K（2026-02-26）点名 Panasonic 为锂电储能竞争对手"
+  },
+  {
+   "key": "eosenergy>samsung>竞争",
+   "verdict": "correct",
+   "comment": "Eos Energy FY2025 10-K（2026-02-26）点名 Samsung Electronics 为锂电储能竞争对手"
+  },
+  {
+   "key": "eosenergy>byd>竞争",
+   "verdict": "correct",
+   "comment": "Eos Energy FY2025 10-K（2026-02-26）点名 BYD 为锂电储能竞争对手"
+  },
+  {
+   "key": "tclzh>maxeon>控股",
+   "verdict": "correct",
+   "comment": "Maxeon 20-F（2025-04-30，最近一期）：TCL 中环（TZE）为控股股东及关联方，B→A"
+  }
+ ]
+}

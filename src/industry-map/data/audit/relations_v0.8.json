@@ -1,0 +1,1678 @@
+{
+ "round": "v0.8",
+ "date": "2026-10-22",
+ "method": "v0.6 SEC 边沿用；新增 Samsung IR Business Report 客户/供应商原句复审；EDINET/DART/MOPS 未打通已记入 sources。；v0.8 新增医药/储能产业与公司，新关系均为待核实未计入 A/B；OSH API 401 需 token。",
+ "items": [
+  {
+   "key": "tsmc>nvidia>供货",
+   "grade_before": "A",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "We utilize foundries, such as Taiwan Semiconductor Manufacturing Company Limited, or TSMC, and Samsung Electronics Co., Ltd., or Samsung, to produce our semiconductor wafers.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm"
+  },
+  {
+   "key": "tsmc>amd>供货",
+   "grade_before": "A",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Manufacturing Arrangements and Assembly and Test Facilities Third-Party Wafer Foundry Facilities We utilize Taiwan Semiconductor Manufacturing Company Limited (TSMC) for the production of wafers for our HPC, FPGA and adaptive SoC products and GLOBALFOUNDRIES Inc. (GF), with respect to wafer purchases for our HPC products at the 12 nm and 14 nm technology nodes.",
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm"
+  },
+  {
+   "key": "tsmc>qualcomm>供货",
+   "grade_before": "A",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "The primary foundry suppliers for our various digital, analog/mixed-signal, RF and PM integrated circuits include Taiwan Semiconductor Manufacturing Company (TSMC), Samsung Electronics and Global Foundries.",
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000085/qcom-20250928.htm"
+  },
+  {
+   "key": "tsmc>mediatek>供货",
+   "grade_before": "A",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "We count among our customers many of the world’s leading semiconductor companies, ranging from fabless semiconductor companies, system companies to integrated device manufacturers, including, but not limited to, Advanced Micro Devices, Inc., Amazon Web Services, Inc., Broadcom Inc., Intel Corporation, MediaTek Inc., NVIDIA Corporation, NXP Semiconductors N.V., Qualcomm Inc., Renesas Electronics Co",
+   "url": "https://www.sec.gov/Archives/edgar/data/1046179/000119312525083423/d896993d20f.htm"
+  },
+  {
+   "key": "asml>tsmc>供货",
+   "grade_before": "A",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "For example, in Decem ber 2024 we visited TSMC (Taiwan Semiconductor Manufacturing Company Ltd.) in Taiwan in order to further build our understanding of our customers and how ASML can best meet their needs.",
+   "url": "https://www.sec.gov/Archives/edgar/data/937966/000093796625000009/asml-20241231.htm"
+  },
+  {
+   "key": "asml>samsung>供货",
+   "grade_before": "A",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "In 2012, we issued shares to three key customers – Intel, TSMC and Samsung – as part of the customer co-investment program (CCIP) to accelerate ASML’s development of EUV.",
+   "url": "https://www.sec.gov/Archives/edgar/data/937966/000093796624000008/exhibit21.htm"
+  },
+  {
+   "key": "asml>intel>供货",
+   "grade_before": "A",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "In some cases, however, we are reliant upon sole-source providers, such as with the EUV lithography tools manufactured by ASML that are required for leading-edge process technologies, or providers that are substantially concentrated in a single country, such as with certain rare earth minerals critical to the functioning of a range of technology products and processes where China is the primary so",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm"
+  },
+  {
+   "key": "skhynix>nvidia>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "We purchase memory from SK Hynix Inc., Micron Technology, Inc., and Samsung.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm"
+  },
+  {
+   "key": "micron>nvidia>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "We purchase memory from SK Hynix Inc., Micron Technology, Inc., and Samsung.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm"
+  },
+  {
+   "key": "foxconn>nvidia>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "We engage with independent subcontractors and contract manufacturers such as Hon Hai Precision Industry Co., Ltd., Wistron Corporation, and Fabrinet to perform assembly, testing and packaging of our final products.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm"
+  },
+  {
+   "key": "catl>tesla>供货",
+   "grade_before": "A",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Currently, we rely on suppliers such as Panasonic and Contemporary Amperex Technology Co.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm"
+  },
+  {
+   "key": "catl>bmw>供货",
+   "grade_before": "A",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "务，持续获得 VW、BMW、Stellantis、Volvo、DMG 等海外客户诸多定点",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603091820421719_1.pdf"
+  },
+  {
+   "key": "lges>gm>合资",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Our EV portfolio takes advantage of integrated supply chain development, including battery cell production from Ultium Cells Holdings LLC (a joint venture with LG Energy Solution) in plants in Warren, Ohio and Spring Hill, Tennessee.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000013/gm-20251231.htm"
+  },
+  {
+   "key": "panasonic>tesla>供货",
+   "grade_before": "A",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Currently, we rely on suppliers such as Panasonic and Contemporary Amperex Technology Co.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm"
+  },
+  {
+   "key": "ganfeng>tesla>供货",
+   "grade_before": "A",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "与 LG 化学、特斯拉、宝马等核心客户建立长期战略合作，锁定长期订单",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603301820873426_1.pdf"
+  },
+  {
+   "key": "firstsolar>nextera>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "During 2025, Silicon Ranch Corporation and NextEra Energy each accounted for 10% or more of our modules business net sales.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1274494/000127449426000021/fslr-20251231.htm"
+  },
+  {
+   "key": "tsmc>intel>竞争",
+   "grade_before": "A",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Our primary competitor in leading-edge semiconductor process technology is TSMC, which holds a leading position in manufacturing at scale for the most advanced nodes.",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm"
+  },
+  {
+   "key": "nvidia>amd>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Competition in Data Center Segment In the Data Center segment, we compete primarily against Intel Corporation (Intel) and Nvidia Corporation (Nvidia with our CPU, GPU DPU and AI NIC server products.",
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm"
+  },
+  {
+   "key": "enphase>solaredge>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "In the North American residential market, we compete with manufacturers such as Tesla Inc. with traditional string-based solutions, as well as microinverter manufacturers such as Enphase Energy, Inc.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1419612/000117891326001595/zk2634863.htm"
+  },
+  {
+   "key": "nextracker>array>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Our principal tracker competitors include Nextpower Inc. (f/k/a Nextracker, Inc.), PV Hardware and GameChange Solar.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1820721/000182072126000008/arry-20251231.htm"
+  },
+  {
+   "key": "lens>apple>供货",
+   "grade_before": "A",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "在 AI 智能终端和智能汽车领域，公司一直是众多全球知名客户的长期战略合作伙伴，如：苹果、特斯拉、三星、",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603301820884466_1.pdf"
+  },
+  {
+   "key": "qualcomm>samsung>供货",
+   "grade_before": "A",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Certain of our largest mobile handset customers (for example, Apple, Samsung and Xiaomi) develop their own integrated circuit products, which they have in the past utilized, and/or currently utilize, in certain of their devices.",
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000085/qcom-20250928.htm"
+  },
+  {
+   "key": "qualcomm>xiaomi>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Certain of our largest mobile handset customers (for example, Apple, Samsung and Xiaomi) develop their own integrated circuit products, which they have in the past utilized, and/or currently utilize, in certain of their devices.",
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000085/qcom-20250928.htm"
+  },
+  {
+   "key": "samsung>apple>供货",
+   "grade_before": "B",
+   "verdict": "weak",
+   "comment": "原句过短",
+   "quote": "",
+   "url": "",
+   "source": ""
+  },
+  {
+   "key": "tsmc>broadcom>供货",
+   "grade_before": "A",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "The majority of our front-end wafer manufacturing operations is outsourced to external foundries, including Taiwan Semiconductor Manufacturing Company Limited (“TSMC”).",
+   "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm"
+  },
+  {
+   "key": "catl>vw>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "务，持续获得 VW、BMW、Stellantis、Volvo、DMG 等海外客户诸多定点",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603091820421719_1.pdf"
+  },
+  {
+   "key": "samsungsdi>stellantis>合资",
+   "grade_before": "A",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "In October 2023, Stellantis and StarPlus Energy joint venture partn er Samsung SDI announced plans to locate a second battery manufacturing facility in Kokomo, Indiana, U.S. with production expe cted to begin in 2027.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1605484/000160548424000022/stellantis-20231231.htm"
+  },
+  {
+   "key": "tsmc>intel>供货",
+   "grade_before": "A",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "In recent years, however, we have also strategically utilized third-party foundry manufacturing capacity, including at one of our key foundry competitors, TSMC, for various tiles or an entire product where advantageous for cost, performance, schedule or other considerations.",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm"
+  },
+  {
+   "key": "amkor>apple>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Direct sales to Apple and Qualcomm accounted for 29.8% and 11.1% of our net sales, respectively, for the year ended December 31, 2025.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1047127/000104712726000014/amkr-20251231.htm"
+  },
+  {
+   "key": "amazon>rivian>持股",
+   "grade_before": "A",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Amazon is the parent company of both Logistics and Amazon.com NV Investment Holdings LLC, which beneficially owns shares of our capital stock (including s hares issuable upon the exercise of a warrant to purchase 3,723,050 shares of Class A common stock, as amended) representing 12.7% of our voting power as of December 31, 2025. 21 RIVIAN AUTOMOTIVE, INC.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1874178/000187417826000008/rivn-20251231.htm"
+  },
+  {
+   "key": "ford>rivian>持股",
+   "grade_before": "A",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Other segment items for the Ford Credit segment primarily consists of interest expense and depreciation. (d) Primarily reflects losses on our Rivian investment and the impairment of our Argo AI equity method investment. (e) Ford Blue includes $ 305 million, $ 909 million, and $ 844 million of spending attributable to electric vehicles at shared manufacturing plants in 2022, 2023, and 2024, respect",
+   "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799625000013/f-20241231.htm"
+  },
+  {
+   "key": "vw>rivian>持股",
+   "grade_before": "A",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Volkswagen US-Holdings, Inc. (formerly known as Volkswagen International America Inc ), a wholly-owned subsidiary of Volkswagen AG, beneficially owns shares of our capital stock representing 11.5% of our voting power as of December 31, 2025.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1874178/000187417826000008/rivn-20251231.htm"
+  },
+  {
+   "key": "intel>mobileye>控股",
+   "grade_before": "A",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Intel Corporation (“Intel”) acquired Mobileye for $15.3 billion in 2017, after which we became a wholly-owned subsidiary of Intel.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1910139/000110465926014300/mbly-20251227x10k.htm"
+  },
+  {
+   "key": "catl>stellantis>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "务，持续获得 VW、BMW、Stellantis、Volvo、DMG 等海外客户诸多定点",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603091820421719_1.pdf"
+  },
+  {
+   "key": "ganfeng>bmw>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "与 LG 化学、特斯拉、宝马等核心客户建立长期战略合作，锁定长期订单",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603301820873426_1.pdf"
+  },
+  {
+   "key": "lens>tesla>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "在 AI 智能终端和智能汽车领域，公司一直是众多全球知名客户的长期战略合作伙伴，如：苹果、特斯拉、三星、",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603301820884466_1.pdf"
+  },
+  {
+   "key": "lens>samsung>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "在 AI 智能终端和智能汽车领域，公司一直是众多全球知名客户的长期战略合作伙伴，如：苹果、特斯拉、三星、",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603301820884466_1.pdf"
+  },
+  {
+   "key": "sanhua>panasonic>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "格力、海尔、LG、美的、三菱、松下、三星、西门子和特灵等主要客户合作，获得了客户的广泛认可",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603231820706482_1.pdf"
+  },
+  {
+   "key": "sanhua>samsung>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "格力、海尔、LG、美的、三菱、松下、三星、西门子和特灵等主要客户合作，获得了客户的广泛认可",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603231820706482_1.pdf"
+  },
+  {
+   "key": "autowell>longi>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "前全球主要硅片生产商隆基绿能、弘元绿能等均是公司硅片分选机客户",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202604221821448293_1.pdf"
+  },
+  {
+   "key": "autowell>jinko>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "储能、海博思创、海辰储能、阿特斯、天合储能、晶科储能、中车株洲所等客户的订单",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202604221821448293_1.pdf"
+  },
+  {
+   "key": "autowell>trina>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "储能、海博思创、海辰储能、阿特斯、天合储能、晶科储能、中车株洲所等客户的订单",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202604221821448293_1.pdf"
+  },
+  {
+   "key": "dmegc>panasonic>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "略供应商，并多次被 Brose、Eaton、Panasonic、Nidec 等客户评为最佳供应商",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603271820808582_1.pdf"
+  },
+  {
+   "key": "dynanonic>catl>合资",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "2.公司与宁德时代于 2019 年 5 月 12 日签署了《合资经营协议》，依据《合资经营协议》的约定，宁德时代向曲靖",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202604281821711294_1.pdf"
+  },
+  {
+   "key": "easpring>bmw>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "顺利进入大众、现代、戴姆勒、宝马、奔驰等海外高端新能源车企供应链，成功交付众多标杆项目并获",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603301820870837_1.pdf"
+  },
+  {
+   "key": "easpring>mercedes>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "顺利进入大众、现代、戴姆勒、宝马、奔驰等海外高端新能源车企供应链，成功交付众多标杆项目并获",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603301820870837_1.pdf"
+  },
+  {
+   "key": "easpring>vw>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "顺利进入大众、现代、戴姆勒、宝马、奔驰等海外高端新能源车企供应链，成功交付众多标杆项目并获",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603301820870837_1.pdf"
+  },
+  {
+   "key": "easpring>byd>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "导入比亚迪、亿纬锂能、远景、蜂巢能源、微宏动力、中汽新能等国内主流动力电池厂商，配套用于蔚",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603301820870837_1.pdf"
+  },
+  {
+   "key": "easpring>samsung>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "场方面，公司与 LGES、SK on、三星 SDI、Murata 等电池企业建立长期服务、配套开发的合作关系，",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603301820870837_1.pdf"
+  },
+  {
+   "key": "easpring>apple>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "国家和地区，已进入国际一线消费类电子制造商供应链，终端客户包括三星、苹果、华为、小米等国际",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603301820870837_1.pdf"
+  },
+  {
+   "key": "easpring>huawei>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "国家和地区，已进入国际一线消费类电子制造商供应链，终端客户包括三星、苹果、华为、小米等国际",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603301820870837_1.pdf"
+  },
+  {
+   "key": "easpring>xiaomi>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "国家和地区，已进入国际一线消费类电子制造商供应链，终端客户包括三星、苹果、华为、小米等国际",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603301820870837_1.pdf"
+  },
+  {
+   "key": "eve>bmw>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "世、小米、顺丰、思摩尔等；知名车企客户包括国际品牌 BMW、梅赛德斯奔驰、捷豹路虎等，国内知名车企广汽、一汽、",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603271820812500_1.pdf"
+  },
+  {
+   "key": "eve>xpeng>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "长安以及知名新势力小鹏、零跑等，商用车客户三一重卡、吉利远程、东风商用车等；知名储能客户包括 Wärtsilä、ABB、",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603271820812500_1.pdf"
+  },
+  {
+   "key": "eve>mercedes>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "世、小米、顺丰、思摩尔等；知名车企客户包括国际品牌 BMW、梅赛德斯奔驰、捷豹路虎等，国内知名车企广汽、一汽、",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603271820812500_1.pdf"
+  },
+  {
+   "key": "eve>geely>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "长安以及知名新势力小鹏、零跑等，商用车客户三一重卡、吉利远程、东风商用车等；知名储能客户包括 Wärtsilä、ABB、",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603271820812500_1.pdf"
+  },
+  {
+   "key": "eve>gac>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "世、小米、顺丰、思摩尔等；知名车企客户包括国际品牌 BMW、梅赛德斯奔驰、捷豹路虎等，国内知名车企广汽、一汽、",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603271820812500_1.pdf"
+  },
+  {
+   "key": "eve>samsung>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "公司合作的知名消费电池客户包括三星、SB＆D、博",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603271820812500_1.pdf"
+  },
+  {
+   "key": "eve>xiaomi>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "世、小米、顺丰、思摩尔等；知名车企客户包括国际品牌 BMW、梅赛德斯奔驰、捷豹路虎等，国内知名车企广汽、一汽、",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603271820812500_1.pdf"
+  },
+  {
+   "key": "first_applied>longi>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "部客户资源，与晶科能源、隆基绿能、天合光能等全球前十大光伏组件厂商建立长期稳定的战略",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202604081821063392_1.pdf"
+  },
+  {
+   "key": "first_applied>jinko>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "部客户资源，与晶科能源、隆基绿能、天合光能等全球前十大光伏组件厂商建立长期稳定的战略",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202604081821063392_1.pdf"
+  },
+  {
+   "key": "first_applied>trina>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "部客户资源，与晶科能源、隆基绿能、天合光能等全球前十大光伏组件厂商建立长期稳定的战略",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202604081821063392_1.pdf"
+  },
+  {
+   "key": "flat>jinko>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "定晶科能源及其子公司计划于 2024 年-2025 年向公司及子公司采购约 77GW 光伏组件用光伏玻璃",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603261820771832_1.pdf"
+  },
+  {
+   "key": "fusion>tongwei>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "供优质、高效、迭代迅速的产品，积累了众多优质客户，包括通威太阳能、晶科能源、天合光能、",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603301820871894_1.pdf"
+  },
+  {
+   "key": "fusion>jinko>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "供优质、高效、迭代迅速的产品，积累了众多优质客户，包括通威太阳能、晶科能源、天合光能、",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603301820871894_1.pdf"
+  },
+  {
+   "key": "fusion>trina>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "能、天合光能、阿特斯、中润能源、横店东磁、东方日升、正泰新能源等多家客户连续多年荣誉",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603301820871894_1.pdf"
+  },
+  {
+   "key": "gac>toyota>合资",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "（1）乘用车主要通过子公司广汽传祺、广汽埃安和合营公司广汽本田、广汽丰田生产",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603271820813175_1.pdf"
+  },
+  {
+   "key": "gac>byd>合资",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "广州广汽比亚迪新能源客车有限公司（注 1） 合营企业",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603271820813175_1.pdf"
+  },
+  {
+   "key": "gotion>vw>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "厂商，深化与大众、奇瑞、吉利、零跑等头部客户的长期战略合作，采用“定制化研发+批量供货”模式，",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202604291821742693_1.pdf"
+  },
+  {
+   "key": "gotion>geely>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "厂商，深化与大众、奇瑞、吉利、零跑等头部客户的长期战略合作，采用“定制化研发+批量供货”模式，",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202604291821742693_1.pdf"
+  },
+  {
+   "key": "easpring>hyundai>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "顺利进入大众、现代、戴姆勒、宝马、奔驰等海外高端新能源车企供应链，成功交付众多标杆项目并获",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603301820870837_1.pdf"
+  },
+  {
+   "key": "synopsys>intel>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "SEC 原句（沿用/新边）",
+   "quote": "With our IFS accelerator program members and the Arm and Synopsys agreements, we believe we are well on the way to building out a world-class foundry offering.",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000010/intc-20231230.htm",
+   "source": "SEC 全文检索"
+  },
+  {
+   "key": "arm>cadence>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "In fiscal 2025, we expanded our design IP portfolio with the acquisition of the Arm Artisan foundation IP business, adding standard cell libraries, memory compilers, and general-purpose I/Os (“GPIOs”) optimized for advanced process nodes at leading foundries.",
+   "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367226000016/cdns-20251231.htm"
+  },
+  {
+   "key": "arm>amd>授权",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "In January 2026, BIS published a new rule revising the U.S. export license review policy from “presumption of denial” to “case by case” review as it relates to specific NVIDIA H200 and AMD MI325X chips destined to China.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1973239/000197323926000097/arm-20260331.htm"
+  },
+  {
+   "key": "arm>nvidia>授权",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "In January 2026, BIS published a new rule revising the U.S. export license review policy from “presumption of denial” to “case by case” review as it relates to specific NVIDIA H200 and AMD MI325X chips destined to China.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1973239/000197323926000097/arm-20260331.htm"
+  },
+  {
+   "key": "apple>arm>合资",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "History Established in 1990, Arm began as a joint venture between Acorn Computers, Apple Computer, and VLSI Technology.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1973239/000197323926000097/arm-20260331.htm"
+  },
+  {
+   "key": "tsmc>asml>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "In November 2025, we were honored to receive the TSMC Supplier ‘Excellence in Green Manufacturing’ Award, for this and other product energy- efficiency innovations.",
+   "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026011378/asml-20251231.htm"
+  },
+  {
+   "key": "lam>samsung>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Our most significant customers during the fiscal years ending June 28, 2026, June 29, 2025, and June 30, 2024 included Micron Technology, Inc., Samsung Electronics Company, Ltd., SK hynix Inc., and Taiwan Semiconductor Manufacturing Company.",
+   "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000037/lrcx-20260628.htm"
+  },
+  {
+   "key": "lam>micron>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Our most significant customers during the fiscal years ending June 28, 2026, June 29, 2025, and June 30, 2024 included Micron Technology, Inc., Samsung Electronics Company, Ltd., SK hynix Inc., and Taiwan Semiconductor Manufacturing Company.",
+   "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000037/lrcx-20260628.htm"
+  },
+  {
+   "key": "lam>tsmc>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Our most significant customers during the fiscal years ending June 28, 2026, June 29, 2025, and June 30, 2024 included Micron Technology, Inc., Samsung Electronics Company, Ltd., SK hynix Inc., and Taiwan Semiconductor Manufacturing Company.",
+   "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000037/lrcx-20260628.htm"
+  },
+  {
+   "key": "asml>kla>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "In each of our product markets, we have many competitors, including companies such as Applied Materials, Inc., ASML Holding N.V., Hitachi High-Tech Corporation, Lasertec, Inc. and Onto Innovation, Inc., some of which may have greater financial, research, engineering, manufacturing and marketing resources than we have.",
+   "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000027/klac-20260630.htm"
+  },
+  {
+   "key": "kla>samsung>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "For the fiscal years ended June 30, 2025, 2024 and 2023, the following customers each accounted for more than 10% of total revenues, primarily in the Semiconductor Process Control segment: Fiscal Year Ended June 30, 2025 2024 2023 Taiwan Semiconductor Manufacturing Company Limited Taiwan Semiconductor Manufacturing Company Limited Taiwan Semiconductor Manufacturing Company Limited Samsung Electron",
+   "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920125000024/klac-20250630.htm"
+  },
+  {
+   "key": "kla>tsmc>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "For the fiscal years ended June 30, 2026, 2025 and 2024, the following customers each accounted for more than 10% of total revenues, primarily in the Semiconductor Process Control segment: Year Ended June 30, 2026 2025 2024 Taiwan Semiconductor Manufacturing Company Limited Taiwan Semiconductor Manufacturing Company Limited Taiwan Semiconductor Manufacturing Company Limited 2 Table of Contents Sal",
+   "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000027/klac-20260630.htm"
+  },
+  {
+   "key": "nvidia>intel>持股",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "The change in Other income, net, compared to fiscal year 2025, was primarily driven by unrealized gains in non-marketable and publicly-held equity securities, including gains from our previously announced investment in Intel’s common stock.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm"
+  },
+  {
+   "key": "amd>nvidia>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Our current competitors include: • suppliers and licensors of hardware and software for discrete and integrated GPUs, custom chips and other accelerated computing solutions, including solutions offered for AI, such as Advanced Micro Devices, Inc., or AMD, Huawei Technologies Co.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm"
+  },
+  {
+   "key": "samsung>nvidia>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "We utilize foundries, such as Taiwan Semiconductor Manufacturing Company Limited, or TSMC, and Samsung Electronics Co., Ltd., or Samsung, to produce our semiconductor wafers.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm"
+  },
+  {
+   "key": "amkor>nvidia>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "We then utilize independent subcontractors and contract manufacturers, such as Amkor Technology, BYD Auto Co.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000017/nvda-20230129.htm"
+  },
+  {
+   "key": "amd>arm>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Some competitors are pursuing alternative computing architectures, such as Arm, which could grow the Arm ecosystem and increase competition in consumer, commercial and data center markets, reducing demand for our products.",
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm"
+  },
+  {
+   "key": "amd>intel>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "For example, Intel Corporation (Intel) uses its microprocessor market position to price its products aggressively and target our customers and channel partners with special incentives.",
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm"
+  },
+  {
+   "key": "amd>qualcomm>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Competition in Embedded Segment We expect continued competition from our primary FPGA competitors such as Altera, Lattice Semiconductor Corporation and Microsemi Corporation, and from ASSP vendors such as Broadcom Corporation, Marvell Technology Group, Ltd., Analog Devices, Texas Instruments Incorporated, NXP Semiconductors N.V., Qualcomm Incorporated and NVIDIA.",
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm"
+  },
+  {
+   "key": "samsung>amd>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "We also utilize TSMC, United Microelectronics Corporation (UMC) and Samsung Electronics Co., Ltd. for our integrated circuits (IC) in the form of programmable logic devices.",
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm"
+  },
+  {
+   "key": "amd>broadcom>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Competition in Embedded Segment We expect continued competition from our primary FPGA competitors such as Altera, Lattice Semiconductor Corporation and Microsemi Corporation, and from ASSP vendors such as Broadcom Corporation, Marvell Technology Group, Ltd., Analog Devices, Texas Instruments Incorporated, NXP Semiconductors N.V., Qualcomm Incorporated and NVIDIA.",
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm"
+  },
+  {
+   "key": "intel>nvidia>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "We also announced a strategic partnership with NVIDIA to co-develop custom client and data center products combining our x86 CPU technologies with NVIDIA's AI and accelerated computing capabilities.",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm"
+  },
+  {
+   "key": "intel>qualcomm>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "We also face significant competition from companies that design processors based on the ARM architecture, such as Apple with its M series products, Qualcomm with its Snapdragon products and MediaTek with its Kompanio products.",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm"
+  },
+  {
+   "key": "intel>mediatek>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "We also face significant competition from companies that design processors based on the ARM architecture, such as Apple with its M series products, Qualcomm with its Snapdragon products and MediaTek with its Kompanio products.",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm"
+  },
+  {
+   "key": "intel>amd>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Since April 2024, EireOg Innovations Ltd. has filed eleven separate complaints in the Eastern and Western Districts of Texas against Intel and AMD customers alleging that various products with Intel and AMD CPUs infringe numerous patents.",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000079/intc-20260328.htm"
+  },
+  {
+   "key": "intel>samsung>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "We also compete directly with Samsung in this market.",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm"
+  },
+  {
+   "key": "broadcom>intel>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "We also compete with Broadcom in the custom ASICs development market.",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm"
+  },
+  {
+   "key": "intel>tsmc>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Our primary competitor in leading-edge semiconductor process technology is TSMC, which holds a leading position in manufacturing at scale for the most advanced nodes.",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm"
+  },
+  {
+   "key": "apple>intel>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "We also face significant competition from companies that design processors based on the ARM architecture, such as Apple with its M series products, Qualcomm with its Snapdragon products and MediaTek with its Kompanio products.",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm"
+  },
+  {
+   "key": "qualcomm>arm>授权",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "The complaint alleges that following our acquisition of Nuvia, we and Nuvia breached Nuvia’s Architecture License Agreement with Arm (the Nuvia ALA) by failing to comply with the termination obligations under the 12 QUALCOMM Incorporated NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS (Unaudited) Nuvia ALA.",
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000086/qcom-20260628.htm"
+  },
+  {
+   "key": "qualcomm>intel>控股",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "In December 2019, Apple acquired Intel’s modem assets and is developing its own modem products using those assets.",
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432824000075/qcom-20240929.htm",
+   "source": "SEC 全文检索"
+  },
+  {
+   "key": "ase>qualcomm>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Our primary semiconductor assembly and test suppliers are Advanced Semiconductor Engineering, Amkor Technology, Siliconware Precision Industries and STATSChipPAC.",
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000085/qcom-20250928.htm"
+  },
+  {
+   "key": "qualcomm>apple>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Our stock price and financial results are subject to substantial quarterly and annual fluctuations due to these dynamics, among others.” • We expect continued intense competition, including from vertical integration by certain of our customers (for example, Apple and Samsung).",
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000086/qcom-20260628.htm"
+  },
+  {
+   "key": "amkor>qualcomm>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Our primary semiconductor assembly and test suppliers are Advanced Semiconductor Engineering, Amkor Technology, Siliconware Precision Industries and STATSChipPAC.",
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000085/qcom-20250928.htm"
+  },
+  {
+   "key": "xiaomi>qualcomm>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Certain of our largest mobile handset customers (for example, Apple, Samsung and Xiaomi) develop their own integrated circuit products, which they have in the past utilized, and/or currently utilize, in certain of their devices.",
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000086/qcom-20260628.htm"
+  },
+  {
+   "key": "broadcom>qualcomm>授权",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Exhibit Filing Date Filed Herewith 10.9 + Settlement and Patent License and Non-Assert Agreement by and between Qualcomm Incorporated and Broadcom Corporation.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/avgo-20231029.htm"
+  },
+  {
+   "key": "ase>broadcom>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "We use third-party contract manufacturers for a significant majority of our assembly and test operations, including TSMC, Advanced Semiconductor Engineering, Inc., Foxconn Technology Group, Amkor Technology, Inc. and Siliconware Precision Industries Co., Ltd.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm"
+  },
+  {
+   "key": "amkor>broadcom>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "We use third-party contract manufacturers for a significant majority of our assembly and test operations, including TSMC, Advanced Semiconductor Engineering, Inc., Foxconn Technology Group, Amkor Technology, Inc. and Siliconware Precision Industries Co., Ltd.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm"
+  },
+  {
+   "key": "broadcom>tsmc>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "However, TSMC also fabricates wafers for other companies, including some of our competitors, and could choose or be required to materially prioritize capacity for other customers or reduce or eliminate deliveries to us on short notice.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm"
+  },
+  {
+   "key": "foxconn>broadcom>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "We use third-party contract manufacturers for a significant majority of our assembly and test operations, including TSMC, Advanced Semiconductor Engineering, Inc., Foxconn Technology Group, Amkor Technology, Inc. and Siliconware Precision Industries Co., Ltd.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm"
+  },
+  {
+   "key": "broadcom>apple>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "We believe aggregate sales to Apple Inc., through all channels, accounted for approximately 17% and 20% of our net revenue for the fiscal quarters ended February 4, 2024 and January 29, 2023, respectively.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000023/avgo-20240204.htm"
+  },
+  {
+   "key": "micron>samsung>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Competitive Conditions We face intense competition in the semiconductor memory and storage markets from a number of companies, including Samsung Electronics Co., Ltd.;",
+   "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
+  },
+  {
+   "key": "st>apple>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "In 2025 our largest customer, Apple, accounted for 17.7% of our total revenues.",
+   "url": "https://www.sec.gov/Archives/edgar/data/932787/000093278726000009/stm-20251231.htm"
+  },
+  {
+   "key": "tsmc>st>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "At the same time, the parties indicated that they are moving to agree that TSMC, one of the world's leading dedicated semiconductor foundry companies, will manufacture the SoC wafers for ST.",
+   "url": "https://www.sec.gov/Archives/edgar/data/932787/000156459023002312/stm-20f_20221231.htm"
+  },
+  {
+   "key": "nvidia>nxp>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Our primary key public competitors in alphabetical order include, but are not limited to, Analog Devices Inc., Infineon Technologies AG, Intel Corp., Marvell Technology, Mediatek Inc., Microchip Technology Inc., NVIDIA Corp., Qualcomm Incorporated, Renesas Electronics Corp., STMicroelectronics NV and Texas Instruments Incorporated.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1413447/000141344723000006/nxpi-20221231.htm"
+  },
+  {
+   "key": "intel>nxp>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Our primary key public competitors in alphabetical order include, but are not limited to, Analog Devices Inc., Infineon Technologies AG, Intel Corp., Marvell Technology, Mediatek Inc., Microchip Technology Inc., NVIDIA Corp., Qualcomm Incorporated, Renesas Electronics Corp., STMicroelectronics NV and Texas Instruments Incorporated.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1413447/000141344723000006/nxpi-20221231.htm"
+  },
+  {
+   "key": "nxp>qualcomm>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Our primary key public competitors in alphabetical order include, but are not limited to, Analog Devices Inc., Broadcom Inc., Infineon Technologies AG, Microchip Technology Inc., Qualcomm Inc., Renesas Electronics Corp., STMicroelectronics NV and Texas Instruments Inc.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1413447/000141344726000008/nxpi-20251231.htm"
+  },
+  {
+   "key": "nxp>samsung>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Our 10 largest end customers, some of whom are supplied by distributors, in alphabetical order, are Apple, Aptiv, Aumovio, Bosch, Denso, Harman Auto, Hyundai, LGE Automotive, Samsung and Visteon.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1413447/000141344726000008/nxpi-20251231.htm"
+  },
+  {
+   "key": "broadcom>nxp>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Our primary key public competitors in alphabetical order include, but are not limited to, Analog Devices Inc., Broadcom Inc., Infineon Technologies AG, Microchip Technology Inc., Qualcomm Inc., Renesas Electronics Corp., STMicroelectronics NV and Texas Instruments Inc.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1413447/000141344726000008/nxpi-20251231.htm"
+  },
+  {
+   "key": "nxp>apple>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Our 10 largest end customers, some of whom are supplied by distributors, in alphabetical order, are Apple, Aptiv, Aumovio, Bosch, Denso, Harman Auto, Hyundai, LGE Automotive, Samsung and Visteon.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1413447/000141344726000008/nxpi-20251231.htm"
+  },
+  {
+   "key": "onsemi>samsung>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Competitors for certain of ISG's products and solutions include: Sony Semiconductor Manufacturing Corporation, Samsung Electronics Co., Ltd., and Omnivision Technologies Inc.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1097864/000109786426000006/on-20251231.htm"
+  },
+  {
+   "key": "tsmc>amazon>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "We count among our customers many of the world’s leading semiconductor companies, ranging from fabless semiconductor companies, system companies to integrated device manufacturers, including, but not limited to, Advanced Micro Devices, Inc., Amazon Web Services, Inc., Broadcom Inc., Intel Corporation, MediaTek Inc., NVIDIA Corporation, NXP Semiconductors N.V., Qualcomm Inc., Renesas Electronics Co",
+   "url": "https://www.sec.gov/Archives/edgar/data/1046179/000119312525083423/d896993d20f.htm"
+  },
+  {
+   "key": "gf>mediatek>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "For the year 2023, our top ten customers, based on wafer shipment volume, included some of the largest semiconductor companies in the world: AMD, Cirrus Logic, Inc. (“Cirrus Logic”), Infineon Technologies AG (“Infineon”), Marvell Technology Inc., MediaTek Inc., NXP Semiconductors N.V., Qorvo, Inc., Qualcomm Inc. (“Qualcomm”), Samsung, and Sony Semiconductor Manufacturing Corporation.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1709048/000170904824000013/gfs-20231231.htm"
+  },
+  {
+   "key": "gf>tsmc>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Key competitors include Taiwan Semiconductor Manufacturing Company, Limited (“TSMC”), United Microelectronics Corporation (“UMC”) and Semiconductor Manufacturing International Corporation.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1709048/000170904826000022/gfs-20251231.htm"
+  },
+  {
+   "key": "lam>skhynix>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Our most significant customers during the fiscal years ending June 28, 2026, June 29, 2025, and June 30, 2024 included Micron Technology, Inc., Samsung Electronics Company, Ltd., SK hynix Inc., and Taiwan Semiconductor Manufacturing Company.",
+   "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000037/lrcx-20260628.htm"
+  },
+  {
+   "key": "umc>mediatek>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Our primary customers, in terms of our sales revenues, include premier integrated device manufacturers, such as Texas Instruments and Intel, plus leading fabless design companies, such as MediaTek, Realtek and Novatek.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1033767/000119312526193757/d91630d20f.htm"
+  },
+  {
+   "key": "umc>qualcomm>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Our primary customers, in terms of our sales revenues, include premier integrated device manufacturers, such as Texas Instruments and Intel Mobile, plus leading fabless design companies, such as MediaTek, Realtek, Qualcomm and Novatek.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1033767/000119312524111429/d448612d20f.htm"
+  },
+  {
+   "key": "ase>umc>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "We outsource assembly and test services to leading assembly and test service providers, including Siliconware Precision Industries Co., Ltd., or Siliconware, and Advanced Semiconductor Engineering Inc. in Taiwan.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1033767/000119312526193757/d91630d20f.htm"
+  },
+  {
+   "key": "ase>foxconn>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Our EMS business faces significant competition from other EMS providers, such as Hon Hai Precision Industry Co., Ltd., with comprehensive integration, wide geographic coverage, and large production capabilities that enable them to achieve economies of scale.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000119312525064603/d889608d20f.htm"
+  },
+  {
+   "key": "amkor>ase>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "We face competition from established packaging and test service providers primarily located in Asia, including ASE Technology, JCET Group and Powertech Technology.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1047127/000104712726000014/amkr-20251231.htm"
+  },
+  {
+   "key": "broadcom>microsoft>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Competition Azure faces diverse competition from companies such as Amazon, Broadcom, Google, IBM, Oracle, and open source offerings.",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm"
+  },
+  {
+   "key": "apple>microsoft>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Competition Windows faces competition from various software products and from alternative platforms and devices, mainly from Apple and Google, and Microsoft Defender for Endpoint competes with CrowdStrike on endpoint security solutions.",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm"
+  },
+  {
+   "key": "amazon>microsoft>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Competition Azure faces diverse competition from companies such as Amazon, Broadcom, Google, IBM, Oracle, and open source offerings.",
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm"
+  },
+  {
+   "key": "albemarle>tianqi>持股",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Greenbushes is held within the operating entity, Talison Lithium Australia Pty Ltd (Talison or the Company) of which Albemarle is a 49% owner, with the remaining 51% ownership controlled by the Tianqi Lithium Energy Australia (TLEA or JV) between Tianqi Lithium (Tianqi) and IGO Ltd (IGO) with ownership of 26.01% and 24.99%, respectively.",
+   "url": "https://www.sec.gov/Archives/edgar/data/915913/000091591326000018/ex961greenbushes2025trs.htm",
+   "source": "SEC 全文检索"
+  },
+  {
+   "key": "albemarle>sqm>持股",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "CORFO hereby definitively and irrevocably undertakes, in favor of the Company, which accepts, not to carry out and not to permit any exploration, exploitation, or mining, aquifer-related, or industrial work of any type or kind, either by itself or through third parties, within all or part of the Properties and the 1,370 OMA mining properties it owns that correspond to the two-kilometer strip curre",
+   "url": "https://www.sec.gov/Archives/edgar/data/909037/000090903726000023/exhibit102-amendmentproj.htm",
+   "source": "SEC 全文检索"
+  },
+  {
+   "key": "albemarle>ganfeng>持股",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Tianqi Lithium and Ganfeng Lithium were the two main Chinese lithium players, growing domestically and overseas with Tianqi buying a 51% stake in Greenbushes and Ganfeng Lithium developing lithium mining and production facilities in China, as well as investing in mines and brine operations in Australia and South America.",
+   "url": "https://www.sec.gov/Archives/edgar/data/915913/000091591326000018/ex961greenbushes2025trs.htm"
+  },
+  {
+   "key": "albemarle>pilbara>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Major competitors in lithium compounds include Sociedad Quimica y Minera de Chile S.A., Sichuan Tianqi Lithium, Jiangxi Ganfeng Lithium, Rio Tinto plc, Pilbara Minerals, Tesla and a large number of additional Chinese companies.",
+   "url": "https://www.sec.gov/Archives/edgar/data/915913/000091591326000018/alb-20251231.htm"
+  },
+  {
+   "key": "ganfeng>sqm>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "The main competitors in the lithium market with their estimated market share are: Albemarle (12%), Jiangxi Ganfeng Lithium Co (6%), Tianqi Lithium Corp. (5%) and Rio Tinto (4%).",
+   "url": "https://www.sec.gov/Archives/edgar/data/909037/000090903726000023/sqm-20251231.htm"
+  },
+  {
+   "key": "sqm>tianqi>持股",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Another principal shareholder is Tianqi Lithium Corporation (“Tianqi”) and its wholly owned subsidiary, Inversiones TLC SpA, which owned approximately 21.9% of the total outstanding shares of SQM.",
+   "url": "https://www.sec.gov/Archives/edgar/data/909037/000090903726000023/sqm-20251231.htm"
+  },
+  {
+   "key": "amd>mobileye>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Our silicon provider competitors include Ambarella, Advanced Micro Devices, Arriver / Qualcomm, Black Sesame Technologies, Horizon Robotics, Huawei, NVIDIA, NXP, Renesas Electronics, and Texas Instruments.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1910139/000110465926014300/mbly-20251227x10k.htm"
+  },
+  {
+   "key": "mobileye>nvidia>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Our silicon provider competitors include Ambarella, Advanced Micro Devices, Arriver / Qualcomm, Black Sesame Technologies, Horizon Robotics, Huawei, NVIDIA, NXP, Renesas Electronics, and Texas Instruments.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1910139/000110465926014300/mbly-20251227x10k.htm"
+  },
+  {
+   "key": "mobileye>intel>持股",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Intel Corporation (“Intel” or the “Parent”) directly or indirectly holds all of the Class B common stock of Mobileye as well as 50,000,000 shares of Class A common stock, which as of June 27, 2026, together represent approximately 77.1 % of our outstanding common stock and 96.9 % of the voting power of our common stock.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1910139/000110465926086264/mbly-20260627x10q.htm"
+  },
+  {
+   "key": "mobileye>qualcomm>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Our silicon provider competitors include Ambarella, Advanced Micro Devices, Arriver / Qualcomm, Black Sesame Technologies, Horizon Robotics, Huawei, NVIDIA, NXP, Renesas Electronics, and Texas Instruments.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1910139/000110465926014300/mbly-20251227x10k.htm"
+  },
+  {
+   "key": "tsmc>mobileye>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "As a result, we are substantially reliant on timely shipments of EyeQ™ SoCs from STMicroelectronics and ECUs from Quanta Computer (or other suppliers) and may in the future become reliant on additional suppliers such as TSMC, to fulfill customer orders and if such a shortfall of chips or ECUs were to occur, we may be unable to offset future supply constraints through the use of inventory on hand.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1910139/000110465926086264/mbly-20260627x10q.htm"
+  },
+  {
+   "key": "apple>mobileye>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Moovit’s free and subscription-based application competition includes Alphabet, Apple, Citymapper, and Transit.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1910139/000110465926014300/mbly-20251227x10k.htm"
+  },
+  {
+   "key": "gm>samsung>合资",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "We are mass-producing battery cells for these and other future EVs through Ultium Cells Holdings LLC (an equally owned joint venture with LG Energy Solution) in plants in Warren, Ohio and Spring Hill, Tennessee, with plans to expand our battery cell manufacturing footprint, including in Indiana through a joint venture with Samsung SDI.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785825000032/gm-20241231.htm"
+  },
+  {
+   "key": "cadence>synopsys>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "In our Design Automation segment, we compete against EDA vendors that offer a variety of products and services, such as Cadence Design Systems, Inc. and Siemens EDA.",
+   "url": "https://www.sec.gov/Archives/edgar/data/883241/000088324125000024/snps-20250731.htm"
+  },
+  {
+   "key": "synopsys>microsoft>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Our Synopsys Cloud offering provides customers additional options for accessing our EDA products in their own cloud environments and in the industry’s first EDA Software-as-a-Service solution developed in partnership with Microsoft Azure.",
+   "url": "https://www.sec.gov/Archives/edgar/data/883241/000088324125000028/snps-20251031.htm"
+  },
+  {
+   "key": "kla>amat>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Dickerson served 18 years with KLA-Tencor Corporation (KLA-Tencor), a supplier of process control and yield management solutions for the semiconductor and related industries, where he held a variety of operations and product development roles, including President and Chief Operating Officer.",
+   "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828025056742/amat-20251026.htm"
+  },
+  {
+   "key": "amd>nxp>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Competition in Embedded Segment We expect continued competition from our primary FPGA competitors such as Altera, Lattice Semiconductor Corporation and Microsemi Corporation, and from ASSP vendors such as Broadcom Corporation, Marvell Technology Group, Ltd., Analog Devices, Texas Instruments Incorporated, NXP Semiconductors N.V., Qualcomm Incorporated and NVIDIA.",
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm"
+  },
+  {
+   "key": "amd>microsoft>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "The success of our semi-custom SoC products in our Client and Gaming segment is dependent on securing customers for our semi-custom design pipeline and consumer market conditions, including the success of game console systems and next generation consoles for Sony and Microsoft.",
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm"
+  },
+  {
+   "key": "intel>nxp>控股",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "District Court for the Northern District of California alleging that various Intel FPGA and processor products infringe eight patents VLSI acquired from NXP Semiconductors, N.V. (NXP).",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+   "source": "SEC 全文检索"
+  },
+  {
+   "key": "microsoft>intel>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "The combination of expanded partnerships and RAMP-C enables customers to develop and fabricate chips on Intel 18A, including customers such as Nvidia, IBM, Microsoft, Boeing, and Northrop Grumman. ■ We announced a commercial agreement with Tower, pursuant to which we are expected to provide foundry services and manufacturing capacity through our New Mexico advanced manufacturing facility for 300mm",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000010/intc-20231230.htm"
+  },
+  {
+   "key": "st>samsung>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Our major customers include (in alphabetical order) Apple, Bosch, Continental, Denso, HP, Mobileye, Samsung, SpaceX, Tesla and Vitesco.",
+   "url": "https://www.sec.gov/Archives/edgar/data/932787/000093278726000009/stm-20251231.htm"
+  },
+  {
+   "key": "gf>st>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "In 2025 we recognized grants of €9.2 million related to this project. 47 On April 28, 2023, the European Commission approved, under EU State Aid rules, a French aid measure to support the Company and GlobalFoundries in the construction and operation of a front-end semiconductor production facility in Crolles, France.",
+   "url": "https://www.sec.gov/Archives/edgar/data/932787/000093278726000009/stm-20251231.htm"
+  },
+  {
+   "key": "nxp>onsemi>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Competitors for certain of AMG's products and solutions include: Texas Instruments Incorporated, Analog Devices, Inc., Infineon, STMicroelectronics, Renesas Electronics Corporation, Monolithic Power Systems Inc. and NXP Semiconductors N.V.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1097864/000109786426000006/on-20251231.htm"
+  },
+  {
+   "key": "onsemi>st>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "PSG’s primary competitors include: Infineon Technologies AG (\"Infineon\"), STMicroelectronics N.V. (\"STMicroelectronics\"), Wolfspeed Inc., ROHM Semiconductor and Nexperia BV.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1097864/000109786426000006/on-20251231.htm"
+  },
+  {
+   "key": "tsmc>nxp>持股",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "In January 2024, Robert Bosch GmbH, Infineon Technologies AG, and NXP Semiconductors Germany GmbH, a wholly-owned subsidiary of NXP Semiconductors N.V. (“NXP”), each acquired 10% equity interest and together acquired 30% equity interest in ESMC.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm"
+  },
+  {
+   "key": "gf>amd>控股",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "GF was established in 2009 when a wholly-owned subsidiary of Mubadala, acquired Advanced Micro Devices, Inc.’s (“AMD”) manufacturing operations in Dresden, Germany, as well as their fab project site in Malta, New York.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1709048/000170904826000022/gfs-20251231.htm"
+  },
+  {
+   "key": "gf>nxp>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "For the year 2024, our top ten customers, based on wafer shipment volume, included some of the largest semiconductor companies in the world: AMD, Cirrus Logic International (U.K.) Limited, Infineon Technologies AG, Media Tek Inc., NXP Semiconductors N.V., Qualcomm Global Trading Pte.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1709048/000170904825000024/gfs-20241231.htm"
+  },
+  {
+   "key": "gf>umc>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Key competitors include Taiwan Semiconductor Manufacturing Company, Limited (“TSMC”), United Microelectronics Corporation (“UMC”) and Semiconductor Manufacturing International Corporation.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1709048/000170904826000022/gfs-20251231.htm"
+  },
+  {
+   "key": "intel>umc>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "The Collaboration combines Intel’s established U.S. manufacturing capacity and our extensive foundry experience on mature nodes to enable an expanded process portfolio, and we currently expect production of 12nm products in 2027.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1033767/000119312526193757/d91630d20f.htm"
+  },
+  {
+   "key": "samsung>ase>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Raw materials such as IC substrates are prone to supply shortages since such materials are produced by a limited number of suppliers, such as Kinsus Interconnect Technology Corporation, Nan Ya Printed Circuit Board Corporation, LG Innotek Co., Ltd., Samsung Electro-Mechanics Co.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000119312523095811/d418771d20f.htm"
+  },
+  {
+   "key": "tsmc>ase>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Since 1997, we have maintained a strategic alliance with Taiwan Semiconductor Manufacturing Company Limited, or TSMC, one of the largest dedicated semiconductor foundries in the world.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1122411/000119312526135585/d50802d20f.htm"
+  },
+  {
+   "key": "mobileye>nxp>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Our silicon provider competitors include Ambarella, Advanced Micro Devices, Arriver / Qualcomm, Black Sesame Technologies, Horizon Robotics, Huawei, NVIDIA, NXP, Renesas Electronics, and Texas Instruments.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1910139/000110465926014300/mbly-20251227x10k.htm"
+  },
+  {
+   "key": "st>mobileye>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "As a result, we are substantially reliant on timely shipments of EyeQ™ SoCs from STMicroelectronics and ECUs from Quanta Computer (or other suppliers) and may in the future become reliant on additional suppliers such as TSMC, to fulfill customer orders and if such a shortfall of chips or ECUs were to occur, we may be unable to offset future supply constraints through the use of inventory on hand.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1910139/000110465926086264/mbly-20260627x10q.htm"
+  },
+  {
+   "key": "samsung>stellantis>合资",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "In October 2023, Stellantis and StarPlus Energy joint venture partn er Samsung SDI announced plans to locate a second battery manufacturing facility in Kokomo, Indiana, U.S. with production expe cted to begin in 2027.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1605484/000160548424000022/stellantis-20231231.htm"
+  },
+  {
+   "key": "nvidia>xpeng>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "In addition, we source a majority of semiconductor-contained components used by us from single-source suppliers, such as the components utilizing the semiconductors provided by NVIDIA.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1810997/000119312524098519/d650931d20f.htm"
+  },
+  {
+   "key": "nvidia>liauto>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Our current high-end models rely on chips produced by NVIDIA to a great extent, and if the supply of NVIDIA chips were to be negatively affected by such geopolitical tensions, and we fail to find alternative suppliers in time, or at all, our production and deliveries could be materially disrupted.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1791706/000110465926041705/li-20251231x20f.htm"
+  },
+  {
+   "key": "liauto>xiaomi>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Meanwhile, experienced entrants from the smart phone industry, such as Huawei’s Harmony Intelligent Mobility Alliance (HIMA) and Xiaomi, are further intensifying the competitive landscape of the NEV market in China, with their popular models reaching a significant number of deliveries.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1791706/000110465926041705/li-20251231x20f.htm"
+  },
+  {
+   "key": "samsung>solaredge>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Our competitors include global manufacturers such as LG Energy Solutions, Samsung SDI, CATL, BYD etc.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1419612/000117891324000717/zk2431010.htm"
+  },
+  {
+   "key": "tsmc>adi>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "We currently source more than half of our wafer requirements annually from third-party wafer fabrication foundries, such as Taiwan Semiconductor Manufacturing Company (TSMC) and others, and the remainder is sourced internally.",
+   "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628125000153/adi-20251101.htm"
+  },
+  {
+   "key": "teradyne>qualcomm>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "In 2022, we estimate consolidated revenues driven by Qualcomm, a customer of our Semiconductor Test, System Test, and Wireless Test operating segments, combining direct and indirect sales, accounted for approximately 11% of our consolidated revenues.",
+   "url": "https://www.sec.gov/Archives/edgar/data/97210/000095017025023784/ter-20241231.htm"
+  },
+  {
+   "key": "teradyne>skhynix>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "As of December 31, 2024, two customers of our Semiconductor Test segment, Taiwan Semiconductor Manufacturing Co. and SK Hynix Inc, each accounted for 10% of our accounts receivable balance.",
+   "url": "https://www.sec.gov/Archives/edgar/data/97210/000095017025023784/ter-20241231.htm"
+  },
+  {
+   "key": "teradyne>samsung>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "In 2024, we estimate consolidated revenues driven by Samsung, a customer of our Semiconductor Test and Wireless Test segments, combining direct and indirect sales, accounted for appropriately 12.5% of our consolidated revenues.",
+   "url": "https://www.sec.gov/Archives/edgar/data/97210/000095017025023784/ter-20241231.htm"
+  },
+  {
+   "key": "teradyne>tsmc>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "As of December 31, 2024, two customers of our Semiconductor Test segment, Taiwan Semiconductor Manufacturing Co. and SK Hynix Inc, each accounted for 10% of our accounts receivable balance.",
+   "url": "https://www.sec.gov/Archives/edgar/data/97210/000095017025023784/ter-20241231.htm"
+  },
+  {
+   "key": "gf>entegris>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Reeder was Chief Financial Officer of GlobalFoundries Inc., a semiconductor manufacturing company, where he oversaw the company’s initial public offering in 2021.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130226000012/entg-20251231.htm"
+  },
+  {
+   "key": "entegris>tsmc>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Below is a table showing the percentage of our net sales to top customers and the percentage of our net sales that are international during the three most recent fiscal years. 2024 2023 2022 Percentage of net sales to top customers: TSMC 16% 11% 12% Remaining top ten customers 32% 32% 31% Total top ten customers 48% 43% 43% Percentage of net sales by market: Domestic/U.S. 21% 25% 24% Foreign/Inter",
+   "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130225000015/entg-20241231.htm"
+  },
+  {
+   "key": "lgd>samsung>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Moreover, Samsung Display, one of our primary competitors based in Korea, has been making significant capital investments in a new OLED manufacturing facility in Asan, Korea.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1290109/000119312526183413/lpl-20251231.htm"
+  },
+  {
+   "key": "samsung>sony>合资",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "In April 2004, S-LCD Corporation (“S-LCD”), a joint venture between Sony Group Corporation and Samsung Electronics Co., Ltd. of Korea for the manufacture of amorphous thin film transistor LCD panels, was established in Korea.",
+   "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312526274893/d28719d20f.htm"
+  },
+  {
+   "key": "sony>tsmc>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "This partnership aims to significantly enhance the future technological competitiveness of image sensors, including through increased density, by combining the advanced design expertise of Sony and the process and manufacturing technologies of TSMC, and also seeks to explore and address emerging opportunities in physical AI applications, such as automotive and robotics, paving the way for future i",
+   "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312526274893/d28719d20f.htm"
+  },
+  {
+   "key": "jabil>apple>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "The table below sets forth the respective portion of net revenue attributable to the customer that accounted for a significant concentration of our net revenue during the periods indicated: Fiscal Year Ended August 31, 2024 2023 2022 Apple, Inc. 11 % 17 % 19 % Competition Our business is highly competitive.",
+   "url": "https://www.sec.gov/Archives/edgar/data/898293/000162828024043960/jbl-20240831.htm"
+  },
+  {
+   "key": "hp>samsung>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Our primary competitors are Acer Inc., Apple Inc., ASUSTeK Computer Inc., Dell Inc., Huawei Technologies Co., Ltd., Lenovo Group Limited, Logitech International S.A., Microsoft Corporation, Samsung Electronics Co., Ltd., and Toshiba Corporation.",
+   "url": "https://www.sec.gov/Archives/edgar/data/47217/000004721725000071/hpq-20251031.htm"
+  },
+  {
+   "key": "apple>hp>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Our primary competitors are Acer Inc., Apple Inc., ASUSTeK Computer Inc., Dell Inc., Huawei Technologies Co., Ltd., Lenovo Group Limited, Logitech International S.A., Microsoft Corporation, Samsung Electronics Co., Ltd., and Toshiba Corporation.",
+   "url": "https://www.sec.gov/Archives/edgar/data/47217/000004721725000071/hpq-20251031.htm"
+  },
+  {
+   "key": "samsung>bestbuy>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "In fiscal 2026, our 20 largest suppliers accounted for approximately 80% of the merchandise we purchased, with five suppliers – Apple, Samsung, HP, LG and Sony – representing approximately 55% of total merchandise purchased.",
+   "url": "https://www.sec.gov/Archives/edgar/data/764478/000076447826000009/bby-20260131.htm"
+  },
+  {
+   "key": "apple>bestbuy>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "In fiscal 2026, our 20 largest suppliers accounted for approximately 80% of the merchandise we purchased, with five suppliers – Apple, Samsung, HP, LG and Sony – representing approximately 55% of total merchandise purchased.",
+   "url": "https://www.sec.gov/Archives/edgar/data/764478/000076447826000009/bby-20260131.htm"
+  },
+  {
+   "key": "enphase>tesla>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Competitors in the storage market include Tesla, SolarEdge, Huawei, BYD Company Limited (“BYD”), Franklin Solar Battery and other producers of battery cells and integrated storage systems.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1463101/000146310126000013/enph-20251231.htm"
+  },
+  {
+   "key": "dell>hp>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Our primary competitors are Acer Inc., Apple Inc., ASUSTeK Computer Inc., Dell Inc., Huawei Technologies Co., Ltd., Lenovo Group Limited, Logitech International S.A., Microsoft Corporation, Samsung Electronics Co., Ltd., and Toshiba Corporation.",
+   "url": "https://www.sec.gov/Archives/edgar/data/47217/000004721725000071/hpq-20251031.htm"
+  },
+  {
+   "key": "fluence>tesla>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Our key competitors currently include, but are not limited to, Tesla, Inc., Wärtsilä, Sungrow, and Contemporary Amperex Technology Co., Limited (“CATL”).",
+   "url": "https://www.sec.gov/Archives/edgar/data/1868941/000186894125000081/flnc-20250930.htm"
+  },
+  {
+   "key": "tsmc>amkor>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "SEC 原句（沿用/新边）",
+   "quote": "Additionally, we compete with contract foundries, such as TSMC, and electronic manufacturing service providers or contract electronics manufacturers, including Universal Scientific Industrial and Luxshare, which offer certain types of advanced packaging.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1047127/000104712725000030/amkr-20241231.htm",
+   "source": "SEC 全文检索"
+  },
+  {
+   "key": "sony>bestbuy>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "In fiscal 2026, our 20 largest suppliers accounted for approximately 80% of the merchandise we purchased, with five suppliers – Apple, Samsung, HP, LG and Sony – representing approximately 55% of total merchandise purchased.",
+   "url": "https://www.sec.gov/Archives/edgar/data/764478/000076447826000009/bby-20260131.htm"
+  },
+  {
+   "key": "amat>tsmc>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "The following companies accounted for at least 10 percent of our net revenue for the following fiscal years for products and services in multiple reportable segments. 2024 2023 Samsung Electronics Co., Ltd. 12% 15% Taiwan Semiconductor Manufacturing Company Limited 11% 19% 7 Table of Contents Competition The industries in which we operate are highly competitive and characterized by rapid technolog",
+   "url": "https://www.sec.gov/Archives/edgar/data/6951/000000695124000044/amat-20241027.htm"
+  },
+  {
+   "key": "amat>samsung>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "The following companies accounted for at least 10 percent of our net revenue for the following fiscal years for products and services in multiple reportable segments. 2024 2023 Samsung Electronics Co., Ltd. 12% 15% Taiwan Semiconductor Manufacturing Company Limited 11% 19% 7 Table of Contents Competition The industries in which we operate are highly competitive and characterized by rapid technolog",
+   "url": "https://www.sec.gov/Archives/edgar/data/6951/000000695124000044/amat-20241027.htm"
+  },
+  {
+   "key": "nxp>hyundai>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "一手证据通过复审",
+   "quote": "Our 10 largest end customers, some of whom are supplied by distributors, in alphabetical order, are Apple, Aptiv, Aumovio, Bosch, Denso, Harman Auto, Hyundai, LGE Automotive, Samsung and Visteon.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1413447/000141344726000008/nxpi-20251231.htm"
+  },
+  {
+   "key": "tel>intel>供货",
+   "grade_before": "B",
+   "verdict": "incorrect",
+   "comment": "目录/ESG 噪声；已降为待核实",
+   "quote": "21-22 manufacturing\n equipment timely manner\n Suppliers\n Material Issues Medium- � \u0007Deployment of business operations across our sustainable\n Intellectual and highly competitive supply chain\n capital P.",
+   "url": "https://www.tel.com/ir/library/ar/g4alje00000000pq-att/ir2026_all_en.pdf",
+   "source": "公司 IR 年报/综合报告"
+  },
+  {
+   "key": "tel>samsung>供货",
+   "grade_before": "B",
+   "verdict": "weak",
+   "comment": "供应商原句偏弱",
+   "quote": "Management Discussion and Analysis of State of Operating Results ■ Fiscal 2025 (Fiscal year ended March 31, 2025)\n Name of Customer Sales (Millions of yen) Ratio (%)\nRegarding our operating results for fiscal 2026, net sales increased 0.5% from the previous\nfiscal year to 2,443,533 million yen, and operating income decreased 10.4% from the previous Samsung Electronics Co., Ltd.",
+   "url": "https://www.tel.com/ir/library/ar/g4alje00000000pq-att/ir2026_all_en.pdf",
+   "source": "公司 IR 年报/综合报告"
+  },
+  {
+   "key": "samsung>alphabet>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "Samsung IR 重大客户/代工合同原句",
+   "quote": "major customers (listed alphabetically) included Alphabet, Apple, Deutsche Telekom, Hong Kong Techtronics,\nand Supreme Electronics.",
+   "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2025_4Q_Interim_Report.pdf",
+   "source": "Samsung Electronics IR (Business Report)"
+  },
+  {
+   "key": "samsung>tesla>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "Samsung IR 重大客户/代工合同原句",
+   "quote": "Semiconductor Foundry business in Tesla, Inc. contract Jul 26, 2025 Dec 31, 2033 16,",
+   "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2025_4Q_Interim_Report.pdf",
+   "source": "Samsung Electronics IR (Business Report)"
+  },
+  {
+   "key": "nvidia>samsung>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "Samsung IR 主要原材料供应商原句",
+   "quote": "For the DX Division, key materials include mobile AP solutions and camera modules, which are supplied by Qualcomm, Samsung Electro-Mechanics, etc., and display panels for TVs and monitors, which are supplied by CSOT, etc. For the DS Division, key materials include chemicals and wafers, supplied by Soulbrain, SILTRONIC, etc., and for SDC, key materials include FPCAs and cover glass, with suppliers ",
+   "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2025_4Q_Interim_Report.pdf",
+   "source": "Samsung Electronics IR (Business Report)"
+  },
+  {
+   "key": "apple>samsung>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "Samsung IR 主要原材料供应商原句",
+   "quote": "For the DX Division, key materials include mobile AP solutions and camera modules, which are supplied by Qualcomm, Samsung Electro-Mechanics, etc., and display panels for TVs and monitors, which are supplied by CSOT, etc. For the DS Division, key materials include chemicals and wafers, supplied by Soulbrain, SILTRONIC, etc., and for SDC, key materials include FPCAs and cover glass, with suppliers ",
+   "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2025_4Q_Interim_Report.pdf",
+   "source": "Samsung Electronics IR (Business Report)"
+  },
+  {
+   "key": "mediatek>samsung>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "Samsung IR 主要原材料供应商原句",
+   "quote": "Qualcomm, MediaTek",
+   "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2025_4Q_Interim_Report.pdf",
+   "source": "Samsung Electronics IR (Business Report)"
+  },
+  {
+   "key": "intel>samsung>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "Samsung IR 主要原材料供应商原句",
+   "quote": "SOC(System-On-Chip) CPU 7,941 10.1% Nvidia, Intel",
+   "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2025_4Q_Interim_Report.pdf",
+   "source": "Samsung Electronics IR (Business Report)"
+  },
+  {
+   "key": "mobileye>vw>供货",
+   "grade_before": "C",
+   "verdict": "weak",
+   "comment": "原句为“partnerships with … Volkswagen”，未明确供货。降为待核实。",
+   "quote": "In 2018, Mobileye announced partnerships with BMW, Nissan and Volkswagen.",
+   "url": "https://en.wikipedia.org/wiki/Mobileye"
+  },
+  {
+   "key": "quanta>apple>供货",
+   "grade_before": "C",
+   "verdict": "outdated",
+   "comment": "原句讲 1990s 合同，过于陈旧。降为待核实，除非另有近三年证据。",
+   "quote": "Throughout the 1990s, Quanta established contracts with Apple and Gateway, opening an after-sales office in California in 1991 and another in Augsburg, Germany in 1994.",
+   "url": "https://en.wikipedia.org/wiki/Quanta_Computer"
+  },
+  {
+   "key": "byd>bydelec>控股",
+   "grade_before": "C",
+   "verdict": "weak",
+   "comment": "仅 Wikidata 属性、无原句。维持 C，建议补年报。",
+   "quote": "",
+   "url": "https://www.wikidata.org/wiki/Q4836868"
+  },
+  {
+   "key": "samsung>samsungsdi>持股",
+   "grade_before": "C",
+   "verdict": "weak",
+   "comment": "仅 Wikidata 属性、无原句。维持 C。",
+   "quote": "",
+   "url": "https://www.wikidata.org/wiki/Q21120876"
+  }
+ ]
+}

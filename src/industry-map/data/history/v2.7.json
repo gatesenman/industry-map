@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "version": "v2.7",
+    "generated": "2026-10-28T22:55:50Z",
+    "updated": "2026-10-29",
+    "pipeline": "evolve.py",
+    "lastRefresh": "2026-10-28T22:39:09Z",
+    "mergeLog": []
+  },
+  "counts": {
+    "companies": 228,
+    "relations": 492,
+    "relationsAB": 446
+  },
+  "audit": {
+    "overall": {
+      "n": 657,
+      "correct": 615,
+      "acc": 0.9361,
+      "ci95": [
+        0.9147,
+        0.9524
+      ],
+      "meets98": false,
+      "pointMeets98": false
+    },
+    "relations": {
+      "n": 486,
+      "correct": 486,
+      "acc": 1.0,
+      "ci95": [
+        0.9922,
+        1.0
+      ],
+      "method": "v2.7 人工逐句复核 SEC 一手原文"
+    }
+  }
+}

@@ -1,0 +1,152 @@
+{
+ "round": "v2.0",
+ "date": "2026-10-23",
+ "method": "v2.0 人工逐句复核 SEC 一手原文",
+ "items": [
+  {
+   "key": "arm>apple>授权",
+   "verdict": "correct",
+   "comment": "Arm IPO 424B4（监管）原句 + 特拉华联邦法院 Apple 保护令动议确认 2023 Architecture License Agreement（独立第二来源）"
+  },
+  {
+   "key": "samsung>samsungsdi>持股",
+   "verdict": "correct",
+   "comment": "Samsung SDI 官方 IR 股东结构表原句（交易所/公司披露）"
+  },
+  {
+   "key": "catl>nio>供货",
+   "verdict": "correct",
+   "comment": "CATL 官方新闻稿原句（公司一手，非监管文件，按 C 计）"
+  },
+  {
+   "key": "flex>ford>供货",
+   "verdict": "correct",
+   "comment": "Flex 官方新闻稿原句（公司一手，非监管文件，按 C 计）"
+  },
+  {
+   "key": "tel>intel>供货",
+   "verdict": "correct",
+   "comment": "Tokyo Electron 官方新闻稿引述 Intel 高管原句（公司一手，按 C 计）"
+  },
+  {
+   "key": "catl>sungrow>供货",
+   "verdict": "correct",
+   "comment": "阳光电源官方新闻稿原句（公司一手；后续供应链有调整，按 C 且保留历史供货证据）"
+  },
+  {
+   "key": "sungrow>huawei>竞争",
+   "verdict": "correct",
+   "comment": "行业研究机构 Wood Mackenzie 报告经 OFweek 转述的可引用原句（二手但可核验，按 C）"
+  },
+  {
+   "key": "micron>nvidia>供货",
+   "verdict": "correct",
+   "comment": "NVIDIA 10-K（监管）原句；本轮复核确认 quote 完整（暂无独立第二来源升 A）"
+  },
+  {
+   "key": "lam>samsung>供货",
+   "verdict": "correct",
+   "comment": "Lam Research 10-K（FY2026）原句复核"
+  },
+  {
+   "key": "lam>tsmc>供货",
+   "verdict": "correct",
+   "comment": "Lam Research 10-K（FY2026）原句复核"
+  },
+  {
+   "key": "lam>skhynix>供货",
+   "verdict": "correct",
+   "comment": "Lam Research 10-K（FY2026）原句复核"
+  },
+  {
+   "key": "lam>micron>供货",
+   "verdict": "correct",
+   "comment": "Lam Research 10-K（FY2026）原句复核"
+  },
+  {
+   "key": "kla>tsmc>供货",
+   "verdict": "correct",
+   "comment": "KLA 10-K（FY2025）原句复核"
+  },
+  {
+   "key": "fluence>catl>竞争",
+   "verdict": "correct",
+   "comment": "Fluence Energy Form 10-K（监管）原句；库内已有关系，本轮用最新 FY2025 10-K 复核升/固 A"
+  },
+  {
+   "key": "fluence>sungrow>竞争",
+   "verdict": "correct",
+   "comment": "Fluence Energy Form 10-K（监管）原句；与 Wikipedia/旧 10-Q 证据叠加可固 A"
+  },
+  {
+   "key": "fluence>tesla>竞争",
+   "verdict": "correct",
+   "comment": "Fluence Energy Form 10-K（监管）原句复核升 A"
+  },
+  {
+   "key": "tsmc>nvidia>供货",
+   "verdict": "correct",
+   "comment": "NVIDIA 10-K（监管）原句复核；与既有 TSMC 侧证据构成双向一手"
+  },
+  {
+   "key": "intel>smic>竞争",
+   "verdict": "correct",
+   "comment": "Intel 10-K（FY2025）原句"
+  },
+  {
+   "key": "intel>umc>竞争",
+   "verdict": "correct",
+   "comment": "Intel 10-K（FY2025）原句"
+  },
+  {
+   "key": "intel>tsmc>竞争",
+   "verdict": "correct",
+   "comment": "Intel 10-K（监管）原句 + 既有 tsmc>intel 竞争 A 级双向"
+  },
+  {
+   "key": "intel>samsung>竞争",
+   "verdict": "correct",
+   "comment": "Intel 10-K（监管）原句"
+  },
+  {
+   "key": "asml>intel>供货",
+   "verdict": "correct",
+   "comment": "Intel 10-K（监管）原句复核"
+  },
+  {
+   "key": "panasonic>tesla>供货",
+   "verdict": "correct",
+   "comment": "Tesla 10-K（监管）原句；与既有 CATL 侧证据可交叉验证"
+  },
+  {
+   "key": "catl>tesla>供货",
+   "verdict": "correct",
+   "comment": "Tesla 10-K（监管）原句复核（客户方一手）"
+  },
+  {
+   "key": "samsung>intel>竞争",
+   "verdict": "correct",
+   "comment": "Intel 10-K 原句（对方披露）；升 B"
+  },
+  {
+   "key": "smic>intel>竞争",
+   "verdict": "correct",
+   "comment": "Intel 10-K 原句（对方披露）"
+  },
+  {
+   "key": "umc>intel>竞争",
+   "verdict": "correct",
+   "comment": "Intel 10-K 原句（对方披露）"
+  },
+  {
+   "key": "skhynix>nvidia>供货",
+   "verdict": "correct",
+   "comment": "追加 SK hynix 官方新闻稿作为第二来源证据（监管+公司官方）"
+  },
+  {
+   "key": "samsung>nvidia>供货",
+   "verdict": "correct",
+   "comment": "追加 Samsung Global Newsroom 作为第二来源"
+  }
+ ]
+}

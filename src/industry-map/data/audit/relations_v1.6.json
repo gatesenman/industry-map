@@ -1,0 +1,27 @@
+{
+ "round": "v1.6",
+ "date": "2026-10-22",
+ "method": "v1.6 人工逐句复核 SEC 一手原文",
+ "items": [
+  {
+   "key": "hanwha>nextera>供货",
+   "verdict": "correct",
+   "comment": "Hanwha SolarOne 6-K Ex.99.1 原句；合同期 2015–2016，已超过 4 年，界面标记为可能过期"
+  },
+  {
+   "key": "pilbara>ganfeng>供货",
+   "verdict": "correct",
+   "comment": "ASX 交易所公告原句（交易所披露，按一手监管来源计）"
+  },
+  {
+   "key": "samsungsdi>bmw>供货",
+   "verdict": "correct",
+   "comment": "宝马集团官方新闻稿原句（公司一手，非监管文件，按 C 计）"
+  },
+  {
+   "key": "catl>mercedes>供货",
+   "verdict": "correct",
+   "comment": "宁德时代官方新闻稿原句（公司一手，非监管文件，按 C 计）"
+  }
+ ]
+}

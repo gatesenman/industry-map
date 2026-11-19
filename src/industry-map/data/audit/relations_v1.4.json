@@ -1,0 +1,42 @@
+{
+ "round": "v1.4",
+ "date": "2026-10-22",
+ "method": "v1.4 人工复核新增 SEC 一手证据",
+ "items": [
+  {
+   "key": "mobileye>vw>供货",
+   "verdict": "correct",
+   "comment": "v1.4 新一手证据：Mobileye 8-K(2024-04-25) 明确“Volkswagen Group design win”（SuperVision/Chauffeur）"
+  },
+  {
+   "key": "panasonic>toyota>合资",
+   "verdict": "correct",
+   "comment": "v1.4 新一手证据：Toyota 20-F(2021) “Toyota and Panasonic established Prime Planet Energy & Solutions, Inc.”（电池合资）"
+  },
+  {
+   "key": "lonza>moderna>供货",
+   "verdict": "correct",
+   "comment": "Moderna 8-K(2021-01-04) 与 Lonza 10 年战略生产合作"
+  },
+  {
+   "key": "nvidia>mercedes>供货",
+   "verdict": "correct",
+   "comment": "NVIDIA 8-K(2021-02-24) 为 Mercedes MBUX Hyperscreen 供芯"
+  },
+  {
+   "key": "fluence>catl>竞争",
+   "verdict": "correct",
+   "comment": "Fluence 10-Q(2025Q1) 竞争对手原句"
+  },
+  {
+   "key": "fluence>sungrow>竞争",
+   "verdict": "correct",
+   "comment": "Fluence 10-Q(2025Q1) 竞争对手原句"
+  },
+  {
+   "key": "arm>qualcomm>授权",
+   "verdict": "wrong",
+   "comment": "v1.4 再检：仍仅为 Nuvia ALA 诉讼句，不直接证明，维持待核实"
+  }
+ ]
+}

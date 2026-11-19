@@ -1,0 +1,42 @@
+{
+ "_doc": "一手披露营收覆盖（交易所年报/业绩公告）。用于 Wikidata P2139 单位异常且无 SEC 数据的公司；refresh.py 优先于 Wikidata 使用，verify.py 作为 T1 来源参与交叉验证。value 为原币种全额。",
+ "leapmotor": {
+  "value": 64731860000,
+  "cur": "CNY",
+  "end": "2025-12-31",
+  "form": "HKEX 年度业绩公告",
+  "date": "2026-03-16",
+  "source": "交易所披露（年报/业绩公告）",
+  "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0316/2026031601215_c.pdf",
+  "quote": "合併損益表 截至12月31日止年度 2025年 人民幣千元 收入 3 64,731,860 32,164,184",
+  "retrieved": "2026-10-27",
+  "wd_note": "Wikidata P2139 原值 18.14（单位 HKD，疑为“十亿”且币种有误，2023 年口径）",
+  "needle": "64,731,860"
+ },
+ "gwm": {
+  "value": 222824238516.25,
+  "cur": "CNY",
+  "end": "2025-12-31",
+  "form": "上交所 2025 年年度报告",
+  "date": "2026-03-28",
+  "source": "交易所披露（年报/业绩公告）",
+  "url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225047452.PDF",
+  "quote": "营业总收入 222,824,238,516.25 202,193,779,642.49 10.20",
+  "retrieved": "2026-10-27",
+  "wd_note": "Wikidata P2139 原值 173.21（单位 renminbi，实为 2023 年 1,732.1 亿元的“十亿”口径）",
+  "needle": "222,824,238,516.25"
+ },
+ "bydelec": {
+  "value": 179477404000,
+  "cur": "CNY",
+  "end": "2025-12-31",
+  "form": "HKEX 全年業績公告",
+  "date": "2026-03-27",
+  "source": "交易所披露（年报/业绩公告）",
+  "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0327/2026032702073_c.pdf",
+  "quote": "合併損益表 截至二零二五年十二月三十一日止年度 二零二五年 人民幣千元 收入 4 179,477,404 177,305,549",
+  "retrieved": "2026-10-27",
+  "wd_note": "Wikidata P2139 原值 129.95（单位 renminbi，实为 2023 年 1,299.57 亿元的“十亿”口径）",
+  "needle": "179,477,404"
+ }
+}

@@ -1,0 +1,197 @@
+{
+ "round": "v2.2",
+ "date": "2026-10-24",
+ "method": "v2.2 人工逐句复核 SEC 一手原文",
+ "items": [
+  {
+   "key": "tsmc>samsung>竞争",
+   "verdict": "correct",
+   "comment": "verify 误据 Wikipedia 句降 X；Intel Form 10-K 监管原句明确 We also compete directly with Samsung in this market，恢复 A"
+  },
+  {
+   "key": "tsmc>marvell>供货",
+   "verdict": "correct",
+   "comment": "Marvell Form 10-Q（监管）原句点名 TSMC 为 advanced process-node wafers 唯一代工厂及先进节点唯一晶圆供应商"
+  },
+  {
+   "key": "lges>tesla>供货",
+   "verdict": "correct",
+   "comment": "美国内政部官方新闻点名双方+供货合同金额与用途（政府一手披露合同，非 SEC 公司年报，按 B 计）；Tesla 自身 10-K 仍仅点名 Panasonic/CATL，故未给 A"
+  },
+  {
+   "key": "hesai>liauto>供货",
+   "verdict": "correct",
+   "comment": "禾赛官方新闻稿原句点名理想并写明 exclusive lidar supplier（公司一手，非监管，按 C；替换原 Wikipedia 证据）"
+  },
+  {
+   "key": "lges>hyundai>合资",
+   "verdict": "correct",
+   "comment": "现代汽车集团官方新闻原句明确双方各 50% 持股与合资金额（公司官方披露持股比例，按 B）"
+  },
+  {
+   "key": "foxconn>apple>供货",
+   "verdict": "correct",
+   "comment": "苹果官方 Supplier List（公司一手供应商名单，非监管，按 C；替换原 Wikipedia）"
+  },
+  {
+   "key": "pegatron>apple>供货",
+   "verdict": "correct",
+   "comment": "苹果官方 Supplier List（公司一手，按 C；替换 Wikipedia）"
+  },
+  {
+   "key": "luxshare>apple>供货",
+   "verdict": "correct",
+   "comment": "苹果官方 Supplier List（公司一手，按 C；替换 Wikipedia）"
+  },
+  {
+   "key": "quanta>apple>供货",
+   "verdict": "correct",
+   "comment": "苹果官方 Supplier List（公司一手，按 C；替换 Wikipedia）"
+  },
+  {
+   "key": "boe>apple>供货",
+   "verdict": "correct",
+   "comment": "苹果官方 Supplier List（公司一手，按 C；替换 Wikipedia）"
+  },
+  {
+   "key": "lgd>apple>供货",
+   "verdict": "correct",
+   "comment": "苹果官方 Supplier List（公司一手，按 C；替换 Wikipedia）"
+  },
+  {
+   "key": "samsungsdi>bmw>供货",
+   "verdict": "correct",
+   "comment": "Samsung SDI 官方新闻原句明确 will supply ASSB cells 给 BMW（公司一手，按 C；刷新旧 2019 证据）"
+  },
+  {
+   "key": "panasonic>tesla>供货",
+   "verdict": "correct",
+   "comment": "Tesla Form 10-K（监管）原句点名 Panasonic 为电芯供应商"
+  },
+  {
+   "key": "catl>tesla>供货",
+   "verdict": "correct",
+   "comment": "Tesla Form 10-K（监管）原句点名 CATL"
+  },
+  {
+   "key": "novo>lilly>竞争",
+   "verdict": "correct",
+   "comment": "Novo Nordisk Form 20-F（监管）原句在 diabetes / anti-obesity / GLP-1 市场点名 Eli Lilly 为最主要对手"
+  },
+  {
+   "key": "jinko>longi>竞争",
+   "verdict": "correct",
+   "comment": "JinkoSolar Form 20-F（监管）原句将 LONGi 列入 compete with 名单（第三方监管披露竞争格局，按 B；与已有 longi>jinko 对称）"
+  },
+  {
+   "key": "jinko>trina>竞争",
+   "verdict": "correct",
+   "comment": "JinkoSolar Form 20-F（监管）原句"
+  },
+  {
+   "key": "jinko>canadian>竞争",
+   "verdict": "correct",
+   "comment": "JinkoSolar Form 20-F（监管）原句（与已有 canadian>jinko 对称）"
+  },
+  {
+   "key": "gf>smic>竞争",
+   "verdict": "correct",
+   "comment": "GlobalFoundries Form 20-F（监管）Key competitors 原句点名 Semiconductor Manufacturing International Corporation"
+  },
+  {
+   "key": "enphase>sungrow>竞争",
+   "verdict": "correct",
+   "comment": "Enphase Form 10-K（监管）原句点名 Sungrow Power Supply Co., Ltd."
+  },
+  {
+   "key": "enphase>huawei>竞争",
+   "verdict": "correct",
+   "comment": "Enphase Form 10-K（监管）原句点名 Huawei"
+  },
+  {
+   "key": "enphase>byd>竞争",
+   "verdict": "correct",
+   "comment": "Enphase Form 10-K（监管）原句将 BYD 列入 storage market competitors"
+  },
+  {
+   "key": "sungrow>fluence>竞争",
+   "verdict": "correct",
+   "comment": "Fluence Form 10-K（监管）key competitors 原句点名 Sungrow（与已有 fluence>sungrow 对称）"
+  },
+  {
+   "key": "tesla>fluence>竞争",
+   "verdict": "correct",
+   "comment": "Fluence Form 10-K（监管）key competitors 原句点名 Tesla（与已有 fluence>tesla 对称）"
+  },
+  {
+   "key": "enphase>solaredge>竞争",
+   "verdict": "correct",
+   "comment": "Enphase FY2025 Form 10-K（监管）原句刷新既有 B 级证据"
+  },
+  {
+   "key": "enphase>tesla>竞争",
+   "verdict": "correct",
+   "comment": "Enphase FY2025 Form 10-K（监管）原句刷新既有 B 级证据"
+  },
+  {
+   "key": "jinko>ja>竞争",
+   "verdict": "correct",
+   "comment": "JinkoSolar Form 20-F（监管）原句（与已有 ja>jinko 对称）"
+  },
+  {
+   "key": "catl>fluence>竞争",
+   "verdict": "correct",
+   "comment": "Fluence Form 10-K（监管）将 CATL 列入 key competitors；注意与待核实的 catl>fluence>供货不同关系类型"
+  },
+  {
+   "key": "wuxiapptec>lilly>供货",
+   "verdict": "correct",
+   "comment": "WuXi AppTec 官方新闻稿原句明确 manufacturing activities / manufactured in China by WuXi（公司一手，按 C）"
+  },
+  {
+   "key": "solaredge>enphase>竞争",
+   "verdict": "correct",
+   "comment": "SolarEdge Form 10-K（监管）原句点名 Enphase Energy, Inc."
+  },
+  {
+   "key": "solaredge>tesla>竞争",
+   "verdict": "correct",
+   "comment": "SolarEdge Form 10-K（监管）原句点名 Tesla Inc."
+  },
+  {
+   "key": "solaredge>sungrow>竞争",
+   "verdict": "correct",
+   "comment": "SolarEdge Form 10-K（监管）原句点名 Sungrow Power Supply Co., Ltd."
+  },
+  {
+   "key": "solaredge>huawei>竞争",
+   "verdict": "correct",
+   "comment": "SolarEdge Form 10-K（监管）原句点名 Huawei Technologies Co. Ltd."
+  },
+  {
+   "key": "catl>nio>供货",
+   "verdict": "correct",
+   "comment": "CATL 官方新闻稿原句（公司一手，按 C；刷新 conf 并保留供货表述）"
+  },
+  {
+   "key": "longi>jinko>竞争",
+   "verdict": "correct",
+   "comment": "JinkoSolar Form 20-F（监管）原句"
+  },
+  {
+   "key": "trina>jinko>竞争",
+   "verdict": "correct",
+   "comment": "JinkoSolar Form 20-F（监管）原句"
+  },
+  {
+   "key": "gf>umc>竞争",
+   "verdict": "correct",
+   "comment": "GlobalFoundries Form 20-F（监管）原句"
+  },
+  {
+   "key": "gf>tsmc>竞争",
+   "verdict": "correct",
+   "comment": "GlobalFoundries Form 20-F（监管）原句"
+  }
+ ]
+}

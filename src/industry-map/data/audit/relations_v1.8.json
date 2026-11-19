@@ -1,0 +1,177 @@
+{
+ "round": "v1.8",
+ "date": "2026-10-22",
+ "method": "v1.8 人工逐句复核 SEC 一手原文",
+ "items": [
+  {
+   "key": "samsung>apple>供货",
+   "verdict": "correct",
+   "comment": "Apple Supplier List FY2023 原文列有「Samsung Electronics Company Limited」（苹果官方发布，非监管文件，按 C 计；FY2023 数据）"
+  },
+  {
+   "key": "sony>apple>供货",
+   "verdict": "correct",
+   "comment": "Apple Supplier List FY2023 原文列有「Sony Corporation」（苹果官方发布，非监管文件，按 C 计；FY2023 数据）"
+  },
+  {
+   "key": "murata>apple>供货",
+   "verdict": "correct",
+   "comment": "Apple Supplier List FY2023 原文列有「Murata Manufacturing Company Limited」（苹果官方发布，非监管文件，按 C 计；FY2023 数据）"
+  },
+  {
+   "key": "quanta>apple>供货",
+   "verdict": "correct",
+   "comment": "Apple Supplier List FY2023 原文列有「Quanta Computer Incorporated」（苹果官方发布，非监管文件，按 C 计；FY2023 数据）"
+  },
+  {
+   "key": "ase>apple>供货",
+   "verdict": "correct",
+   "comment": "Apple Supplier List FY2023 原文列有「Advanced Semiconductor Engineering Technology Holding Co., Ltd.」（苹果官方发布，非监管文件，按 C 计；FY2023 数据）"
+  },
+  {
+   "key": "tsmc>apple>供货",
+   "verdict": "correct",
+   "comment": "Apple Supplier List FY2023 原文列有「Taiwan Semiconductor Manufacturing Company Limited」（苹果官方发布，非监管文件，按 C 计；FY2023 数据）"
+  },
+  {
+   "key": "foxconn>apple>供货",
+   "verdict": "correct",
+   "comment": "Apple Supplier List FY2023 原文列有「Hon Hai Precision Industry Company Limited (Foxconn)」（苹果官方发布，非监管文件，按 C 计；FY2023 数据）"
+  },
+  {
+   "key": "boe>apple>供货",
+   "verdict": "correct",
+   "comment": "Apple Supplier List FY2023 原文列有「BOE Technology Group Company Limited」（苹果官方发布，非监管文件，按 C 计；FY2023 数据）"
+  },
+  {
+   "key": "lgd>apple>供货",
+   "verdict": "correct",
+   "comment": "Apple Supplier List FY2023 原文列有「LG Display Company Limited」（苹果官方发布，非监管文件，按 C 计；FY2023 数据）"
+  },
+  {
+   "key": "luxshare>apple>供货",
+   "verdict": "correct",
+   "comment": "Apple Supplier List FY2023 原文列有「Luxshare Precision Industry Company Limited」（苹果官方发布，非监管文件，按 C 计；FY2023 数据）"
+  },
+  {
+   "key": "pegatron>apple>供货",
+   "verdict": "correct",
+   "comment": "Apple Supplier List FY2023 原文列有「Pegatron Corporation」（苹果官方发布，非监管文件，按 C 计；FY2023 数据）"
+  },
+  {
+   "key": "intel>apple>供货",
+   "verdict": "correct",
+   "comment": "Apple Supplier List FY2023 原文列有「Intel Corporation」（苹果官方发布，非监管文件，按 C 计；FY2023 数据）"
+  },
+  {
+   "key": "skhynix>apple>供货",
+   "verdict": "correct",
+   "comment": "Apple Supplier List FY2023 原文列有「SK hynix Incorporated」（苹果官方发布，非监管文件，按 C 计；FY2023 数据）"
+  },
+  {
+   "key": "micron>apple>供货",
+   "verdict": "correct",
+   "comment": "Apple Supplier List FY2023 原文列有「Micron Technology Incorporated」（苹果官方发布，非监管文件，按 C 计；FY2023 数据）"
+  },
+  {
+   "key": "gigadevice>apple>供货",
+   "verdict": "correct",
+   "comment": "Apple Supplier List FY2023 原文列有「GigaDevice Semiconductor Incorporated」（苹果官方发布，非监管文件，按 C 计；FY2023 数据）"
+  },
+  {
+   "key": "ti>apple>供货",
+   "verdict": "correct",
+   "comment": "Apple Supplier List FY2023 原文列有「Texas Instruments Incorporated」（苹果官方发布，非监管文件，按 C 计；FY2023 数据）"
+  },
+  {
+   "key": "infineon>apple>供货",
+   "verdict": "correct",
+   "comment": "Apple Supplier List FY2023 原文列有「Infineon Technologies AG」（苹果官方发布，非监管文件，按 C 计；FY2023 数据）"
+  },
+  {
+   "key": "onsemi>apple>供货",
+   "verdict": "correct",
+   "comment": "Apple Supplier List FY2023 原文列有「ON Semiconductor Corporation」（苹果官方发布，非监管文件，按 C 计；FY2023 数据）"
+  },
+  {
+   "key": "jcet>apple>供货",
+   "verdict": "correct",
+   "comment": "Apple Supplier List FY2023 原文列有「JCET Group Company Limited」（苹果官方发布，非监管文件，按 C 计；FY2023 数据）"
+  },
+  {
+   "key": "byd>apple>供货",
+   "verdict": "correct",
+   "comment": "Apple Supplier List FY2023 原文列有「BYD Company Limited」（苹果官方发布，非监管文件，按 C 计；FY2023 数据）"
+  },
+  {
+   "key": "lges>apple>供货",
+   "verdict": "correct",
+   "comment": "Apple Supplier List FY2023 原文列有「LG Energy Solution」（苹果官方发布，非监管文件，按 C 计；FY2023 数据）"
+  },
+  {
+   "key": "samsungsdi>apple>供货",
+   "verdict": "correct",
+   "comment": "Apple Supplier List FY2023 原文列有「Samsung SDI Company Limited」（苹果官方发布，非监管文件，按 C 计；FY2023 数据）"
+  },
+  {
+   "key": "nidec>apple>供货",
+   "verdict": "correct",
+   "comment": "Apple Supplier List FY2023 原文列有「Nidec Corporation」（苹果官方发布，非监管文件，按 C 计；FY2023 数据）"
+  },
+  {
+   "key": "renesas>apple>供货",
+   "verdict": "correct",
+   "comment": "Apple Supplier List FY2023 原文列有「Renesas Electronics Corporation」（苹果官方发布，非监管文件，按 C 计；FY2023 数据）"
+  },
+  {
+   "key": "microchip>apple>供货",
+   "verdict": "correct",
+   "comment": "Apple Supplier List FY2023 原文列有「MicroChip Technology Incorporated」（苹果官方发布，非监管文件，按 C 计；FY2023 数据）"
+  },
+  {
+   "key": "adi>apple>供货",
+   "verdict": "correct",
+   "comment": "Apple Supplier List FY2023 原文列有「Analog Devices Incorporated」（苹果官方发布，非监管文件，按 C 计；FY2023 数据）"
+  },
+  {
+   "key": "kioxia>apple>供货",
+   "verdict": "correct",
+   "comment": "Apple Supplier List FY2023 原文列有「Kioxia Holdings Corporation」（苹果官方发布，非监管文件，按 C 计；FY2023 数据）"
+  },
+  {
+   "key": "sunwoda>apple>供货",
+   "verdict": "correct",
+   "comment": "Apple Supplier List FY2023 原文列有「Sunwoda Electronic Company Limited」（苹果官方发布，非监管文件，按 C 计；FY2023 数据）"
+  },
+  {
+   "key": "sunny>apple>供货",
+   "verdict": "correct",
+   "comment": "Apple Supplier List FY2023 原文列有「Sunny Optical Technology Co., Ltd.」（苹果官方发布，非监管文件，按 C 计；FY2023 数据）"
+  },
+  {
+   "key": "tdk>apple>供货",
+   "verdict": "correct",
+   "comment": "Apple Supplier List FY2023 原文列有「TDK Corporation」（苹果官方发布，非监管文件，按 C 计；FY2023 数据）"
+  },
+  {
+   "key": "goertek>apple>供货",
+   "verdict": "correct",
+   "comment": "Apple Supplier List FY2023 原文列有「GoerTek Incorporated」（苹果官方发布，非监管文件，按 C 计；FY2023 数据）"
+  },
+  {
+   "key": "lingyi>apple>供货",
+   "verdict": "correct",
+   "comment": "Apple Supplier List FY2023 原文列有「Lingyi iTech (Guangdong) Company」（苹果官方发布，非监管文件，按 C 计；FY2023 数据）"
+  },
+  {
+   "key": "wistron>apple>供货",
+   "verdict": "correct",
+   "comment": "Apple Supplier List FY2023 原文列有「Wistron Corporation」（苹果官方发布，非监管文件，按 C 计；FY2023 数据）"
+  },
+  {
+   "key": "flex>apple>供货",
+   "verdict": "correct",
+   "comment": "Apple Supplier List FY2023 原文列有「Flex Limited」（苹果官方发布，非监管文件，按 C 计；FY2023 数据）"
+  }
+ ]
+}

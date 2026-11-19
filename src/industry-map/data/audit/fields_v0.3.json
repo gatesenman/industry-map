@@ -1,0 +1,1686 @@
+{
+ "round": "v0.3",
+ "date": "2026-10-21",
+ "target": 0.98,
+ "seed": "v0.3",
+ "population": 512,
+ "fields": {
+  "n": 200,
+  "correct": 200,
+  "acc": 1.0,
+  "ci95": [
+   0.9812,
+   1.0
+  ],
+  "unreachable": 0,
+  "method": "对 A/B 级字段简单随机抽样，绕过缓存回源复核主来源值（来源忠实度）"
+ },
+ "relations": {
+  "n": 30,
+  "correct": 28,
+  "acc": 0.9333,
+  "ci95": [
+   0.7868,
+   0.9815
+  ],
+  "method": "普查（census）：对全部带 SEC 一手原句的关系逐条人工阅读原句与原文链接，判断原句是否支持“关系类型+方向”。审核者：Grok Bot（AI 审核，非独立人工），存在审核者偏差。"
+ },
+ "overall": {
+  "n": 230,
+  "correct": 228,
+  "acc": 0.9913,
+  "ci95": [
+   0.9689,
+   0.9976
+  ],
+  "meets98": false,
+  "pointMeets98": true
+ },
+ "byField": {
+  "country": {
+   "n": 34,
+   "correct": 34
+  },
+  "revenue": {
+   "n": 49,
+   "correct": 49
+  },
+  "ticker": {
+   "n": 43,
+   "correct": 43
+  },
+  "isin": {
+   "n": 24,
+   "correct": 24
+  },
+  "lei": {
+   "n": 34,
+   "correct": 34
+  },
+  "marketCap": {
+   "n": 16,
+   "correct": 16
+  }
+ },
+ "failures": [],
+ "relationFailures": [
+  {
+   "key": "arm>qualcomm>授权",
+   "grade_before": "B",
+   "quote": "The complaint alleges that following our acquisition of Nuvia, we and Nuvia breached Nuvia’s Architecture License Agreement with Arm (the Nuvia ALA) by failing to comply with the termination obligations under the Nuvia ALA.",
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000085/qcom-20250928.htm",
+   "verdict": "wrong",
+   "comment": "原句为 Nuvia 架构授权协议诉讼，未直接证明 Arm→高通 授权（间接）"
+  },
+  {
+   "key": "nvidia>byd>供货",
+   "grade_before": "B",
+   "quote": "We typically receive semiconductor products from our subcontractors, perform incoming quality assurance and configuration using test equipment purchased from industry-leading suppliers such as Advantest America Inc. and Chroma ATE Inc., and then ship the semiconductors to contract manufacturers, such as BYD Auto and Hon Hai, distributors, motherboard and add-in card, or AIC, customers from our third-party warehouses in Hong Kong, Israel, and the United States.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000017/nvda-20230129.htm",
+   "verdict": "wrong",
+   "comment": "原句未体现英伟达向比亚迪供货（比亚迪在英伟达 10-K 中是代工分包方，方向相反）"
+  }
+ ],
+ "samples": [
+  {
+   "company": "sqm",
+   "field": "country",
+   "grade": "B",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "GLEIF 总部 CL 注册地 CL"
+  },
+  {
+   "company": "synopsys",
+   "field": "country",
+   "grade": "B",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "GLEIF 总部 US 注册地 US-DE"
+  },
+  {
+   "company": "lgd",
+   "field": "revenue",
+   "grade": "B",
+   "source": "SEC EDGAR",
+   "ok": true,
+   "detail": "SEC companyfacts 中 2024-12-31 20-F 存在值 26615347000000"
+  },
+  {
+   "company": "tsmc",
+   "field": "country",
+   "grade": "B",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "GLEIF 总部 TW 注册地 TW"
+  },
+  {
+   "company": "gotion",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo 002074.SZ 回源 成功"
+  },
+  {
+   "company": "iberdrola",
+   "field": "isin",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF 回源 ISIN 交集 ['ES0144580Y14']"
+  },
+  {
+   "company": "adi",
+   "field": "isin",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF 回源 ISIN 交集 ['US0326541051']"
+  },
+  {
+   "company": "solaredge",
+   "field": "lei",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF SOLAREDGE TECHNOLOGIES, INC. ACTIVE; Wikidata P1278=['5493000K6Y58XXPDF853']"
+  },
+  {
+   "company": "bestbuy",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo BBY 回源 成功"
+  },
+  {
+   "company": "teradyne",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo TER 回源 成功"
+  },
+  {
+   "company": "byd",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo 002594.SZ 回源 成功"
+  },
+  {
+   "company": "kla",
+   "field": "revenue",
+   "grade": "A",
+   "source": "SEC EDGAR",
+   "ok": true,
+   "detail": "SEC companyfacts 中 2026-06-30 10-K 存在值 13579476000"
+  },
+  {
+   "company": "mercedes",
+   "field": "isin",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF 回源 ISIN 交集 ['DE0007100000']"
+  },
+  {
+   "company": "hp",
+   "field": "revenue",
+   "grade": "A",
+   "source": "SEC EDGAR",
+   "ok": true,
+   "detail": "SEC companyfacts 中 2025-10-31 10-K 存在值 55295000000"
+  },
+  {
+   "company": "airliquide",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo AI.PA 回源 成功"
+  },
+  {
+   "company": "tdk",
+   "field": "isin",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF 回源 ISIN 交集 ['JP3538800008']"
+  },
+  {
+   "company": "gm",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo GM 回源 成功"
+  },
+  {
+   "company": "lgd",
+   "field": "country",
+   "grade": "B",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "GLEIF 总部 KR 注册地 KR"
+  },
+  {
+   "company": "gwc",
+   "field": "lei",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF 環球晶圓股份有限公司 ACTIVE; Wikidata P1278=['529900V6RTNF3U5EGX67']"
+  },
+  {
+   "company": "advantest",
+   "field": "country",
+   "grade": "B",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "GLEIF 总部 JP 注册地 JP"
+  },
+  {
+   "company": "tdk",
+   "field": "country",
+   "grade": "B",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "GLEIF 总部 JP 注册地 JP"
+  },
+  {
+   "company": "tel",
+   "field": "lei",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF トウキョウエレクトロン ACTIVE; Wikidata P1278=['549300H5LSF8DP3RIJ34']"
+  },
+  {
+   "company": "amazon",
+   "field": "revenue",
+   "grade": "A",
+   "source": "SEC EDGAR",
+   "ok": true,
+   "detail": "SEC companyfacts 中 2025-12-31 10-K 存在值 716924000000"
+  },
+  {
+   "company": "mobileye",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo MBLY 回源 成功"
+  },
+  {
+   "company": "chint",
+   "field": "revenue",
+   "grade": "A",
+   "source": "东方财富(交易所定期报告)",
+   "ok": true,
+   "detail": "回源值 59144847908.43"
+  },
+  {
+   "company": "firstsolar",
+   "field": "lei",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF FIRST SOLAR, INC. ACTIVE; Wikidata P1278=['549300NPYMLM4NHTOF27']"
+  },
+  {
+   "company": "hesai",
+   "field": "revenue",
+   "grade": "A",
+   "source": "SEC EDGAR",
+   "ok": true,
+   "detail": "SEC companyfacts 中 2025-12-31 20-F 存在值 3027573000"
+  },
+  {
+   "company": "broadcom",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo AVGO 回源 成功"
+  },
+  {
+   "company": "lam",
+   "field": "marketCap",
+   "grade": "A",
+   "source": "Yahoo Finance",
+   "ok": true,
+   "detail": "回源市值 333717372928（差 0.0%，容差 5% 以容纳价格变动）"
+  },
+  {
+   "company": "gwm",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo 601633.SS 回源 成功"
+  },
+  {
+   "company": "amec",
+   "field": "revenue",
+   "grade": "A",
+   "source": "东方财富(交易所定期报告)",
+   "ok": true,
+   "detail": "回源值 12384638268.11"
+  },
+  {
+   "company": "easpring",
+   "field": "revenue",
+   "grade": "A",
+   "source": "东方财富(交易所定期报告)",
+   "ok": true,
+   "detail": "回源值 10374236039.3"
+  },
+  {
+   "company": "apple",
+   "field": "revenue",
+   "grade": "A",
+   "source": "SEC EDGAR",
+   "ok": true,
+   "detail": "SEC companyfacts 中 2025-09-27 10-K 存在值 416161000000"
+  },
+  {
+   "company": "lingyi",
+   "field": "revenue",
+   "grade": "A",
+   "source": "东方财富(交易所定期报告)",
+   "ok": true,
+   "detail": "回源值 51428944353.94"
+  },
+  {
+   "company": "nidec",
+   "field": "isin",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF 回源 ISIN 交集 ['JP3734800000']"
+  },
+  {
+   "company": "valeo",
+   "field": "lei",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF VALEO ACTIVE; Wikidata P1278=['5493006IH2N2WMIBB742']"
+  },
+  {
+   "company": "gcltech",
+   "field": "lei",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF GCL-Poly Energy Holdings Limited ACTIVE; Wikidata P1278=['529900O1QCZWP5IWVY66']"
+  },
+  {
+   "company": "capchem",
+   "field": "revenue",
+   "grade": "A",
+   "source": "东方财富(交易所定期报告)",
+   "ok": true,
+   "detail": "回源值 9639167832.52"
+  },
+  {
+   "company": "micron",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo MU 回源 成功"
+  },
+  {
+   "company": "chargepoint",
+   "field": "revenue",
+   "grade": "A",
+   "source": "SEC EDGAR",
+   "ok": true,
+   "detail": "SEC companyfacts 中 2026-01-31 10-K 存在值 411224000"
+  },
+  {
+   "company": "hp",
+   "field": "country",
+   "grade": "B",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "GLEIF 总部 US 注册地 US-DE"
+  },
+  {
+   "company": "jsg",
+   "field": "revenue",
+   "grade": "A",
+   "source": "东方财富(交易所定期报告)",
+   "ok": true,
+   "detail": "回源值 11357487102.93"
+  },
+  {
+   "company": "senior",
+   "field": "revenue",
+   "grade": "A",
+   "source": "东方财富(交易所定期报告)",
+   "ok": true,
+   "detail": "回源值 4125372108.61"
+  },
+  {
+   "company": "mercedes",
+   "field": "lei",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF Mercedes-Benz Group AG ACTIVE; Wikidata P1278=['529900R27DL06UVNT076']"
+  },
+  {
+   "company": "samsungsdi",
+   "field": "country",
+   "grade": "B",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "GLEIF 总部 KR 注册地 KR"
+  },
+  {
+   "company": "ase",
+   "field": "revenue",
+   "grade": "A",
+   "source": "SEC EDGAR",
+   "ok": true,
+   "detail": "SEC companyfacts 中 2025-12-31 20-F 存在值 645387710000"
+  },
+  {
+   "company": "renesas",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo 6723.T 回源 成功"
+  },
+  {
+   "company": "adi",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo ADI 回源 成功"
+  },
+  {
+   "company": "solaredge",
+   "field": "marketCap",
+   "grade": "A",
+   "source": "Yahoo Finance",
+   "ok": true,
+   "detail": "回源市值 2016198784（差 0.0%，容差 5% 以容纳价格变动）"
+  },
+  {
+   "company": "wistron",
+   "field": "country",
+   "grade": "B",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "GLEIF 总部 TW 注册地 TW"
+  },
+  {
+   "company": "renesas",
+   "field": "country",
+   "grade": "B",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "GLEIF 总部 JP 注册地 JP"
+  },
+  {
+   "company": "sma",
+   "field": "country",
+   "grade": "B",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "GLEIF 总部 DE 注册地 DE"
+  },
+  {
+   "company": "enphase",
+   "field": "marketCap",
+   "grade": "A",
+   "source": "Yahoo Finance",
+   "ok": true,
+   "detail": "回源市值 4235235840（差 0.0%，容差 5% 以容纳价格变动）"
+  },
+  {
+   "company": "jinko",
+   "field": "revenue",
+   "grade": "A",
+   "source": "东方财富(交易所定期报告)",
+   "ok": true,
+   "detail": "回源值 65491869060.27"
+  },
+  {
+   "company": "sma",
+   "field": "isin",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF 回源 ISIN 交集 ['DE000A0DJ6J9']"
+  },
+  {
+   "company": "sqm",
+   "field": "revenue",
+   "grade": "B",
+   "source": "SEC EDGAR",
+   "ok": true,
+   "detail": "SEC companyfacts 中 2024-12-31 20-F 存在值 4528761000"
+  },
+  {
+   "company": "airliquide",
+   "field": "lei",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF L'AIR LIQUIDE SOCIETE ANONYME POUR L'ETUDE ET L'EXPLOITATION DES PROCEDES GEORGES CLAUDE ACTIVE; Wikidata P1278=['969500MMPQVHK671GT54']"
+  },
+  {
+   "company": "shuangliang",
+   "field": "revenue",
+   "grade": "A",
+   "source": "东方财富(交易所定期报告)",
+   "ok": true,
+   "detail": "回源值 7565019147.05"
+  },
+  {
+   "company": "chargepoint",
+   "field": "marketCap",
+   "grade": "A",
+   "source": "Yahoo Finance",
+   "ok": true,
+   "detail": "回源市值 218561648（差 0.1%，容差 5% 以容纳价格变动）"
+  },
+  {
+   "company": "nsig",
+   "field": "revenue",
+   "grade": "A",
+   "source": "东方财富(交易所定期报告)",
+   "ok": true,
+   "detail": "回源值 3716030112.23"
+  },
+  {
+   "company": "bmw",
+   "field": "lei",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF Bayerische Motoren Werke Aktiengesellschaft ACTIVE; Wikidata P1278=['YEH5ZCD6E441RHVHD759']"
+  },
+  {
+   "company": "array",
+   "field": "revenue",
+   "grade": "A",
+   "source": "SEC EDGAR",
+   "ok": true,
+   "detail": "SEC companyfacts 中 2025-12-31 10-K 存在值 1284141000"
+  },
+  {
+   "company": "maxwell",
+   "field": "lei",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF Maxwell Technologies, Inc. ACTIVE; Wikidata P1278=['L8JJX40HELDP30GSJD33']"
+  },
+  {
+   "company": "ford",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo F 回源 成功"
+  },
+  {
+   "company": "onsemi",
+   "field": "isin",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF 回源 ISIN 交集 ['US6821891057']"
+  },
+  {
+   "company": "tianqi",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo 002466.SZ 回源 成功"
+  },
+  {
+   "company": "dell",
+   "field": "revenue",
+   "grade": "A",
+   "source": "SEC EDGAR",
+   "ok": true,
+   "detail": "SEC companyfacts 中 2026-01-30 10-K 存在值 113538000000"
+  },
+  {
+   "company": "umc",
+   "field": "revenue",
+   "grade": "B",
+   "source": "SEC EDGAR",
+   "ok": true,
+   "detail": "SEC companyfacts 中 2024-12-31 20-F 存在值 232302584000"
+  },
+  {
+   "company": "maxwell",
+   "field": "isin",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF 回源 ISIN 交集 ['US5777671067']"
+  },
+  {
+   "company": "sony",
+   "field": "revenue",
+   "grade": "B",
+   "source": "SEC EDGAR",
+   "ok": true,
+   "detail": "SEC companyfacts 中 2025-03-31 20-F 存在值 12957064000000"
+  },
+  {
+   "company": "gf",
+   "field": "lei",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF GLOBALFOUNDRIES INC. ACTIVE; Wikidata P1278=['549300BA76VK784VMX48']"
+  },
+  {
+   "company": "adi",
+   "field": "revenue",
+   "grade": "A",
+   "source": "SEC EDGAR",
+   "ok": true,
+   "detail": "SEC companyfacts 中 2025-11-01 10-K 存在值 11019707000"
+  },
+  {
+   "company": "alphabet",
+   "field": "revenue",
+   "grade": "A",
+   "source": "SEC EDGAR",
+   "ok": true,
+   "detail": "SEC companyfacts 中 2025-12-31 10-K 存在值 402836000000"
+  },
+  {
+   "company": "albemarle",
+   "field": "marketCap",
+   "grade": "A",
+   "source": "Yahoo Finance",
+   "ok": true,
+   "detail": "回源市值 11108996096（差 0.2%，容差 5% 以容纳价格变动）"
+  },
+  {
+   "company": "sony",
+   "field": "country",
+   "grade": "B",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "GLEIF 总部 JP 注册地 JP"
+  },
+  {
+   "company": "samsung",
+   "field": "country",
+   "grade": "B",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "GLEIF 总部 KR 注册地 KR"
+  },
+  {
+   "company": "asml",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo ASML.AS 回源 成功"
+  },
+  {
+   "company": "amd",
+   "field": "country",
+   "grade": "B",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "GLEIF 总部 US 注册地 US-DE"
+  },
+  {
+   "company": "sma",
+   "field": "lei",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF SMA Solar Technology AG ACTIVE; Wikidata P1278=['529900Q6JQHI8X451Q21']"
+  },
+  {
+   "company": "foxconn",
+   "field": "country",
+   "grade": "B",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "GLEIF 总部 TW 注册地 TW"
+  },
+  {
+   "company": "sunrun",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo RUN 回源 成功"
+  },
+  {
+   "company": "xiaomi",
+   "field": "isin",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF 回源 ISIN 交集 ['KYG9830T1067']"
+  },
+  {
+   "company": "nvidia",
+   "field": "lei",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF NVIDIA CORPORATION ACTIVE; Wikidata P1278=['549300S4KLFTLO7GSQ80']"
+  },
+  {
+   "company": "linde",
+   "field": "lei",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF LINDE PUBLIC LIMITED COMPANY ACTIVE; Wikidata P1278=['8945002PAZHZLBGKGF02', '5299003QR1WT0EF88V51']"
+  },
+  {
+   "company": "amat",
+   "field": "revenue",
+   "grade": "A",
+   "source": "SEC EDGAR",
+   "ok": true,
+   "detail": "SEC companyfacts 中 2025-10-26 10-K 存在值 28368000000"
+  },
+  {
+   "company": "gf",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo GFS 回源 成功"
+  },
+  {
+   "company": "tfme",
+   "field": "revenue",
+   "grade": "A",
+   "source": "东方财富(交易所定期报告)",
+   "ok": true,
+   "detail": "回源值 27921424656.15"
+  },
+  {
+   "company": "tesla",
+   "field": "isin",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF 回源 ISIN 交集 ['US88160R1014']"
+  },
+  {
+   "company": "arm",
+   "field": "revenue",
+   "grade": "A",
+   "source": "SEC EDGAR",
+   "ok": true,
+   "detail": "SEC companyfacts 中 2026-03-31 20-F 存在值 4920000000"
+  },
+  {
+   "company": "linde",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo LIN 回源 成功"
+  },
+  {
+   "company": "solaredge",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo SEDG 回源 成功"
+  },
+  {
+   "company": "gigadevice",
+   "field": "revenue",
+   "grade": "A",
+   "source": "东方财富(交易所定期报告)",
+   "ok": true,
+   "detail": "回源值 9203463124.58"
+  },
+  {
+   "company": "ford",
+   "field": "marketCap",
+   "grade": "A",
+   "source": "Yahoo Finance",
+   "ok": true,
+   "detail": "回源市值 47552081920（差 0.0%，容差 5% 以容纳价格变动）"
+  },
+  {
+   "company": "shinetsu",
+   "field": "lei",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF 信越化学工業株式会社 ACTIVE; Wikidata P1278=['353800PX8Q64N86H5W41']"
+  },
+  {
+   "company": "ti",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo TXN 回源 成功"
+  },
+  {
+   "company": "teradyne",
+   "field": "revenue",
+   "grade": "A",
+   "source": "SEC EDGAR",
+   "ok": true,
+   "detail": "SEC companyfacts 中 2025-12-31 10-K 存在值 3190024000"
+  },
+  {
+   "company": "gm",
+   "field": "lei",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF GENERAL MOTORS COMPANY ACTIVE; Wikidata P1278=['54930070NSV60J38I987']"
+  },
+  {
+   "company": "shinetsu",
+   "field": "isin",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF 回源 ISIN 交集 ['JP3371200001']"
+  },
+  {
+   "company": "st",
+   "field": "isin",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF 回源 ISIN 交集 ['NL0000226223']"
+  },
+  {
+   "company": "onsemi",
+   "field": "marketCap",
+   "grade": "A",
+   "source": "Yahoo Finance",
+   "ok": true,
+   "detail": "回源市值 29797939200（差 0.2%，容差 5% 以容纳价格变动）"
+  },
+  {
+   "company": "sqm",
+   "field": "isin",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF 回源 ISIN 交集 ['US8336351056']"
+  },
+  {
+   "company": "amkor",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo AMKR 回源 成功"
+  },
+  {
+   "company": "xiaomi",
+   "field": "lei",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF Xiaomi Corporation ACTIVE; Wikidata P1278=['2549001ACVFAZRNMKL32']"
+  },
+  {
+   "company": "enphase",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo ENPH 回源 成功"
+  },
+  {
+   "company": "renesas",
+   "field": "isin",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF 回源 ISIN 交集 ['JP3164720009']"
+  },
+  {
+   "company": "lgd",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo 034220.KS 回源 成功"
+  },
+  {
+   "company": "bmw",
+   "field": "country",
+   "grade": "B",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "GLEIF 总部 DE 注册地 DE"
+  },
+  {
+   "company": "canadian",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo CSIQ 回源 成功"
+  },
+  {
+   "company": "toyota",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo 7203.T 回源 成功"
+  },
+  {
+   "company": "tclzh",
+   "field": "revenue",
+   "grade": "A",
+   "source": "东方财富(交易所定期报告)",
+   "ok": true,
+   "detail": "回源值 29050247640.35"
+  },
+  {
+   "company": "marvell",
+   "field": "marketCap",
+   "grade": "A",
+   "source": "Yahoo Finance",
+   "ok": true,
+   "detail": "回源市值 219140128768（差 0.1%，容差 5% 以容纳价格变动）"
+  },
+  {
+   "company": "kla",
+   "field": "lei",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF KLA CORPORATION ACTIVE; Wikidata P1278=['549300H0BF5JCG96TJ81']"
+  },
+  {
+   "company": "enphase",
+   "field": "country",
+   "grade": "B",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "GLEIF 总部 US 注册地 US-DE"
+  },
+  {
+   "company": "tongwei",
+   "field": "revenue",
+   "grade": "A",
+   "source": "东方财富(交易所定期报告)",
+   "ok": true,
+   "detail": "回源值 84128281703.14"
+  },
+  {
+   "company": "airliquide",
+   "field": "country",
+   "grade": "B",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "GLEIF 总部 FR 注册地 FR"
+  },
+  {
+   "company": "microchip",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo MCHP 回源 成功"
+  },
+  {
+   "company": "amd",
+   "field": "revenue",
+   "grade": "A",
+   "source": "SEC EDGAR",
+   "ok": true,
+   "detail": "SEC companyfacts 中 2025-12-27 10-K 存在值 34639000000"
+  },
+  {
+   "company": "amkor",
+   "field": "lei",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF AMKOR TECHNOLOGY, INC. ACTIVE; Wikidata P1278=['529900VHLRTKPWZJBM84']"
+  },
+  {
+   "company": "sumco",
+   "field": "isin",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF 回源 ISIN 交集 ['JP3322930003']"
+  },
+  {
+   "company": "polestar",
+   "field": "country",
+   "grade": "B",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "GLEIF 总部 SE 注册地 SE"
+  },
+  {
+   "company": "saic",
+   "field": "country",
+   "grade": "B",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "GLEIF 总部 CN 注册地 CN"
+  },
+  {
+   "company": "asml",
+   "field": "lei",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF ASML Holding N.V. ACTIVE; Wikidata P1278=['724500Y6DUVHQD6OXN27']"
+  },
+  {
+   "company": "microchip",
+   "field": "marketCap",
+   "grade": "A",
+   "source": "Yahoo Finance",
+   "ok": true,
+   "detail": "回源市值 41743794176（差 0.2%，容差 5% 以容纳价格变动）"
+  },
+  {
+   "company": "saic",
+   "field": "revenue",
+   "grade": "A",
+   "source": "东方财富(交易所定期报告)",
+   "ok": true,
+   "detail": "回源值 656243812081.18"
+  },
+  {
+   "company": "nextera",
+   "field": "revenue",
+   "grade": "B",
+   "source": "SEC EDGAR",
+   "ok": true,
+   "detail": "SEC companyfacts 中 2012-12-31 10-K 存在值 14256000000"
+  },
+  {
+   "company": "cadence",
+   "field": "revenue",
+   "grade": "A",
+   "source": "SEC EDGAR",
+   "ok": true,
+   "detail": "SEC companyfacts 中 2025-12-31 10-K 存在值 5296759000"
+  },
+  {
+   "company": "ti",
+   "field": "marketCap",
+   "grade": "A",
+   "source": "Yahoo Finance",
+   "ok": true,
+   "detail": "回源市值 262522175488（差 0.0%，容差 5% 以容纳价格变动）"
+  },
+  {
+   "company": "albemarle",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo ALB 回源 成功"
+  },
+  {
+   "company": "advantest",
+   "field": "lei",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF 株式会社アドバンテスト ACTIVE; Wikidata P1278=['353800EMK32PDKS9XR54']"
+  },
+  {
+   "company": "iberdrola",
+   "field": "country",
+   "grade": "B",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "GLEIF 总部 ES 注册地 ES"
+  },
+  {
+   "company": "entegris",
+   "field": "lei",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF ENTEGRIS, INC. ACTIVE; Wikidata P1278=['IYX6OWO7BT5DKO3BYG52']"
+  },
+  {
+   "company": "jd",
+   "field": "revenue",
+   "grade": "A",
+   "source": "SEC EDGAR",
+   "ok": true,
+   "detail": "SEC companyfacts 中 2025-12-31 20-F 存在值 1309085000000"
+  },
+  {
+   "company": "semcorp",
+   "field": "revenue",
+   "grade": "A",
+   "source": "东方财富(交易所定期报告)",
+   "ok": true,
+   "detail": "回源值 13632727136.01"
+  },
+  {
+   "company": "flex",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo FLEX 回源 成功"
+  },
+  {
+   "company": "geely",
+   "field": "lei",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF 吉利汽車控股有限公司 ACTIVE; Wikidata P1278=['549300YS3T1KVQ2SNI84']"
+  },
+  {
+   "company": "microsoft",
+   "field": "marketCap",
+   "grade": "A",
+   "source": "Yahoo Finance",
+   "ok": true,
+   "detail": "回源市值 3949499252736（差 0.0%，容差 5% 以容纳价格变动）"
+  },
+  {
+   "company": "amat",
+   "field": "lei",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF APPLIED MATERIALS, INC. ACTIVE; Wikidata P1278=['41BNNE1AFPNAZELZ6K07']"
+  },
+  {
+   "company": "ti",
+   "field": "country",
+   "grade": "B",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "GLEIF 总部 US 注册地 US-DE"
+  },
+  {
+   "company": "mediatek",
+   "field": "country",
+   "grade": "B",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "GLEIF 总部 TW 注册地 TW"
+  },
+  {
+   "company": "alphabet",
+   "field": "lei",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF ALPHABET INC. ACTIVE; Wikidata P1278=['5493006MHB84DD0ZWV18']"
+  },
+  {
+   "company": "amazon",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo AMZN 回源 成功"
+  },
+  {
+   "company": "entegris",
+   "field": "isin",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF 回源 ISIN 交集 ['US29362U1043']"
+  },
+  {
+   "company": "sumco",
+   "field": "country",
+   "grade": "B",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "GLEIF 总部 JP 注册地 JP"
+  },
+  {
+   "company": "mobileye",
+   "field": "revenue",
+   "grade": "A",
+   "source": "SEC EDGAR",
+   "ok": true,
+   "detail": "SEC companyfacts 中 2025-12-27 10-K 存在值 1894000000"
+  },
+  {
+   "company": "screen",
+   "field": "isin",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF 回源 ISIN 交集 ['JP3494600004']"
+  },
+  {
+   "company": "fluence",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo FLNC 回源 成功"
+  },
+  {
+   "company": "flat",
+   "field": "country",
+   "grade": "B",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "GLEIF 总部 CN 注册地 CN"
+  },
+  {
+   "company": "sony",
+   "field": "isin",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF 回源 ISIN 交集 ['JP3435000009']"
+  },
+  {
+   "company": "bestbuy",
+   "field": "country",
+   "grade": "B",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "GLEIF 总部 US 注册地 US-MN"
+  },
+  {
+   "company": "st",
+   "field": "country",
+   "grade": "B",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "GLEIF 总部 CH 注册地 NL"
+  },
+  {
+   "company": "bestbuy",
+   "field": "isin",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF 回源 ISIN 交集 ['US0865161014']"
+  },
+  {
+   "company": "wacker",
+   "field": "lei",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF Wacker Chemie AG ACTIVE; Wikidata P1278=['0NURKC5Q3CJYZPPK5046']"
+  },
+  {
+   "company": "sumco",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo 3436.T 回源 成功"
+  },
+  {
+   "company": "ti",
+   "field": "revenue",
+   "grade": "A",
+   "source": "SEC EDGAR",
+   "ok": true,
+   "detail": "SEC companyfacts 中 2025-12-31 10-K 存在值 17682000000"
+  },
+  {
+   "company": "shinetsu",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo 4063.T 回源 成功"
+  },
+  {
+   "company": "kla",
+   "field": "marketCap",
+   "grade": "A",
+   "source": "Yahoo Finance",
+   "ok": true,
+   "detail": "回源市值 214582198272（差 0.1%，容差 5% 以容纳价格变动）"
+  },
+  {
+   "company": "adi",
+   "field": "country",
+   "grade": "B",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "GLEIF 总部 US 注册地 US-MA"
+  },
+  {
+   "company": "kla",
+   "field": "isin",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF 回源 ISIN 交集 ['US4824801009']"
+  },
+  {
+   "company": "byd",
+   "field": "country",
+   "grade": "B",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "GLEIF 总部 CN 注册地 CN"
+  },
+  {
+   "company": "cambricon",
+   "field": "revenue",
+   "grade": "A",
+   "source": "东方财富(交易所定期报告)",
+   "ok": true,
+   "detail": "回源值 6497196198.68"
+  },
+  {
+   "company": "st",
+   "field": "lei",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF STMICROELECTRONICS N.V. ACTIVE; Wikidata P1278=['213800Z8NOHIKRI42W10', '984500C1CEE9D475BC11']"
+  },
+  {
+   "company": "adi",
+   "field": "marketCap",
+   "grade": "A",
+   "source": "Yahoo Finance",
+   "ok": true,
+   "detail": "回源市值 196578525184（差 0.1%，容差 5% 以容纳价格变动）"
+  },
+  {
+   "company": "toyota",
+   "field": "isin",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF 回源 ISIN 交集 ['JP3633400001']"
+  },
+  {
+   "company": "screen",
+   "field": "lei",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF 株式会社SCREENホールディングス ACTIVE; Wikidata P1278=['353800ND89FTQ9XQ0R07']"
+  },
+  {
+   "company": "flex",
+   "field": "marketCap",
+   "grade": "A",
+   "source": "Yahoo Finance",
+   "ok": true,
+   "detail": "回源市值 32314857472（差 0.1%，容差 5% 以容纳价格变动）"
+  },
+  {
+   "company": "microchip",
+   "field": "lei",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF MICROCHIP TECHNOLOGY INCORPORATED ACTIVE; Wikidata P1278=['5493007PTFULNYZJ1R12']"
+  },
+  {
+   "company": "firstsolar",
+   "field": "country",
+   "grade": "B",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "GLEIF 总部 US 注册地 US-DE"
+  },
+  {
+   "company": "intel",
+   "field": "lei",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF INTEL CORPORATION ACTIVE; Wikidata P1278=['KNX4USFCNGPY45LOCE31']"
+  },
+  {
+   "company": "asml",
+   "field": "isin",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF 回源 ISIN 交集 ['NL0010273215']"
+  },
+  {
+   "company": "umc",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo 2303.TW 回源 成功"
+  },
+  {
+   "company": "stellantis",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo STLA 回源 成功"
+  },
+  {
+   "company": "onsemi",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo ON 回源 成功"
+  },
+  {
+   "company": "amkor",
+   "field": "marketCap",
+   "grade": "A",
+   "source": "Yahoo Finance",
+   "ok": true,
+   "detail": "回源市值 10815135744（差 0.2%，容差 5% 以容纳价格变动）"
+  },
+  {
+   "company": "microchip",
+   "field": "country",
+   "grade": "B",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "GLEIF 总部 US 注册地 US-DE"
+  },
+  {
+   "company": "cadence",
+   "field": "lei",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF CADENCE DESIGN SYSTEMS, INC. ACTIVE; Wikidata P1278=['GCT7RXJOGLXPV0NXZY22']"
+  },
+  {
+   "company": "teradyne",
+   "field": "marketCap",
+   "grade": "A",
+   "source": "Yahoo Finance",
+   "ok": true,
+   "detail": "回源市值 54467555328（差 0.1%，容差 5% 以容纳价格变动）"
+  },
+  {
+   "company": "airliquide",
+   "field": "isin",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF 回源 ISIN 交集 ['FR0000120073']"
+  },
+  {
+   "company": "stellantis",
+   "field": "lei",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF STELLANTIS N.V. ACTIVE; Wikidata P1278=['549300LKT9PW7ZIBDF31', '549300LKT9PW7ZIBDF31']"
+  },
+  {
+   "company": "screen",
+   "field": "country",
+   "grade": "B",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "GLEIF 总部 JP 注册地 JP"
+  },
+  {
+   "company": "sanhua",
+   "field": "revenue",
+   "grade": "A",
+   "source": "东方财富(交易所定期报告)",
+   "ok": true,
+   "detail": "回源值 31011744510.27"
+  },
+  {
+   "company": "microsoft",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo MSFT 回源 成功"
+  },
+  {
+   "company": "amkor",
+   "field": "isin",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF 回源 ISIN 交集 ['US0316521006']"
+  },
+  {
+   "company": "gaoce",
+   "field": "revenue",
+   "grade": "A",
+   "source": "东方财富(交易所定期报告)",
+   "ok": true,
+   "detail": "回源值 3649841529.46"
+  },
+  {
+   "company": "amkor",
+   "field": "revenue",
+   "grade": "A",
+   "source": "SEC EDGAR",
+   "ok": true,
+   "detail": "SEC companyfacts 中 2025-12-31 10-K 存在值 6707981000"
+  },
+  {
+   "company": "nextera",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo NEE 回源 成功"
+  },
+  {
+   "company": "pilbara",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo PLS.AX 回源 成功"
+  },
+  {
+   "company": "marvell",
+   "field": "lei",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF Marvell Technology Group Ltd. ACTIVE; Wikidata P1278=['8DF36O58U3QIHUCGZB18']"
+  },
+  {
+   "company": "nio",
+   "field": "country",
+   "grade": "B",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "GLEIF 总部 CN 注册地 KY"
+  },
+  {
+   "company": "daqo",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo 688303.SS 回源 成功"
+  },
+  {
+   "company": "microsoft",
+   "field": "lei",
+   "grade": "A",
+   "source": "Wikidata",
+   "ok": true,
+   "detail": "GLEIF MICROSOFT CORPORATION ACTIVE; Wikidata P1278=['INR2EJN1ERAN0W5ZP974']"
+  },
+  {
+   "company": "starpower",
+   "field": "revenue",
+   "grade": "A",
+   "source": "东方财富(交易所定期报告)",
+   "ok": true,
+   "detail": "回源值 4012395321.49"
+  },
+  {
+   "company": "broadcom",
+   "field": "revenue",
+   "grade": "A",
+   "source": "SEC EDGAR",
+   "ok": true,
+   "detail": "SEC companyfacts 中 2025-11-02 10-K 存在值 63887000000"
+  },
+  {
+   "company": "omnivision",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo 603501.SS 回源 成功"
+  },
+  {
+   "company": "shangji",
+   "field": "revenue",
+   "grade": "B",
+   "source": "东方财富(交易所定期报告)",
+   "ok": true,
+   "detail": "回源值 7425484990.95"
+  },
+  {
+   "company": "boe",
+   "field": "revenue",
+   "grade": "A",
+   "source": "东方财富(交易所定期报告)",
+   "ok": true,
+   "detail": "回源值 204590222888"
+  },
+  {
+   "company": "catl",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo 300750.SZ 回源 成功"
+  },
+  {
+   "company": "tel",
+   "field": "country",
+   "grade": "B",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "GLEIF 总部 JP 注册地 JP"
+  },
+  {
+   "company": "flex",
+   "field": "revenue",
+   "grade": "A",
+   "source": "SEC EDGAR",
+   "ok": true,
+   "detail": "SEC companyfacts 中 2026-03-31 10-K 存在值 27914000000"
+  },
+  {
+   "company": "huahong",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo 1347.HK 回源 成功"
+  },
+  {
+   "company": "tsmc",
+   "field": "ticker",
+   "grade": "A",
+   "source": "种子名录",
+   "ok": true,
+   "detail": "Yahoo 2330.TW 回源 成功"
+  }
+ ]
+}

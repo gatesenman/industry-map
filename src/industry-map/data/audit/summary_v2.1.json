@@ -1,0 +1,91 @@
+{
+ "round": "v2.1",
+ "date": "2026-10-23",
+ "claimBasis": "overallVerified (A/B/C；待核实与已删除不计入)",
+ "fields": {
+  "n": 200,
+  "correct": 198,
+  "acc": 0.99,
+  "ci95": [
+   0.9643,
+   0.9973
+  ],
+  "byField": {
+   "ticker": {
+    "n": 37,
+    "correct": 37
+   },
+   "revenue": {
+    "n": 35,
+    "correct": 35
+   },
+   "marketCap": {
+    "n": 40,
+    "correct": 38
+   },
+   "isin": {
+    "n": 21,
+    "correct": 21
+   },
+   "lei": {
+    "n": 37,
+    "correct": 37
+   },
+   "country": {
+    "n": 30,
+    "correct": 30
+   }
+  },
+  "failures": [
+   {
+    "company": "jietai",
+    "field": "marketCap",
+    "grade": "A",
+    "source": "Yahoo Finance",
+    "ok": false,
+    "detail": "回源市值 10175286272（差 8.7%，容差 5% 以容纳价格变动）"
+   },
+   {
+    "company": "risen",
+    "field": "marketCap",
+    "grade": "A",
+    "source": "Yahoo Finance",
+    "ok": false,
+    "detail": "回源市值 8846508032（差 5.4%，容差 5% 以容纳价格变动）"
+   }
+  ],
+  "note": "Yahoo 市值瞬时差价（容差 5%）；.SZ 接口 401，未强行改写"
+ },
+ "relations": {
+  "n": 307,
+  "correct": 307,
+  "acc": 1.0,
+  "ci95": [
+   0.9876,
+   1.0
+  ],
+  "method": "累计历史抽检 + v2.1 对变更/新增 3 条逐句复核 SEC 一手原文；待核实 5 条不计入主张集",
+  "meets98": true,
+  "gradeCounts": {
+   "A": 42,
+   "B": 219,
+   "C": 46,
+   "待核实": 5
+  },
+  "v2.1_changes": [
+   "tsmc>samsung>竞争→A",
+   "samsung>tsmc>竞争→A",
+   "gf>samsung>竞争→B"
+  ]
+ },
+ "overall": {
+  "n": 507,
+  "correct": 505,
+  "acc": 0.9961,
+  "ci95": [
+   0.9857,
+   0.9989
+  ],
+  "meets98": true
+ }
+}

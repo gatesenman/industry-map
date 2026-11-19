@@ -1,0 +1,147 @@
+{
+ "round": "v3.1",
+ "date": "2026-11-02",
+ "method": "v3.1 人工逐句复核 SEC 一手原文",
+ "items": [
+  {
+   "key": "hp>apple>竞争",
+   "verdict": "correct",
+   "comment": "HP FY2025 10-K（2025-12-10）“primary competitors”原句点名 Apple"
+  },
+  {
+   "key": "hp>dell>竞争",
+   "verdict": "correct",
+   "comment": "HP FY2025 10-K（2025-12-10）“primary competitors”原句点名 Dell"
+  },
+  {
+   "key": "hp>samsung>竞争",
+   "verdict": "correct",
+   "comment": "HP FY2025 10-K（2025-12-10）“primary competitors”原句点名 Samsung Electronics"
+  },
+  {
+   "key": "hp>lenovo>竞争",
+   "verdict": "correct",
+   "comment": "HP FY2025 10-K（2025-12-10）“primary competitors”原句点名 Lenovo（联想）"
+  },
+  {
+   "key": "hp>microsoft>竞争",
+   "verdict": "correct",
+   "comment": "HP FY2025 10-K（2025-12-10）“primary competitors”原句点名 Microsoft"
+  },
+  {
+   "key": "intel>hp>供货",
+   "verdict": "correct",
+   "comment": "HP FY2025 10-K：平台采用 Intel、AMD 处理器与 NVIDIA GPU"
+  },
+  {
+   "key": "amd>hp>供货",
+   "verdict": "correct",
+   "comment": "HP FY2025 10-K：平台采用 Intel、AMD 处理器与 NVIDIA GPU"
+  },
+  {
+   "key": "nvidia>hp>供货",
+   "verdict": "correct",
+   "comment": "HP FY2025 10-K：平台采用 Intel、AMD 处理器与 NVIDIA GPU"
+  },
+  {
+   "key": "qualcomm>apple>供货",
+   "verdict": "correct",
+   "comment": "Qualcomm FY2025 10-K（2025-11-05）：Apple 为占营收 10% 以上客户"
+  },
+  {
+   "key": "qualcomm>samsung>供货",
+   "verdict": "correct",
+   "comment": "Qualcomm FY2025 10-K（2025-11-05）：Samsung 为占营收 10% 以上客户"
+  },
+  {
+   "key": "qualcomm>xiaomi>供货",
+   "verdict": "correct",
+   "comment": "Qualcomm FY2025 10-K（2025-11-05）：Xiaomi（小米） 为占营收 10% 以上客户"
+  },
+  {
+   "key": "qualcomm>transsion>授权",
+   "verdict": "correct",
+   "comment": "Qualcomm FY2025 10-K：2025 财年 Q2 与传音签署 4G/5G 全面专利许可协议，双方诉讼撤销"
+  },
+  {
+   "key": "qualcomm>broadcom>竞争",
+   "verdict": "correct",
+   "comment": "Qualcomm FY2025 10-K 竞争对手原句点名 Broadcom"
+  },
+  {
+   "key": "qualcomm>mediatek>竞争",
+   "verdict": "correct",
+   "comment": "Qualcomm FY2025 10-K 竞争对手原句点名 MediaTek（联发科）"
+  },
+  {
+   "key": "qualcomm>mobileye>竞争",
+   "verdict": "correct",
+   "comment": "Qualcomm FY2025 10-K 竞争对手原句点名 Mobileye"
+  },
+  {
+   "key": "qualcomm>nvidia>竞争",
+   "verdict": "correct",
+   "comment": "Qualcomm FY2025 10-K 竞争对手原句点名 Nvidia"
+  },
+  {
+   "key": "qualcomm>nxp>竞争",
+   "verdict": "correct",
+   "comment": "Qualcomm FY2025 10-K 竞争对手原句点名 NXP"
+  },
+  {
+   "key": "qualcomm>samsung>竞争",
+   "verdict": "correct",
+   "comment": "Qualcomm FY2025 10-K 竞争对手原句点名 Samsung"
+  },
+  {
+   "key": "qualcomm>ti>竞争",
+   "verdict": "correct",
+   "comment": "Qualcomm FY2025 10-K 竞争对手原句点名 Texas Instruments"
+  },
+  {
+   "key": "tsmc>qualcomm>供货",
+   "verdict": "correct",
+   "comment": "Qualcomm FY2025 10-K：TSMC（台积电） 为主要晶圆代工供应商"
+  },
+  {
+   "key": "samsung>qualcomm>供货",
+   "verdict": "correct",
+   "comment": "Qualcomm FY2025 10-K：Samsung Electronics 为主要晶圆代工供应商"
+  },
+  {
+   "key": "gf>qualcomm>供货",
+   "verdict": "correct",
+   "comment": "Qualcomm FY2025 10-K：GlobalFoundries 为主要晶圆代工供应商"
+  },
+  {
+   "key": "ase>qualcomm>供货",
+   "verdict": "correct",
+   "comment": "Qualcomm FY2025 10-K：ASE（日月光） 为主要封测供应商，B→A"
+  },
+  {
+   "key": "amkor>qualcomm>供货",
+   "verdict": "correct",
+   "comment": "Qualcomm FY2025 10-K：Amkor 为主要封测供应商，B→A"
+  },
+  {
+   "key": "apple>bestbuy>供货",
+   "verdict": "correct",
+   "comment": "Best Buy FY2026 10-K（2026-03-18）：Apple 为五大供应商之一（五家合计约占采购额 55%）"
+  },
+  {
+   "key": "samsung>bestbuy>供货",
+   "verdict": "correct",
+   "comment": "Best Buy FY2026 10-K（2026-03-18）：Samsung 为五大供应商之一（五家合计约占采购额 55%）"
+  },
+  {
+   "key": "hp>bestbuy>供货",
+   "verdict": "correct",
+   "comment": "Best Buy FY2026 10-K（2026-03-18）：HP 为五大供应商之一（五家合计约占采购额 55%）"
+  },
+  {
+   "key": "sony>bestbuy>供货",
+   "verdict": "correct",
+   "comment": "Best Buy FY2026 10-K（2026-03-18）：Sony 为五大供应商之一（五家合计约占采购额 55%）"
+  }
+ ]
+}

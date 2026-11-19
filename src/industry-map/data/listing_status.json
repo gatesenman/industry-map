@@ -1,0 +1,17 @@
+{
+ "_doc": "v2.6 人工核实的上市状态（已摘牌/私有化）。refresh.py 据此跳过行情抓取并写入 company.delisted；verify.py 将 ticker 判为 X（历史代码），来源为交易所/SEC 一手文件。",
+ "catalent": {
+  "status": "已摘牌（被 Novo Holdings 收购私有化）",
+  "ticker": "CTLT", "exchange": "NYSE", "date": "2024-12-18",
+  "source": "SEC EDGAR 8-K", "form": "8-K",
+  "url": "https://www.sec.gov/Archives/edgar/data/1596783/000119312524280922/d902883d8k.htm",
+  "quote": "On December 18, 2024, Novo Holdings A/S (“Novo Holdings”) completed the acquisition of Catalent, Inc. … Trading of the Common Stock on the NYSE was suspended prior to the opening of trading on December 18, 2024.",
+  "retrieved": "2026-10-28",
+  "note": "历史代码 NYSE:CTLT；2024-12-18 收购完成、NYSE 停牌（8-K Item 2.01/3.01），NYSE 同日提交 Form 25-NSE，2024-12-30 提交 Form 15-12G 终止注册。Yahoo CTLT 已 404，不再抓取行情/市值。",
+  "sources": [
+   {"source": "SEC EDGAR 8-K", "form": "8-K", "date": "2024-12-18", "url": "https://www.sec.gov/Archives/edgar/data/1596783/000119312524280922/d902883d8k.htm", "tier": "T1"},
+   {"source": "SEC EDGAR 25-NSE", "form": "25-NSE", "date": "2024-12-18", "url": "https://www.sec.gov/Archives/edgar/data/1596783/000087666124001185/0000876661-24-001185-index.htm", "tier": "T1"},
+   {"source": "SEC EDGAR 15-12G", "form": "15-12G", "date": "2024-12-30", "url": "https://www.sec.gov/Archives/edgar/data/1596783/000119312524286216/0001193125-24-286216-index.htm", "tier": "T1"}
+  ]
+ }
+}

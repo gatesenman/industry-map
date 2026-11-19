@@ -1,0 +1,182 @@
+{
+ "round": "v2.8",
+ "date": "2026-10-30",
+ "method": "v2.8 人工逐句复核 SEC 一手原文",
+ "items": [
+  {
+   "key": "nxp>qualcomm>竞争",
+   "verdict": "correct",
+   "comment": "NXP 2025 年 10-K（2026-02-19）将 Qualcomm 列为主要上市竞争对手"
+  },
+  {
+   "key": "broadcom>nxp>竞争",
+   "verdict": "correct",
+   "comment": "NXP 2025 年 10-K（2026-02-19）将 Broadcom 列为主要上市竞争对手"
+  },
+  {
+   "key": "nxp>adi>竞争",
+   "verdict": "correct",
+   "comment": "NXP 2025 年 10-K（2026-02-19）将 Analog Devices 列为主要上市竞争对手"
+  },
+  {
+   "key": "nxp>infineon>竞争",
+   "verdict": "correct",
+   "comment": "NXP 2025 年 10-K（2026-02-19）将 Infineon 列为主要上市竞争对手"
+  },
+  {
+   "key": "nxp>microchip>竞争",
+   "verdict": "correct",
+   "comment": "NXP 2025 年 10-K（2026-02-19）将 Microchip 列为主要上市竞争对手"
+  },
+  {
+   "key": "nxp>renesas>竞争",
+   "verdict": "correct",
+   "comment": "NXP 2025 年 10-K（2026-02-19）将 Renesas 列为主要上市竞争对手"
+  },
+  {
+   "key": "nxp>st>竞争",
+   "verdict": "correct",
+   "comment": "NXP 2025 年 10-K（2026-02-19）将 STMicroelectronics 列为主要上市竞争对手"
+  },
+  {
+   "key": "nxp>ti>竞争",
+   "verdict": "correct",
+   "comment": "NXP 2025 年 10-K（2026-02-19）将 Texas Instruments 列为主要上市竞争对手"
+  },
+  {
+   "key": "mobileye>qualcomm>竞争",
+   "verdict": "correct",
+   "comment": "Qualcomm FY2025 10-K（2025-11-05）将 Mobileye 列为 QCT 竞争对手"
+  },
+  {
+   "key": "qualcomm>broadcom>竞争",
+   "verdict": "correct",
+   "comment": "Qualcomm FY2025 10-K（2025-11-05）将 Broadcom 列为 QCT 竞争对手"
+  },
+  {
+   "key": "qualcomm>mediatek>竞争",
+   "verdict": "correct",
+   "comment": "Qualcomm FY2025 10-K（2025-11-05）将 MediaTek 列为 QCT 竞争对手"
+  },
+  {
+   "key": "qualcomm>nvidia>竞争",
+   "verdict": "correct",
+   "comment": "Qualcomm FY2025 10-K（2025-11-05）将 Nvidia 列为 QCT 竞争对手"
+  },
+  {
+   "key": "qualcomm>ti>竞争",
+   "verdict": "correct",
+   "comment": "Qualcomm FY2025 10-K（2025-11-05）将 Texas Instruments 列为 QCT 竞争对手"
+  },
+  {
+   "key": "qualcomm>samsung>竞争",
+   "verdict": "correct",
+   "comment": "Qualcomm FY2025 10-K（2025-11-05）将 Samsung 列为 QCT 竞争对手"
+  },
+  {
+   "key": "cadence>synopsys>竞争",
+   "verdict": "correct",
+   "comment": "Cadence 2025 年 10-K（2026-02-19）称 Key competitors include Synopsys；Synopsys FY2025 10-K 已不再点名 Cadence（冲突按日期新、一手为准，以 Cadence 侧为证据）"
+  },
+  {
+   "key": "nvidia>amd>竞争",
+   "verdict": "correct",
+   "comment": "AMD 2025 年 10-K 数据中心板块主要竞争对手点名 Nvidia"
+  },
+  {
+   "key": "amd>intel>竞争",
+   "verdict": "correct",
+   "comment": "AMD 2025 年 10-K 数据中心与客户端 CPU 主要竞争对手为 Intel"
+  },
+  {
+   "key": "amd>adi>竞争",
+   "verdict": "correct",
+   "comment": "AMD 2025 年 10-K 嵌入式板块将 Analog Devices 列为 ASSP 竞争对手"
+  },
+  {
+   "key": "amd>ti>竞争",
+   "verdict": "correct",
+   "comment": "AMD 2025 年 10-K 嵌入式板块将 Texas Instruments 列为 ASSP 竞争对手"
+  },
+  {
+   "key": "amd>marvell>竞争",
+   "verdict": "correct",
+   "comment": "AMD 2025 年 10-K 嵌入式板块将 Marvell 列为 ASSP 竞争对手"
+  },
+  {
+   "key": "amd>nvidia>竞争",
+   "verdict": "correct",
+   "comment": "NVIDIA FY2026 10-K 将 AMD 列为 GPU/加速计算竞争对手（替换原错误的“供货”关系）"
+  },
+  {
+   "key": "nvidia>intel>竞争",
+   "verdict": "correct",
+   "comment": "NVIDIA FY2026 10-K 将 Intel 列为 GPU/加速计算竞争对手"
+  },
+  {
+   "key": "nvidia>broadcom>竞争",
+   "verdict": "correct",
+   "comment": "NVIDIA FY2026 10-K 将 Broadcom 列为服务器/汽车/嵌入式 SoC 竞争对手"
+  },
+  {
+   "key": "nvidia>qualcomm>竞争",
+   "verdict": "correct",
+   "comment": "NVIDIA FY2026 10-K 将 Qualcomm 列为服务器/汽车/嵌入式 SoC 竞争对手"
+  },
+  {
+   "key": "nvidia>renesas>竞争",
+   "verdict": "correct",
+   "comment": "NVIDIA FY2026 10-K 将 Renesas 列为服务器/汽车/嵌入式 SoC 竞争对手"
+  },
+  {
+   "key": "nvidia>samsung>竞争",
+   "verdict": "correct",
+   "comment": "NVIDIA FY2026 10-K 将 Samsung 列为服务器/汽车/嵌入式 SoC 竞争对手"
+  },
+  {
+   "key": "nvidia>alphabet>竞争",
+   "verdict": "correct",
+   "comment": "NVIDIA FY2026 10-K 将 Alphabet 内部 AI 芯片团队列为竞争对手（属自研芯片竞争，口径窄于直接市场竞争，定 B）"
+  },
+  {
+   "key": "nvidia>amazon>竞争",
+   "verdict": "correct",
+   "comment": "NVIDIA FY2026 10-K 将 Amazon 内部 AI 芯片团队列为竞争对手（属自研芯片竞争，口径窄于直接市场竞争，定 B）"
+  },
+  {
+   "key": "nvidia>microsoft>竞争",
+   "verdict": "correct",
+   "comment": "NVIDIA FY2026 10-K 将 Microsoft 内部 AI 芯片团队列为竞争对手（属自研芯片竞争，口径窄于直接市场竞争，定 B）"
+  },
+  {
+   "key": "intel>amd>竞争",
+   "verdict": "correct",
+   "comment": "Intel 2025 年 10-K DCAI 竞争对手点名 AMD（替换原错误的“供货”关系，原句仅为专利诉讼）"
+  },
+  {
+   "key": "intel>nvidia>竞争",
+   "verdict": "correct",
+   "comment": "Intel 2025 年 10-K DCAI 竞争对手点名 NVIDIA"
+  },
+  {
+   "key": "umc>mediatek>供货",
+   "verdict": "correct",
+   "comment": "UMC 2025 年 20-F（2026-04-30）将 MediaTek 列为主要客户"
+  },
+  {
+   "key": "umc>ti>供货",
+   "verdict": "correct",
+   "comment": "UMC 2025 年 20-F（2026-04-30）将 Texas Instruments 列为主要客户"
+  },
+  {
+   "key": "umc>intel>供货",
+   "verdict": "correct",
+   "comment": "UMC 2025 年 20-F（2026-04-30）将 Intel 列为主要客户"
+  },
+  {
+   "key": "samsungsdi>solaredge>竞争",
+   "verdict": "correct",
+   "comment": "SolarEdge 2023 年 10-K（2024-02-26）电池业务竞争对手点名 Samsung SDI；原关系误挂在三星电子（samsung）名下，本轮改挂三星 SDI。SolarEdge 2025 年 10-K 已不再点名，定 B"
+  }
+ ]
+}

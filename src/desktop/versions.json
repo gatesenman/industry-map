@@ -1,0 +1,876 @@
+{
+  "versions": [
+    {
+      "version": "v3.3",
+      "generated": "2026-11-03T22:53:19Z",
+      "companies": 228,
+      "relations": 618,
+      "relationsAB": 561,
+      "industries": [
+        "semi",
+        "nev",
+        "pv",
+        "ce",
+        "ess",
+        "pharma"
+      ],
+      "overallVerified": {
+        "n": 719,
+        "correct": 677,
+        "acc": 0.9416,
+        "ci95": [
+          0.922,
+          0.9565
+        ],
+        "meets98": false,
+        "pointMeets98": false
+      },
+      "relationsVerified": {
+        "n": 559,
+        "correct": 559,
+        "acc": 1.0,
+        "ci95": [
+          0.9932,
+          1.0
+        ],
+        "meets98": true,
+        "pointMeets98": true,
+        "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+        "blocking": null
+      }
+    },
+    {
+      "version": "v3.2",
+      "generated": "2026-11-02T22:59:08Z",
+      "companies": 228,
+      "relations": 604,
+      "relationsAB": 547,
+      "industries": [
+        "semi",
+        "nev",
+        "pv",
+        "ce",
+        "ess",
+        "pharma"
+      ],
+      "overallVerified": {
+        "n": 709,
+        "correct": 673,
+        "acc": 0.9492,
+        "ci95": [
+          0.9305,
+          0.9631
+        ],
+        "meets98": false,
+        "pointMeets98": false
+      },
+      "relationsVerified": {
+        "n": 545,
+        "correct": 545,
+        "acc": 1.0,
+        "ci95": [
+          0.993,
+          1.0
+        ],
+        "meets98": true,
+        "pointMeets98": true,
+        "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+        "blocking": null
+      }
+    },
+    {
+      "version": "v3.1",
+      "generated": "2026-11-01T22:43:15Z",
+      "companies": 228,
+      "relations": 577,
+      "relationsAB": 520,
+      "industries": [
+        "semi",
+        "nev",
+        "pv",
+        "ce",
+        "ess",
+        "pharma"
+      ],
+      "overallVerified": {
+        "n": 718,
+        "correct": 718,
+        "acc": 1.0,
+        "ci95": [
+          0.9947,
+          1.0
+        ],
+        "meets98": true,
+        "pointMeets98": true
+      },
+      "relationsVerified": {
+        "n": 518,
+        "correct": 518,
+        "acc": 1.0,
+        "ci95": [
+          0.9926,
+          1.0
+        ],
+        "meets98": true,
+        "pointMeets98": true,
+        "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+        "blocking": null
+      }
+    },
+    {
+      "version": "v3.0",
+      "generated": "2026-10-31T22:40:08Z",
+      "companies": 228,
+      "relations": 567,
+      "relationsAB": 510,
+      "industries": [
+        "semi",
+        "nev",
+        "pv",
+        "ce",
+        "ess",
+        "pharma"
+      ],
+      "overallVerified": {
+        "n": 708,
+        "correct": 708,
+        "acc": 1.0,
+        "ci95": [
+          0.9946,
+          1.0
+        ],
+        "meets98": true,
+        "pointMeets98": true
+      },
+      "relationsVerified": {
+        "n": 508,
+        "correct": 508,
+        "acc": 1.0,
+        "ci95": [
+          0.9925,
+          1.0
+        ],
+        "meets98": true,
+        "pointMeets98": true,
+        "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+        "blocking": null
+      }
+    },
+    {
+      "version": "v2.9",
+      "generated": "2026-10-30T22:45:58Z",
+      "companies": 228,
+      "relations": 541,
+      "relationsAB": 485,
+      "industries": [
+        "semi",
+        "nev",
+        "pv",
+        "ce",
+        "ess",
+        "pharma"
+      ],
+      "overallVerified": {
+        "n": 683,
+        "correct": 683,
+        "acc": 1.0,
+        "ci95": [
+          0.9944,
+          1.0
+        ],
+        "meets98": true,
+        "pointMeets98": true
+      },
+      "relationsVerified": {
+        "n": 483,
+        "correct": 483,
+        "acc": 1.0,
+        "ci95": [
+          0.9921,
+          1.0
+        ],
+        "meets98": true,
+        "pointMeets98": true,
+        "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+        "blocking": null
+      }
+    },
+    {
+      "version": "v2.8",
+      "generated": "2026-10-29T22:47:01Z",
+      "companies": 228,
+      "relations": 514,
+      "relationsAB": 461,
+      "industries": [
+        "semi",
+        "nev",
+        "pv",
+        "ce",
+        "ess",
+        "pharma"
+      ],
+      "overallVerified": {
+        "n": 659,
+        "correct": 659,
+        "acc": 1.0,
+        "ci95": [
+          0.9942,
+          1.0
+        ],
+        "meets98": true,
+        "pointMeets98": true
+      },
+      "relationsVerified": {
+        "n": 459,
+        "correct": 459,
+        "acc": 1.0,
+        "ci95": [
+          0.9917,
+          1.0
+        ],
+        "meets98": true,
+        "pointMeets98": true,
+        "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+        "blocking": null
+      }
+    },
+    {
+      "version": "v2.7",
+      "generated": "2026-10-28T22:57:25Z",
+      "companies": 228,
+      "relations": 492,
+      "relationsAB": 446,
+      "industries": [
+        "semi",
+        "nev",
+        "pv",
+        "ce",
+        "ess",
+        "pharma"
+      ],
+      "overallVerified": {
+        "n": 615,
+        "correct": 573,
+        "acc": 0.9317,
+        "ci95": [
+          0.909,
+          0.9491
+        ],
+        "meets98": false,
+        "pointMeets98": false
+      },
+      "relationsVerified": {
+        "n": 444,
+        "correct": 444,
+        "acc": 1.0,
+        "ci95": [
+          0.9914,
+          1.0
+        ],
+        "meets98": true,
+        "pointMeets98": true,
+        "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+        "blocking": null
+      }
+    },
+    {
+      "version": "v2.6",
+      "generated": "2026-10-27T22:53:18Z",
+      "companies": 228,
+      "relations": 443,
+      "relationsAB": 397,
+      "industries": [
+        "semi",
+        "nev",
+        "pv",
+        "ce",
+        "ess",
+        "pharma"
+      ],
+      "overallVerified": {
+        "n": 595,
+        "correct": 595,
+        "acc": 1.0,
+        "ci95": [
+          0.9936,
+          1.0
+        ],
+        "meets98": true,
+        "pointMeets98": true
+      },
+      "relationsVerified": {
+        "n": 395,
+        "correct": 395,
+        "acc": 1.0,
+        "ci95": [
+          0.9904,
+          1.0
+        ],
+        "meets98": true,
+        "pointMeets98": true,
+        "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+        "blocking": null
+      }
+    },
+    {
+      "version": "v2.5",
+      "generated": "2026-10-26T22:48:47Z",
+      "companies": 228,
+      "relations": 414,
+      "relationsAB": 368,
+      "industries": [
+        "semi",
+        "nev",
+        "pv",
+        "ce",
+        "ess",
+        "pharma"
+      ],
+      "overallVerified": {
+        "n": 566,
+        "correct": 565,
+        "acc": 0.9982,
+        "ci95": [
+          0.9901,
+          0.9997
+        ],
+        "meets98": true,
+        "pointMeets98": true
+      },
+      "relationsVerified": {
+        "n": 366,
+        "correct": 366,
+        "acc": 1.0,
+        "ci95": [
+          0.9896,
+          1.0
+        ],
+        "meets98": true,
+        "pointMeets98": true,
+        "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+        "blocking": null
+      }
+    },
+    {
+      "version": "v2.4",
+      "generated": "2026-10-25T22:46:53Z",
+      "companies": 228,
+      "relations": 390,
+      "relationsAB": 343,
+      "industries": [
+        "semi",
+        "nev",
+        "pv",
+        "ce",
+        "ess",
+        "pharma"
+      ],
+      "overallVerified": {
+        "n": 541,
+        "correct": 541,
+        "acc": 1.0,
+        "ci95": [
+          0.9929,
+          1.0
+        ],
+        "meets98": true,
+        "pointMeets98": true
+      },
+      "relationsVerified": {
+        "n": 341,
+        "correct": 341,
+        "acc": 1.0,
+        "ci95": [
+          0.9889,
+          1.0
+        ],
+        "meets98": true,
+        "pointMeets98": true,
+        "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+        "blocking": null
+      }
+    },
+    {
+      "version": "v2.3",
+      "generated": "2026-10-24T22:51:23Z",
+      "companies": 228,
+      "relations": 351,
+      "relationsAB": 304,
+      "industries": [
+        "semi",
+        "nev",
+        "pv",
+        "ce",
+        "ess",
+        "pharma"
+      ],
+      "overallVerified": {
+        "n": 473,
+        "correct": 422,
+        "acc": 0.8922,
+        "ci95": [
+          0.861,
+          0.917
+        ],
+        "meets98": false,
+        "pointMeets98": false
+      },
+      "relationsVerified": {
+        "n": 302,
+        "correct": 302,
+        "acc": 1.0,
+        "ci95": [
+          0.9874,
+          1.0
+        ],
+        "meets98": true,
+        "pointMeets98": true,
+        "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+        "blocking": null
+      }
+    },
+    {
+      "version": "v2.2",
+      "generated": "2026-10-23T22:43:13Z",
+      "companies": 228,
+      "relations": 329,
+      "relationsAB": 280,
+      "industries": [
+        "semi",
+        "nev",
+        "pv",
+        "ce",
+        "ess",
+        "pharma"
+      ],
+      "overallVerified": {
+        "n": 478,
+        "correct": 478,
+        "acc": 1.0,
+        "ci95": [
+          0.992,
+          1.0
+        ],
+        "meets98": true,
+        "pointMeets98": true
+      },
+      "relationsVerified": {
+        "n": 278,
+        "correct": 278,
+        "acc": 1.0,
+        "ci95": [
+          0.9864,
+          1.0
+        ],
+        "meets98": true,
+        "pointMeets98": true,
+        "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+        "blocking": null
+      }
+    },
+    {
+      "version": "v2.1",
+      "date": "2026-10-23",
+      "companies": 228,
+      "relations": 312,
+      "grades": {
+        "A": 42,
+        "B": 219,
+        "C": 46,
+        "待核实": 5
+      },
+      "notes": "Intel+GF 监管原文升台积电↔三星竞争至 A；5 条仍待核实"
+    },
+    {
+      "version": "v2.0",
+      "generated": "2026-10-22T22:47:41Z",
+      "companies": 228,
+      "relations": 310,
+      "relationsAB": 258,
+      "industries": [
+        "semi",
+        "nev",
+        "pv",
+        "ce",
+        "ess",
+        "pharma"
+      ],
+      "overallVerified": {
+        "n": 458,
+        "correct": 458,
+        "acc": 1.0,
+        "ci95": [
+          0.9917,
+          1.0
+        ],
+        "meets98": true,
+        "pointMeets98": true
+      },
+      "relationsVerified": {
+        "n": 258,
+        "correct": 258,
+        "acc": 1.0,
+        "ci95": [
+          0.9853,
+          1.0
+        ],
+        "meets98": true,
+        "pointMeets98": true,
+        "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+        "blocking": null
+      }
+    },
+    {
+      "version": "v1.9",
+      "generated": "2026-10-22T08:51:18Z",
+      "companies": 228,
+      "relations": 305,
+      "relationsAB": 250,
+      "industries": [
+        "semi",
+        "nev",
+        "pv",
+        "ce",
+        "ess",
+        "pharma"
+      ],
+      "overallVerified": {
+        "n": 450,
+        "correct": 450,
+        "acc": 1.0,
+        "ci95": [
+          0.9915,
+          1.0
+        ],
+        "meets98": true,
+        "pointMeets98": true
+      },
+      "relationsVerified": {
+        "n": 250,
+        "correct": 250,
+        "acc": 1.0,
+        "ci95": [
+          0.9849,
+          1.0
+        ],
+        "meets98": true,
+        "pointMeets98": true,
+        "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+        "blocking": null
+      }
+    },
+    {
+      "version": "v1.8",
+      "generated": "2026-10-22T08:36:25Z",
+      "companies": 228,
+      "relations": 303,
+      "relationsAB": 241,
+      "industries": [
+        "semi",
+        "nev",
+        "pv",
+        "ce",
+        "ess",
+        "pharma"
+      ],
+      "overallVerified": {
+        "n": 441,
+        "correct": 441,
+        "acc": 1.0,
+        "ci95": [
+          0.9914,
+          1.0
+        ],
+        "meets98": true,
+        "pointMeets98": true
+      },
+      "relationsVerified": {
+        "n": 241,
+        "correct": 241,
+        "acc": 1.0,
+        "ci95": [
+          0.9843,
+          1.0
+        ],
+        "meets98": true,
+        "pointMeets98": true,
+        "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+        "blocking": null
+      }
+    },
+    {
+      "version": "v1.7",
+      "generated": "2026-10-22T03:34:28Z",
+      "companies": 228,
+      "relations": 260,
+      "relationsAB": 219,
+      "industries": [
+        "semi",
+        "nev",
+        "pv",
+        "ce",
+        "ess",
+        "pharma"
+      ],
+      "overallVerified": {
+        "n": 419,
+        "correct": 418,
+        "acc": 0.9976,
+        "ci95": [
+          0.9866,
+          0.9996
+        ],
+        "meets98": true,
+        "pointMeets98": true
+      },
+      "relationsVerified": {
+        "n": 219,
+        "correct": 219,
+        "acc": 1.0,
+        "ci95": [
+          0.9828,
+          1.0
+        ],
+        "meets98": true,
+        "pointMeets98": true,
+        "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+        "blocking": null
+      }
+    },
+    {
+      "version": "v1.6",
+      "generated": "2026-10-22T03:31:35Z",
+      "companies": 228,
+      "relations": 257,
+      "relationsAB": 215,
+      "industries": [
+        "semi",
+        "nev",
+        "pv",
+        "ce",
+        "ess",
+        "pharma"
+      ],
+      "overallVerified": {
+        "n": 415,
+        "correct": 415,
+        "acc": 1.0,
+        "ci95": [
+          0.9908,
+          1.0
+        ],
+        "meets98": true,
+        "pointMeets98": true
+      },
+      "relationsVerified": {
+        "n": 215,
+        "correct": 215,
+        "acc": 1.0,
+        "ci95": [
+          0.9824,
+          1.0
+        ],
+        "meets98": true,
+        "pointMeets98": true,
+        "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+        "blocking": null
+      }
+    },
+    {
+      "version": "v1.5",
+      "generated": "2026-10-22T03:21:43Z",
+      "companies": 228,
+      "relations": 257,
+      "relationsAB": 213,
+      "industries": [
+        "semi",
+        "nev",
+        "pv",
+        "ce",
+        "ess",
+        "pharma"
+      ],
+      "overallVerified": {
+        "n": 413,
+        "correct": 412,
+        "acc": 0.9976,
+        "ci95": [
+          0.9864,
+          0.9996
+        ],
+        "meets98": true,
+        "pointMeets98": true
+      },
+      "relationsVerified": {
+        "n": 213,
+        "correct": 213,
+        "acc": 1.0,
+        "ci95": [
+          0.9823,
+          1.0
+        ],
+        "meets98": true,
+        "pointMeets98": true,
+        "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+        "blocking": null
+      }
+    },
+    {
+      "version": "v1.4",
+      "generated": "2026-10-22T02:19:59Z",
+      "companies": 228,
+      "relations": 257,
+      "relationsAB": 207,
+      "industries": [
+        "semi",
+        "nev",
+        "pv",
+        "ce",
+        "ess",
+        "pharma"
+      ],
+      "overallVerified": {
+        "n": 404,
+        "correct": 404,
+        "acc": 1.0,
+        "ci95": [
+          0.9906,
+          1.0
+        ],
+        "meets98": true,
+        "pointMeets98": true
+      },
+      "relationsVerified": {
+        "n": 207,
+        "correct": 207,
+        "acc": 1.0,
+        "ci95": [
+          0.9818,
+          1.0
+        ],
+        "meets98": true,
+        "pointMeets98": true,
+        "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+        "blocking": null
+      }
+    },
+    {
+      "version": "v1.3",
+      "generated": "2026-10-22T00:35:19Z",
+      "companies": 228,
+      "relations": 255,
+      "relationsAB": 201,
+      "industries": [
+        "semi",
+        "nev",
+        "pv",
+        "ce",
+        "ess",
+        "pharma"
+      ],
+      "overallVerified": {
+        "n": 401,
+        "correct": 401,
+        "acc": 1.0,
+        "ci95": [
+          0.9905,
+          1.0
+        ],
+        "meets98": true,
+        "pointMeets98": true
+      },
+      "relationsVerified": {
+        "n": 201,
+        "correct": 201,
+        "acc": 1.0,
+        "ci95": [
+          0.9812,
+          1.0
+        ],
+        "meets98": true,
+        "pointMeets98": true,
+        "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+        "blocking": null
+      }
+    },
+    {
+      "version": "v1.2",
+      "generated": "2026-10-21T22:45:36Z",
+      "companies": 228,
+      "relations": 255,
+      "relationsAB": 201,
+      "industries": [
+        "semi",
+        "nev",
+        "pv",
+        "ce",
+        "ess",
+        "pharma"
+      ],
+      "overallVerified": {
+        "n": 401,
+        "correct": 401,
+        "acc": 1.0,
+        "ci95": [
+          0.9905,
+          1.0
+        ],
+        "meets98": true,
+        "pointMeets98": true
+      },
+      "relationsVerified": {
+        "n": 201,
+        "correct": 201,
+        "acc": 1.0,
+        "ci95": [
+          0.9812,
+          1.0
+        ],
+        "meets98": true,
+        "pointMeets98": true,
+        "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+        "blocking": null
+      }
+    },
+    {
+      "version": "v1.1",
+      "generated": "2026-10-21T17:47:42Z",
+      "companies": 228,
+      "relations": 255,
+      "relationsAB": 201,
+      "industries": [
+        "semi",
+        "nev",
+        "pv",
+        "ce",
+        "ess",
+        "pharma"
+      ],
+      "overallVerified": {
+        "n": 401,
+        "correct": 401,
+        "acc": 1.0,
+        "ci95": [
+          0.9905,
+          1.0
+        ],
+        "meets98": true,
+        "pointMeets98": true
+      },
+      "relationsVerified": {
+        "n": 201,
+        "correct": 201,
+        "acc": 1.0,
+        "ci95": [
+          0.9812,
+          1.0
+        ],
+        "meets98": true,
+        "pointMeets98": true,
+        "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+        "blocking": null
+      }
+    }
+  ],
+  "current": "v3.3"
+}

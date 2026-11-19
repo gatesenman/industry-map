@@ -1,0 +1,202 @@
+{
+ "round": "v2.4",
+ "date": "2026-10-26",
+ "method": "v2.4 人工逐句复核 SEC 一手原文",
+ "items": [
+  {
+   "key": "amgen>novartis>竞争",
+   "verdict": "correct",
+   "comment": "Amgen FY2025 Form 10-K 主要产品竞争对手表点名 Novartis AG"
+  },
+  {
+   "key": "amgen>regeneron>竞争",
+   "verdict": "correct",
+   "comment": "Amgen FY2025 Form 10-K 主要产品竞争对手表点名 Regeneron Pharmaceuticals, Inc."
+  },
+  {
+   "key": "amgen>abbvie>竞争",
+   "verdict": "correct",
+   "comment": "Amgen FY2025 Form 10-K 主要产品竞争对手表点名 AbbVie Inc."
+  },
+  {
+   "key": "amgen>lilly>竞争",
+   "verdict": "correct",
+   "comment": "Amgen FY2025 Form 10-K 主要产品竞争对手表点名 Eli Lilly and Company"
+  },
+  {
+   "key": "amgen>jnj>竞争",
+   "verdict": "correct",
+   "comment": "Amgen FY2025 Form 10-K 主要产品竞争对手表点名 Johnson & Johnson Innovative Medicine"
+  },
+  {
+   "key": "amgen>bms>竞争",
+   "verdict": "correct",
+   "comment": "Amgen FY2025 Form 10-K 主要产品竞争对手表点名 Bristol Myers Squibb Company"
+  },
+  {
+   "key": "amgen>pfizer>竞争",
+   "verdict": "correct",
+   "comment": "Amgen FY2025 Form 10-K 主要产品竞争对手表点名 Pfizer Inc."
+  },
+  {
+   "key": "regeneron>roche>竞争",
+   "verdict": "correct",
+   "comment": "Regeneron FY2025 10-K 竞争表：EYLEA 对 Genentech/Roche Vabysmo"
+  },
+  {
+   "key": "regeneron>novartis>竞争",
+   "verdict": "correct",
+   "comment": "Regeneron 10-K 竞争表：EYLEA 对 Novartis Lucentis/Beovu"
+  },
+  {
+   "key": "regeneron>merck>竞争",
+   "verdict": "correct",
+   "comment": "Regeneron 10-K 原句：Libtayo 竞争对手含 Merck Keytruda"
+  },
+  {
+   "key": "regeneron>bms>竞争",
+   "verdict": "correct",
+   "comment": "Regeneron 10-K 原句：Libtayo 竞争对手含 BMS Opdivo"
+  },
+  {
+   "key": "regeneron>astrazeneca>竞争",
+   "verdict": "correct",
+   "comment": "Regeneron 10-K 原句：Libtayo 竞争对手含 AstraZeneca Imfinzi"
+  },
+  {
+   "key": "regeneron>lilly>竞争",
+   "verdict": "correct",
+   "comment": "Regeneron 10-K 竞争表：Dupixent 对 Eli Lilly Ebglyss"
+  },
+  {
+   "key": "regeneron>abbvie>竞争",
+   "verdict": "correct",
+   "comment": "Regeneron 10-K 竞争表：Dupixent 对 AbbVie Rinvoq"
+  },
+  {
+   "key": "regeneron>pfizer>竞争",
+   "verdict": "correct",
+   "comment": "Regeneron 10-K 竞争表：Dupixent 对 Pfizer Cibinqo"
+  },
+  {
+   "key": "amgen>beigene>授权",
+   "verdict": "correct",
+   "comment": "BeOne (BeiGene) FY2025 10-K：Amgen 合作协议下负责在中国商业化 Amgen 肿瘤产品"
+  },
+  {
+   "key": "teradyne>advantest>竞争",
+   "verdict": "correct",
+   "comment": "Teradyne FY2025 10-K 点名 Advantest 为半导体测试主要竞争对手"
+  },
+  {
+   "key": "linde>airliquide>竞争",
+   "verdict": "correct",
+   "comment": "Linde FY2025 10-K 点名 L’Air Liquide 为工业气体竞争对手"
+  },
+  {
+   "key": "entegris>airliquide>竞争",
+   "verdict": "correct",
+   "comment": "Entegris FY2025 10-K 竞争对手表列 Air Liquide 电子先进材料部门"
+  },
+  {
+   "key": "entegris>linde>竞争",
+   "verdict": "correct",
+   "comment": "Entegris 10-K 竞争对手表列 Linde plc"
+  },
+  {
+   "key": "entegris>danaher>竞争",
+   "verdict": "correct",
+   "comment": "Entegris 10-K 竞争对手表列 Pall Corporation (part of Danaher Corporation)"
+  },
+  {
+   "key": "tfme>amd>合资",
+   "verdict": "correct",
+   "comment": "AMD FY2025 10-K：与通富微电两家 ATMP 合资公司并为其提供封测服务"
+  },
+  {
+   "key": "daqo>wacker>竞争",
+   "verdict": "correct",
+   "comment": "Daqo New Energy FY2025 Form 20-F 点名 Wacker 为多晶硅主要竞争对手"
+  },
+  {
+   "key": "daqo>oci>竞争",
+   "verdict": "correct",
+   "comment": "Daqo New Energy FY2025 Form 20-F 点名 OCI 为多晶硅主要竞争对手"
+  },
+  {
+   "key": "daqo>gcltech>竞争",
+   "verdict": "correct",
+   "comment": "Daqo New Energy FY2025 Form 20-F 点名 GCL-Poly 为多晶硅主要竞争对手"
+  },
+  {
+   "key": "daqo>xinte>竞争",
+   "verdict": "correct",
+   "comment": "Daqo New Energy FY2025 Form 20-F 点名 Xinte Energy 为多晶硅主要竞争对手"
+  },
+  {
+   "key": "daqo>tongwei>竞争",
+   "verdict": "correct",
+   "comment": "Daqo New Energy FY2025 Form 20-F 点名 Tongwei Yongxiang 为多晶硅主要竞争对手"
+  },
+  {
+   "key": "tclzh>maxeon>控股",
+   "verdict": "correct",
+   "comment": "Maxeon FY2024 Form 20-F（2025-04-30，最新年报）：TCL 中环取得控股权；Maxeon 现以 MAXNQ 代码交易，状态需持续跟踪，故定 B"
+  },
+  {
+   "key": "solaredge>sma>竞争",
+   "verdict": "correct",
+   "comment": "SolarEdge FY2025 10-K 点名 SMA Solar Technology AG 为主要竞争对手"
+  },
+  {
+   "key": "catl>polestar>供货",
+   "verdict": "correct",
+   "comment": "Polestar FY2025 Form 20-F：宁德时代为主要电池来源，长期供货关系"
+  },
+  {
+   "key": "chargepoint>tesla>竞争",
+   "verdict": "correct",
+   "comment": "ChargePoint FY2026 Form 10-K 点名 Tesla 为充电硬件竞争对手"
+  },
+  {
+   "key": "enphase>chargepoint>竞争",
+   "verdict": "correct",
+   "comment": "Enphase FY2025 10-K 点名 ChargePoint 为 EV 充电器竞争对手"
+  },
+  {
+   "key": "eosenergy>fluence>竞争",
+   "verdict": "correct",
+   "comment": "Eos Energy FY2025 10-K 点名 Fluence Energy 为储能竞争对手"
+  },
+  {
+   "key": "eosenergy>tesla>竞争",
+   "verdict": "correct",
+   "comment": "Eos Energy FY2025 10-K 点名 Tesla 为储能竞争对手"
+  },
+  {
+   "key": "eosenergy>catl>竞争",
+   "verdict": "correct",
+   "comment": "Eos Energy FY2025 10-K 点名 Contemporary Amperex Technology 为储能竞争对手"
+  },
+  {
+   "key": "eosenergy>sungrow>竞争",
+   "verdict": "correct",
+   "comment": "Eos Energy FY2025 10-K 点名 Sungrow 为储能竞争对手"
+  },
+  {
+   "key": "sungrow>steminc>供货",
+   "verdict": "correct",
+   "comment": "Stem FY2025 10-K 附件索引列有与 Sungrow 的储能系统主供货协议（2020 签署，仍列为重大合同）；年代较早定 B"
+  },
+  {
+   "key": "tesla>steminc>供货",
+   "verdict": "correct",
+   "comment": "Stem FY2025 10-K 附件索引列有与 Tesla 的 BESS 框架买卖协议（2021）；年代较早定 B"
+  },
+  {
+   "key": "eve>fluence>供货",
+   "verdict": "correct",
+   "comment": "Fluence 官方新闻稿（GlobeNewswire 2026-09-24）宣布与亿纬动力（EVE Power）签署多年主供货协议"
+  }
+ ]
+}

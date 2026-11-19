@@ -1,0 +1,247 @@
+{
+ "round": "v0.3",
+ "date": "2026-10-21",
+ "method": "普查（census）：对全部带 SEC 一手原句的关系逐条人工阅读原句与原文链接，判断原句是否支持“关系类型+方向”。审核者：Grok Bot（AI 审核，非独立人工），存在审核者偏差。",
+ "items": [
+  {
+   "key": "tsmc>nvidia>供货",
+   "grade_before": "A",
+   "quote": "We utilize foundries, such as Taiwan Semiconductor Manufacturing Company Limited, or TSMC, and Samsung Electronics Co., Ltd., or Samsung, to produce our semiconductor wafers.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+   "verdict": "correct",
+   "comment": "原句直接支持该关系及方向"
+  },
+  {
+   "key": "tsmc>amd>供货",
+   "grade_before": "A",
+   "quote": "Manufacturing Arrangements and Assembly and Test Facilities Third-Party Wafer Foundry Facilities We utilize Taiwan Semiconductor Manufacturing Company Limited (TSMC) for the production of wafers for our HPC, FPGA and adaptive SoC products and GLOBALFOUNDRIES Inc. (GF), with respect to wafer purchases for our HPC products at the 12 nm and 14 nm technology nodes.",
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+   "verdict": "correct",
+   "comment": "原句直接支持该关系及方向"
+  },
+  {
+   "key": "tsmc>qualcomm>供货",
+   "grade_before": "A",
+   "quote": "The primary foundry suppliers for our various digital, analog/mixed-signal, RF and PM integrated circuits include Taiwan Semiconductor Manufacturing Company (TSMC), Samsung Electronics and Global Foundries.",
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000085/qcom-20250928.htm",
+   "verdict": "correct",
+   "comment": "原句直接支持该关系及方向"
+  },
+  {
+   "key": "tsmc>mediatek>供货",
+   "grade_before": "A",
+   "quote": "We count among our customers many of the world’s leading semiconductor companies, ranging from fabless semiconductor companies, system companies to integrated device manufacturers, including, but not limited to, Advanced Micro Devices, Inc., Amazon Web Services, Inc., Broadcom Inc., Intel Corporation, MediaTek Inc., NVIDIA Corporation, NXP Semiconductors N.V., Qualcomm Inc., Renesas Electronics Corporation and Sony Semiconductor Solutions Corporation.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1046179/000119312525083423/d896993d20f.htm",
+   "verdict": "correct",
+   "comment": "原句直接支持该关系及方向"
+  },
+  {
+   "key": "asml>tsmc>供货",
+   "grade_before": "A",
+   "quote": "For example, in Decem ber 2024 we visited TSMC (Taiwan Semiconductor Manufacturing Company Ltd.) in Taiwan in order to further build our understanding of our customers and how ASML can best meet their needs.",
+   "url": "https://www.sec.gov/Archives/edgar/data/937966/000093796625000009/asml-20241231.htm",
+   "verdict": "correct",
+   "comment": "ASML 称 TSMC 为客户（拜访客户），支持供货"
+  },
+  {
+   "key": "asml>samsung>供货",
+   "grade_before": "A",
+   "quote": "In 2012, we issued shares to three key customers – Intel, TSMC and Samsung – as part of the customer co-investment program (CCIP) to accelerate ASML’s development of EUV.",
+   "url": "https://www.sec.gov/Archives/edgar/data/937966/000093796624000008/exhibit21.htm",
+   "verdict": "correct",
+   "comment": "原句直接支持该关系及方向"
+  },
+  {
+   "key": "asml>intel>供货",
+   "grade_before": "A",
+   "quote": "In some cases, however, we are reliant upon sole-source providers, such as with the EUV lithography tools manufactured by ASML that are required for leading-edge process technologies, or providers that are substantially concentrated in a single country, such as with certain rare earth minerals critical to the functioning of a range of technology products and processes where China is the primary source of global supply.",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+   "verdict": "correct",
+   "comment": "原句直接支持该关系及方向"
+  },
+  {
+   "key": "skhynix>nvidia>供货",
+   "grade_before": "B",
+   "quote": "We purchase memory from SK Hynix Inc., Micron Technology, Inc., and Samsung.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+   "verdict": "correct",
+   "comment": "原句直接支持该关系及方向"
+  },
+  {
+   "key": "micron>nvidia>供货",
+   "grade_before": "B",
+   "quote": "We purchase memory from SK Hynix Inc., Micron Technology, Inc., and Samsung.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+   "verdict": "correct",
+   "comment": "原句直接支持该关系及方向"
+  },
+  {
+   "key": "foxconn>nvidia>供货",
+   "grade_before": "B",
+   "quote": "We engage with independent subcontractors and contract manufacturers such as Hon Hai Precision Industry Co., Ltd., Wistron Corporation, and Fabrinet to perform assembly, testing and packaging of our final products.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+   "verdict": "correct",
+   "comment": "原句直接支持该关系及方向"
+  },
+  {
+   "key": "arm>qualcomm>授权",
+   "grade_before": "B",
+   "quote": "The complaint alleges that following our acquisition of Nuvia, we and Nuvia breached Nuvia’s Architecture License Agreement with Arm (the Nuvia ALA) by failing to comply with the termination obligations under the Nuvia ALA.",
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000085/qcom-20250928.htm",
+   "verdict": "wrong",
+   "comment": "原句为 Nuvia 架构授权协议诉讼，未直接证明 Arm→高通 授权（间接）"
+  },
+  {
+   "key": "catl>tesla>供货",
+   "grade_before": "A",
+   "quote": "Currently, we rely on suppliers such as Panasonic and Contemporary Amperex Technology Co.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+   "verdict": "correct",
+   "comment": "原句直接支持该关系及方向"
+  },
+  {
+   "key": "lges>gm>合资",
+   "grade_before": "B",
+   "quote": "Our EV portfolio takes advantage of integrated supply chain development, including battery cell production from Ultium Cells Holdings LLC (a joint venture with LG Energy Solution) in plants in Warren, Ohio and Spring Hill, Tennessee.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000013/gm-20251231.htm",
+   "verdict": "correct",
+   "comment": "原句直接支持该关系及方向"
+  },
+  {
+   "key": "panasonic>tesla>供货",
+   "grade_before": "A",
+   "quote": "Currently, we rely on suppliers such as Panasonic and Contemporary Amperex Technology Co.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+   "verdict": "correct",
+   "comment": "原句直接支持该关系及方向"
+  },
+  {
+   "key": "firstsolar>nextera>供货",
+   "grade_before": "B",
+   "quote": "During 2025, Silicon Ranch Corporation and NextEra Energy each accounted for 10% or more of our modules business net sales.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1274494/000127449426000021/fslr-20251231.htm",
+   "verdict": "correct",
+   "comment": "原句直接支持该关系及方向"
+  },
+  {
+   "key": "tsmc>intel>竞争",
+   "grade_before": "A",
+   "quote": "Our primary competitor in leading-edge semiconductor process technology is TSMC, which holds a leading position in manufacturing at scale for the most advanced nodes.",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+   "verdict": "correct",
+   "comment": "原句直接支持该关系及方向"
+  },
+  {
+   "key": "nvidia>amd>竞争",
+   "grade_before": "B",
+   "quote": "Competition in Data Center Segment In the Data Center segment, we compete primarily against Intel Corporation (Intel) and Nvidia Corporation (Nvidia with our CPU, GPU DPU and AI NIC server products.",
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+   "verdict": "correct",
+   "comment": "原句直接支持该关系及方向"
+  },
+  {
+   "key": "enphase>solaredge>竞争",
+   "grade_before": "B",
+   "quote": "In the North American residential market, we compete with manufacturers such as Tesla Inc. with traditional string-based solutions, as well as microinverter manufacturers such as Enphase Energy, Inc.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1419612/000117891326001595/zk2634863.htm",
+   "verdict": "correct",
+   "comment": "原句直接支持该关系及方向"
+  },
+  {
+   "key": "nextracker>array>竞争",
+   "grade_before": "B",
+   "quote": "Our principal tracker competitors include Nextpower Inc. (f/k/a Nextracker, Inc.), PV Hardware and GameChange Solar.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1820721/000182072126000008/arry-20251231.htm",
+   "verdict": "correct",
+   "comment": "原句直接支持该关系及方向"
+  },
+  {
+   "key": "qualcomm>samsung>供货",
+   "grade_before": "B",
+   "quote": "Certain of our largest mobile handset customers (for example, Apple, Samsung and Xiaomi) develop their own integrated circuit products, which they have in the past utilized, and/or currently utilize, in certain of their devices.",
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000085/qcom-20250928.htm",
+   "verdict": "correct",
+   "comment": "三星被列为高通最大手机客户之一，支持供货方向"
+  },
+  {
+   "key": "qualcomm>xiaomi>供货",
+   "grade_before": "B",
+   "quote": "Certain of our largest mobile handset customers (for example, Apple, Samsung and Xiaomi) develop their own integrated circuit products, which they have in the past utilized, and/or currently utilize, in certain of their devices.",
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000085/qcom-20250928.htm",
+   "verdict": "correct",
+   "comment": "原句直接支持该关系及方向"
+  },
+  {
+   "key": "tsmc>broadcom>供货",
+   "grade_before": "A",
+   "quote": "The majority of our front-end wafer manufacturing operations is outsourced to external foundries, including Taiwan Semiconductor Manufacturing Company Limited (“TSMC”).",
+   "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+   "verdict": "correct",
+   "comment": "原句直接支持该关系及方向"
+  },
+  {
+   "key": "samsungsdi>stellantis>合资",
+   "grade_before": "A",
+   "quote": "In October 2023, Stellantis and StarPlus Energy joint venture partn er Samsung SDI announced plans to locate a second battery manufacturing facility in Kokomo, Indiana, U.S. with production expe cted to begin in 2027.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1605484/000160548424000022/stellantis-20231231.htm",
+   "verdict": "correct",
+   "comment": "原句直接支持该关系及方向"
+  },
+  {
+   "key": "nvidia>byd>供货",
+   "grade_before": "B",
+   "quote": "We typically receive semiconductor products from our subcontractors, perform incoming quality assurance and configuration using test equipment purchased from industry-leading suppliers such as Advantest America Inc. and Chroma ATE Inc., and then ship the semiconductors to contract manufacturers, such as BYD Auto and Hon Hai, distributors, motherboard and add-in card, or AIC, customers from our third-party warehouses in Hong Kong, Israel, and the United States.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000017/nvda-20230129.htm",
+   "verdict": "wrong",
+   "comment": "原句未体现英伟达向比亚迪供货（比亚迪在英伟达 10-K 中是代工分包方，方向相反）"
+  },
+  {
+   "key": "tsmc>intel>供货",
+   "grade_before": "A",
+   "quote": "In recent years, however, we have also strategically utilized third-party foundry manufacturing capacity, including at one of our key foundry competitors, TSMC, for various tiles or an entire product where advantageous for cost, performance, schedule or other considerations.",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+   "verdict": "correct",
+   "comment": "原句直接支持该关系及方向"
+  },
+  {
+   "key": "amkor>apple>供货",
+   "grade_before": "B",
+   "quote": "Direct sales to Apple and Qualcomm accounted for 29.8% and 11.1% of our net sales, respectively, for the year ended December 31, 2025.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1047127/000104712726000014/amkr-20251231.htm",
+   "verdict": "correct",
+   "comment": "原句直接支持该关系及方向"
+  },
+  {
+   "key": "amazon>rivian>持股",
+   "grade_before": "A",
+   "quote": "Amazon is the parent company of both Logistics and Amazon.com NV Investment Holdings LLC, which beneficially owns shares of our capital stock (including s hares issuable upon the exercise of a warrant to purchase 3,723,050 shares of Class A common stock, as amended) representing 12.7% of our voting power as of December 31, 2025. 21 RIVIAN AUTOMOTIVE, INC.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1874178/000187417826000008/rivn-20251231.htm",
+   "verdict": "correct",
+   "comment": "原句直接支持该关系及方向"
+  },
+  {
+   "key": "ford>rivian>持股",
+   "grade_before": "A",
+   "quote": "Other segment items for the Ford Credit segment primarily consists of interest expense and depreciation. (d) Primarily reflects losses on our Rivian investment and the impairment of our Argo AI equity method investment. (e) Ford Blue includes $ 305 million, $ 909 million, and $ 844 million of spending attributable to electric vehicles at shared manufacturing plants in 2022, 2023, and 2024, respectively.",
+   "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799625000013/f-20241231.htm",
+   "verdict": "correct",
+   "comment": "福特 10-K 提及 Rivian 投资损益，支持曾持股；当前持股比例未核实"
+  },
+  {
+   "key": "vw>rivian>持股",
+   "grade_before": "A",
+   "quote": "Volkswagen US-Holdings, Inc. (formerly known as Volkswagen International America Inc ), a wholly-owned subsidiary of Volkswagen AG, beneficially owns shares of our capital stock representing 11.5% of our voting power as of December 31, 2025.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1874178/000187417826000008/rivn-20251231.htm",
+   "verdict": "correct",
+   "comment": "原句直接支持该关系及方向"
+  },
+  {
+   "key": "intel>mobileye>控股",
+   "grade_before": "A",
+   "quote": "Intel Corporation (“Intel”) acquired Mobileye for $15.3 billion in 2017, after which we became a wholly-owned subsidiary of Intel.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1910139/000110465926014300/mbly-20251227x10k.htm",
+   "verdict": "correct",
+   "comment": "原句直接支持该关系及方向"
+  }
+ ]
+}

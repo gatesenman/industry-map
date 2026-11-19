@@ -1,0 +1,192 @@
+{
+ "round": "v3.3",
+ "date": "2026-11-04",
+ "method": "v3.3 人工逐句复核 SEC 一手原文",
+ "items": [
+  {
+   "key": "amkor>ase>竞争",
+   "verdict": "correct",
+   "comment": "Amkor FY2025 10-K（2026-02-20）OSAT 竞品原句点名 ASE Technology（日月光）"
+  },
+  {
+   "key": "amkor>jcet>竞争",
+   "verdict": "correct",
+   "comment": "Amkor FY2025 10-K（2026-02-20）OSAT 竞品原句点名 JCET Group（长电科技）"
+  },
+  {
+   "key": "amkor>apple>供货",
+   "verdict": "correct",
+   "comment": "Amkor FY2025 10-K：Apple 直接销售占净销售额 29.8%"
+  },
+  {
+   "key": "amkor>qualcomm>供货",
+   "verdict": "correct",
+   "comment": "Amkor FY2025 10-K：Qualcomm 直接销售占净销售额 11.1%"
+  },
+  {
+   "key": "micron>samsung>竞争",
+   "verdict": "correct",
+   "comment": "Micron FY2026 10-K（2026-10-09）存储竞品原句点名 三星电子"
+  },
+  {
+   "key": "micron>skhynix>竞争",
+   "verdict": "correct",
+   "comment": "Micron FY2026 10-K（2026-10-09）存储竞品原句点名 SK 海力士"
+  },
+  {
+   "key": "micron>kioxia>竞争",
+   "verdict": "correct",
+   "comment": "Micron FY2026 10-K（2026-10-09）存储竞品原句点名 铠侠"
+  },
+  {
+   "key": "lam>amat>竞争",
+   "verdict": "correct",
+   "comment": "Lam FY2026 10-K（2026-08-07）：介质与金属沉积市场主要对手为 Applied Materials"
+  },
+  {
+   "key": "lam>tel>竞争",
+   "verdict": "correct",
+   "comment": "Lam FY2026 10-K：刻蚀与湿法清洗市场点名 Tokyo Electron"
+  },
+  {
+   "key": "lam>screen>竞争",
+   "verdict": "correct",
+   "comment": "Lam FY2026 10-K：湿法清洗市场点名 Screen Holding"
+  },
+  {
+   "key": "lam>asmi>竞争",
+   "verdict": "correct",
+   "comment": "Lam FY2026 10-K：ALD/PECVD 市场与 ASM International 竞争"
+  },
+  {
+   "key": "teradyne>advantest>竞争",
+   "verdict": "correct",
+   "comment": "Teradyne FY2025 10-K（2026-02-19）半导体测试竞品原句点名 Advantest"
+  },
+  {
+   "key": "intel>tsmc>竞争",
+   "verdict": "correct",
+   "comment": "Intel FY2025 10-K（2026-01-23）Intel Foundry 竞品原句点名 台积电"
+  },
+  {
+   "key": "intel>samsung>竞争",
+   "verdict": "correct",
+   "comment": "Intel FY2025 10-K（2026-01-23）Intel Foundry 竞品原句点名 三星"
+  },
+  {
+   "key": "intel>gf>竞争",
+   "verdict": "correct",
+   "comment": "Intel FY2025 10-K（2026-01-23）Intel Foundry 竞品原句点名 GlobalFoundries"
+  },
+  {
+   "key": "intel>umc>竞争",
+   "verdict": "correct",
+   "comment": "Intel FY2025 10-K（2026-01-23）Intel Foundry 竞品原句点名 联电"
+  },
+  {
+   "key": "intel>smic>竞争",
+   "verdict": "correct",
+   "comment": "Intel FY2025 10-K（2026-01-23）Intel Foundry 竞品原句点名 中芯国际"
+  },
+  {
+   "key": "intel>amd>竞争",
+   "verdict": "correct",
+   "comment": "Intel FY2025 10-K CCG：主要竞争对手为 AMD"
+  },
+  {
+   "key": "intel>apple>竞争",
+   "verdict": "correct",
+   "comment": "Intel FY2025 10-K CCG：ARM 架构竞品原句点名 Apple M 系列"
+  },
+  {
+   "key": "intel>qualcomm>竞争",
+   "verdict": "correct",
+   "comment": "Intel FY2025 10-K CCG：ARM 架构竞品原句点名 高通 Snapdragon"
+  },
+  {
+   "key": "intel>mediatek>竞争",
+   "verdict": "correct",
+   "comment": "Intel FY2025 10-K CCG：ARM 架构竞品原句点名 联发科 Kompanio"
+  },
+  {
+   "key": "intel>nvidia>竞争",
+   "verdict": "correct",
+   "comment": "Intel FY2025 10-K DCAI：GPU 系统竞品原句点名 NVIDIA"
+  },
+  {
+   "key": "intel>amazon>竞争",
+   "verdict": "correct",
+   "comment": "Intel FY2025 10-K DCAI：自研芯片超大规模云厂商竞品原句点名 Amazon"
+  },
+  {
+   "key": "intel>alphabet>竞争",
+   "verdict": "correct",
+   "comment": "Intel FY2025 10-K DCAI：自研芯片超大规模云厂商竞品原句点名 Google"
+  },
+  {
+   "key": "intel>microsoft>竞争",
+   "verdict": "correct",
+   "comment": "Intel FY2025 10-K DCAI：自研芯片超大规模云厂商竞品原句点名 Microsoft"
+  },
+  {
+   "key": "intel>broadcom>竞争",
+   "verdict": "correct",
+   "comment": "Intel FY2025 10-K：定制 ASIC 市场与 Broadcom 竞争"
+  },
+  {
+   "key": "broadcom>intel>竞争",
+   "verdict": "correct",
+   "comment": "Intel FY2025 10-K：定制 ASIC 市场与 Broadcom 竞争（对称刷新）"
+  },
+  {
+   "key": "nvidia>intel>授权",
+   "verdict": "correct",
+   "comment": "Intel FY2025 10-K：与 NVIDIA 战略合作共同开发客户端与数据中心定制产品"
+  },
+  {
+   "key": "tsmc>ase>授权",
+   "verdict": "correct",
+   "comment": "ASE FY2025 20-F（2026-04-01）：自 1997 年起与台积电战略联盟，台积电指定日月光为非独家优先封测服务商"
+  },
+  {
+   "key": "nvidia>intel>持股",
+   "verdict": "correct",
+   "comment": "Intel FY2025 10-K：2025-09-15 与 NVIDIA 约定定向增发 2.15 亿股、总价 50 亿美元，并于 2025-12-26 交割"
+  },
+  {
+   "key": "ase>amkor>竞争",
+   "verdict": "correct",
+   "comment": "Amkor FY2025 10-K OSAT 竞品原句点名 ASE Technology（对称）"
+  },
+  {
+   "key": "jcet>amkor>竞争",
+   "verdict": "correct",
+   "comment": "Amkor FY2025 10-K OSAT 竞品原句点名 JCET Group（对称）"
+  },
+  {
+   "key": "amat>lam>竞争",
+   "verdict": "correct",
+   "comment": "Lam FY2026 10-K：沉积市场主要对手为 Applied Materials（对称）"
+  },
+  {
+   "key": "advantest>teradyne>竞争",
+   "verdict": "correct",
+   "comment": "Teradyne FY2025 10-K 半导体测试竞品原句点名 Advantest（对称）"
+  },
+  {
+   "key": "samsung>micron>竞争",
+   "verdict": "correct",
+   "comment": "Micron FY2026 10-K 存储竞品原句点名（对称 三星电子）"
+  },
+  {
+   "key": "skhynix>micron>竞争",
+   "verdict": "correct",
+   "comment": "Micron FY2026 10-K 存储竞品原句点名（对称 SK 海力士）"
+  },
+  {
+   "key": "kioxia>micron>竞争",
+   "verdict": "correct",
+   "comment": "Micron FY2026 10-K 存储竞品原句点名（对称 铠侠）"
+  }
+ ]
+}

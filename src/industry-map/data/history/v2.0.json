@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "version": "v2.0",
+    "generated": "2026-10-22T22:39:28Z",
+    "updated": "2026-10-22",
+    "pipeline": "evolve.py",
+    "lastRefresh": "2026-10-22T22:39:28Z",
+    "mergeLog": []
+  },
+  "counts": {
+    "companies": 228,
+    "relations": 310,
+    "relationsAB": 258,
+    "industries": [
+      "semi",
+      "nev",
+      "pv",
+      "ce",
+      "ess",
+      "pharma"
+    ]
+  },
+  "audit": {
+    "overallVerified": {
+      "n": 458,
+      "correct": 458,
+      "acc": 1.0,
+      "ci95": [
+        0.9917,
+        1.0
+      ],
+      "meets98": true,
+      "pointMeets98": true
+    },
+    "relationsVerified": {
+      "n": 258,
+      "correct": 258,
+      "acc": 1.0,
+      "ci95": [
+        0.9853,
+        1.0
+      ],
+      "meets98": true,
+      "pointMeets98": true,
+      "note": "仅统计 grade∈{A,B} 的关系（已验证视图）",
+      "blocking": null
+    }
+  }
+}

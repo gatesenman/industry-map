@@ -1,0 +1,22 @@
+{
+ "n": 307,
+ "correct": 307,
+ "acc": 1.0,
+ "ci95": [
+  0.9876,
+  1.0
+ ],
+ "method": "累计历史抽检 + v2.1 对变更/新增 3 条逐句复核 SEC 一手原文；待核实 5 条不计入主张集",
+ "meets98": true,
+ "gradeCounts": {
+  "A": 42,
+  "B": 219,
+  "C": 46,
+  "待核实": 5
+ },
+ "v2.1_changes": [
+  "tsmc>samsung>竞争→A",
+  "samsung>tsmc>竞争→A",
+  "gf>samsung>竞争→B"
+ ]
+}

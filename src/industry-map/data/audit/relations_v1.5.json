@@ -1,0 +1,37 @@
+{
+ "round": "v1.5",
+ "date": "2026-10-22",
+ "method": "v1.5 人工逐句复核 SEC 一手原文",
+ "items": [
+  {
+   "key": "arm>qualcomm>授权",
+   "verdict": "correct",
+   "comment": "Arm 20-F 原句提及 Qualcomm’s Architecture License Agreement with us"
+  },
+  {
+   "key": "catl>ford>授权",
+   "verdict": "correct",
+   "comment": "Ford 8-K Ex.99 原句：using LFP battery cell knowledge and services provided by CATL"
+  },
+  {
+   "key": "catl>ford>供货",
+   "verdict": "correct",
+   "comment": "Ford 8-K 新闻稿原句：CATL will provide full LFP battery packs"
+  },
+  {
+   "key": "hesai>byd>供货",
+   "verdict": "correct",
+   "comment": "禾赛 6-K 原句：partnership with BYD across 10+ models"
+  },
+  {
+   "key": "catl>nio>合资",
+   "verdict": "correct",
+   "comment": "NIO 20-F 原句：invested in the Battery Asset Company with CATL"
+  },
+  {
+   "key": "nvidia>marvell>持股",
+   "verdict": "correct",
+   "comment": "Marvell 10-Q 原句；原自动抽取方向（marvell>nvidia）错误，已更正"
+  }
+ ]
+}

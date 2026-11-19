@@ -1,0 +1,157 @@
+{
+ "round": "v2.9",
+ "date": "2026-10-31",
+ "method": "v2.9 人工逐句复核 SEC 一手原文",
+ "items": [
+  {
+   "key": "beigene>abbvie>竞争",
+   "verdict": "correct",
+   "comment": "百济神州（BeOne）FY2025 10-K（2026-02-26）关键竞争对手表点名 AbbVie：IMBRUVICA/VENCLEXTA 对 BRUKINSA/sonrotoclax"
+  },
+  {
+   "key": "beigene>jnj>竞争",
+   "verdict": "correct",
+   "comment": "百济神州（BeOne）FY2025 10-K（2026-02-26）关键竞争对手表点名 Janssen（强生）：IMBRUVICA 对 BRUKINSA"
+  },
+  {
+   "key": "beigene>astrazeneca>竞争",
+   "verdict": "correct",
+   "comment": "百济神州（BeOne）FY2025 10-K（2026-02-26）关键竞争对手表点名 AstraZeneca：CALQUENCE/IMFINZI 对 BRUKINSA/TEVIMBRA"
+  },
+  {
+   "key": "beigene>lilly>竞争",
+   "verdict": "correct",
+   "comment": "百济神州（BeOne）FY2025 10-K（2026-02-26）关键竞争对手表点名 Eli Lilly：JAYPIRCA 对 BRUKINSA"
+  },
+  {
+   "key": "beigene>merck>竞争",
+   "verdict": "correct",
+   "comment": "百济神州（BeOne）FY2025 10-K（2026-02-26）关键竞争对手表点名 Merck：KEYTRUDA 对 TEVIMBRA"
+  },
+  {
+   "key": "beigene>bms>竞争",
+   "verdict": "correct",
+   "comment": "百济神州（BeOne）FY2025 10-K（2026-02-26）关键竞争对手表点名 Bristol Myers Squibb：OPDIVO 对 TEVIMBRA"
+  },
+  {
+   "key": "beigene>roche>竞争",
+   "verdict": "correct",
+   "comment": "百济神州（BeOne）FY2025 10-K（2026-02-26）关键竞争对手表点名 Roche：TECENTRIQ/VENCLEXTA 对 TEVIMBRA/sonrotoclax"
+  },
+  {
+   "key": "beigene>regeneron>竞争",
+   "verdict": "correct",
+   "comment": "百济神州（BeOne）FY2025 10-K（2026-02-26）关键竞争对手表点名 Regeneron：LIBTAYO 对 TEVIMBRA"
+  },
+  {
+   "key": "bms>pfizer>授权",
+   "verdict": "correct",
+   "comment": "BMS FY2025 10-K（2026-02-11）：BMS 与 Pfizer 共同开发并商业化 Eliquis，向 Pfizer 授予共同独家许可；Pfizer 10-K 亦称与 BMS 联合开发/商业化"
+  },
+  {
+   "key": "bms>jnj>授权",
+   "verdict": "correct",
+   "comment": "BMS FY2025 10-K：BMS 与 Janssen 共同开发 milvexian，向 Janssen 授予共同独家许可"
+  },
+  {
+   "key": "abbvie>jnj>授权",
+   "verdict": "correct",
+   "comment": "AbbVie FY2025 10-K（2026-02-20）：子公司 Pharmacyclics 与 Janssen 签订 Imbruvica 全球合作与许可协议；J&J 10-K 亦称 IMBRUVICA 与 AbbVie 旗下 Pharmacyclics 合作开发"
+  },
+  {
+   "key": "abbvie>roche>授权",
+   "verdict": "correct",
+   "comment": "AbbVie FY2025 10-K：AbbVie 与罗氏集团成员 Genentech 自 2007 年合作与许可开发 BCL-2 抑制剂 Venclexta"
+  },
+  {
+   "key": "astrazeneca>merck>授权",
+   "verdict": "correct",
+   "comment": "Merck FY2025 10-K（2026-02-24）：Lynparza（阿斯利康产品）为与 AstraZeneca 的合作项目（全球战略肿瘤合作）"
+  },
+  {
+   "key": "moderna>merck>授权",
+   "verdict": "correct",
+   "comment": "Moderna FY2025 10-K（2026-02-20）：与 Merck 合作开发 intismeran autogene（mRNA-4157），8 项 II/III 期试验进行中"
+  },
+  {
+   "key": "amgen>astrazeneca>授权",
+   "verdict": "correct",
+   "comment": "Amgen FY2025 10-K（2026-02-13）：TEZSPIRE 与 AstraZeneca 合作开发；AstraZeneca 20-F 亦称 Developed in collaboration with Amgen"
+  },
+  {
+   "key": "merck>bms>授权",
+   "verdict": "correct",
+   "comment": "Merck FY2025 10-K：Reblozyl 通过与 BMS 的全球合作商业化；BMS 10-K 开发伙伴列 REBLOZYL: Merck"
+  },
+  {
+   "key": "bms>merck>授权",
+   "verdict": "correct",
+   "comment": "BMS FY2025 10-K：BMS/Ono 与 Merck 签全球 PD-1 专利许可，Merck 就 Keytruda 支付 2.5% 特许权使用费至 2026-12-31"
+  },
+  {
+   "key": "bms>roche>授权",
+   "verdict": "correct",
+   "comment": "BMS FY2025 10-K：BMS/Ono 与罗氏集团就 Tecentriq 签全球专利许可，罗氏支付个位数特许权使用费至 2026-12-31"
+  },
+  {
+   "key": "bms>regeneron>授权",
+   "verdict": "correct",
+   "comment": "Regeneron FY2025 10-K（2026-02-04）：为开发销售 Libtayo，从 BMS、E. R. Squibb 与 Ono 取得专利非独家许可"
+  },
+  {
+   "key": "roche>novartis>授权",
+   "verdict": "correct",
+   "comment": "Novartis FY2025 20-F（2026-02-04）：Lucentis 由 Genentech（罗氏）授权，诺华拥有美国以外商业化权利"
+  },
+  {
+   "key": "regeneron>novartis>授权",
+   "verdict": "correct",
+   "comment": "Regeneron FY2025 10-K：就诺华 Ilaris（canakinumab）销售收取分级特许权使用费（4%–15%），2025 年 2.748 亿美元"
+  },
+  {
+   "key": "pfizer>abbvie>授权",
+   "verdict": "correct",
+   "comment": "AbbVie FY2025 10-K：承接 Cerevel 与 Pfizer 的许可协议，Pfizer 授予全球独家专利许可；Pfizer 10-K 另披露 Emblaveo 与 AbbVie 合作开发"
+  },
+  {
+   "key": "merck>abbvie>授权",
+   "verdict": "correct",
+   "comment": "AbbVie FY2025 10-K：Merck Sharp & Dohme 向 AbbVie 独家许可若干专利（ubrogepant/Ubrelvy），为专利诉讼共同原告"
+  },
+  {
+   "key": "cspc>beigene>授权",
+   "verdict": "correct",
+   "comment": "百济神州 FY2025 10-K：2024-12 与石药集团子公司石药中奇（石家庄）签 MAT2A 抑制剂全球许可协议"
+  },
+  {
+   "key": "novartis>beigene>授权",
+   "verdict": "correct",
+   "comment": "百济神州 FY2025 10-K：依与诺华关联公司的 Market Development Agreement 在中国广阔市场推广销售相关产品"
+  },
+  {
+   "key": "bms>beigene>授权",
+   "verdict": "correct",
+   "comment": "百济神州 FY2025 10-K：依与 BMS 的和解协议，自 BMS 引进的 REVLIMID/VIDAZA 商业化已于 2025-02 终止——属历史关系，定 C"
+  },
+  {
+   "key": "wuxibiologics>merck>供货",
+   "verdict": "correct",
+   "comment": "药明疫苗（药明生物全资子公司）2019 年起为 MSD 建设专属疫苗生产设施（CDMO）；2025-03-31 该爱尔兰 Dundalk 设施以约 4.9963 亿美元售予 MSD（HKEX 公告），专属代工关系转为资产出售——历史关系，定 C"
+  },
+  {
+   "key": "sanhua>tesla>供货",
+   "verdict": "correct",
+   "comment": "v2.9 复核：公司 2018-07 互动平台确认三花汽零为特斯拉 Model 3 独家供应 7 项热管理零部件（每经网报道）；新华社《经济参考报》2025-10-16 称其自 2017 年起为特斯拉一级供应商。与三花 2026 半年报客户名单未列特斯拉存在冲突（未列≠否认，且特斯拉对供应商有保密要求），按“公司确认 + 权威媒体”定 C"
+  },
+  {
+   "key": "tongwei>longi>竞争",
+   "verdict": "correct",
+   "comment": "v2.9 复核：InfoLink 2025H1 全球组件出货排名（2025-08-12）隆基第二、通威第五；新浪财经 2026-04-30 据年报统计 2025 年隆基 86.58GW、通威 43.25GW 同列全球前五。二者同为组件头部厂商，属第三方行业排名口径（非一手互相点名），定 C"
+  },
+  {
+   "key": "lonza>moderna>供货",
+   "verdict": "weak",
+   "comment": "降为 C（历史供货关系，已于 2023Q3 停止）：Moderna 官方声明（2023-09-19）称已于 2023Q3 逐步停止在 Lonza Visp 生产 mRNA 原液，需求转由自有 Norwood 工厂承接；Moderna FY2025 10-K（2026-02-20）亦未再提及 Lonza。原 2021 年 8-K 证据保留为历史，按日期新者降为 C"
+  }
+ ]
+}

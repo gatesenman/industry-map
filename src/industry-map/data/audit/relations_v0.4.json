@@ -1,0 +1,735 @@
+{
+ "round": "v0.4",
+ "date": "2026-10-22",
+ "method": "第二轮人工风格复审：对全部已引用关系逐条重读证据原句，判断是否支持“关系类型+方向”。审核者仍为 Grok Bot（AI），非独立人类审核员；已对照 v0.3 结论并收紧弱证据。；并增补本轮年报原句新关系的逐条复审。",
+ "items": [
+  {
+   "key": "tsmc>nvidia>供货",
+   "grade_before": "A",
+   "verdict": "correct",
+   "comment": "NVIDIA 10-K 明确“utilize foundries such as TSMC”；Wikipedia 亦提及订单。两源一致。",
+   "quote": "We utilize foundries, such as Taiwan Semiconductor Manufacturing Company Limited, or TSMC, and Samsung Electronics Co., Ltd., or Samsung, to produce our semiconductor wafers.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm"
+  },
+  {
+   "key": "tsmc>apple>供货",
+   "grade_before": "C",
+   "verdict": "correct",
+   "comment": "Wikipedia：TSMC serves as the main supplier for … Apple。证据充分但仅二手，维持 C。",
+   "quote": "As the leading dedicated contract chipmaker, it serves as the main supplier for Nvidia, Apple, Broadcom, and Qualcomm.",
+   "url": "https://en.wikipedia.org/wiki/TSMC"
+  },
+  {
+   "key": "tsmc>amd>供货",
+   "grade_before": "A",
+   "verdict": "correct",
+   "comment": "AMD 10-K：utilize TSMC for wafer production。",
+   "quote": "Manufacturing Arrangements and Assembly and Test Facilities Third-Party Wafer Foundry Facilities We utilize Taiwan Semiconductor Manufacturing Company Limited (TSMC) for the production of wafers for our HPC, FPGA and adaptive SoC products and GLOBALFOUNDRIES Inc. (GF), with respect to wafer purchases for our HPC products at the 12 nm and 14 nm technology nodes.",
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm"
+  },
+  {
+   "key": "tsmc>qualcomm>供货",
+   "grade_before": "A",
+   "verdict": "correct",
+   "comment": "Qualcomm 10-K：primary foundry suppliers include TSMC。",
+   "quote": "The primary foundry suppliers for our various digital, analog/mixed-signal, RF and PM integrated circuits include Taiwan Semiconductor Manufacturing Company (TSMC), Samsung Electronics and Global Foundries.",
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000085/qcom-20250928.htm"
+  },
+  {
+   "key": "tsmc>mediatek>供货",
+   "grade_before": "A",
+   "verdict": "correct",
+   "comment": "TSMC 20-F 列 MediaTek 为客户；Wikipedia 亦列。",
+   "quote": "We count among our customers many of the world’s leading semiconductor companies, ranging from fabless semiconductor companies, system companies to integrated device manufacturers, including, but not limited to, Advanced Micro Devices, Inc., Amazon Web Services, Inc., Broadcom Inc., Intel Corporation, MediaTek Inc., NVIDIA Corporation, NXP Semiconductors N.V., Qualcomm Inc., Renesas Electronics Co",
+   "url": "https://www.sec.gov/Archives/edgar/data/1046179/000119312525083423/d896993d20f.htm"
+  },
+  {
+   "key": "asml>tsmc>供货",
+   "grade_before": "A",
+   "verdict": "weak",
+   "comment": "ASML 20-F 仅称“visited TSMC…customers”，属客户关系暗示而非供货合同。保留但标 weak，不升 A。",
+   "quote": "For example, in Decem ber 2024 we visited TSMC (Taiwan Semiconductor Manufacturing Company Ltd.) in Taiwan in order to further build our understanding of our customers and how ASML can best meet their needs.",
+   "url": "https://www.sec.gov/Archives/edgar/data/937966/000093796625000009/asml-20241231.htm"
+  },
+  {
+   "key": "asml>samsung>供货",
+   "grade_before": "A",
+   "verdict": "correct",
+   "comment": "ASML：Samsung 为 CCIP 关键客户；Wikipedia 一致。",
+   "quote": "In 2012, we issued shares to three key customers – Intel, TSMC and Samsung – as part of the customer co-investment program (CCIP) to accelerate ASML’s development of EUV.",
+   "url": "https://www.sec.gov/Archives/edgar/data/937966/000093796624000008/exhibit21.htm"
+  },
+  {
+   "key": "asml>intel>供货",
+   "grade_before": "A",
+   "verdict": "correct",
+   "comment": "Intel 10-K：sole-source EUV tools manufactured by ASML。",
+   "quote": "In some cases, however, we are reliant upon sole-source providers, such as with the EUV lithography tools manufactured by ASML that are required for leading-edge process technologies, or providers that are substantially concentrated in a single country, such as with certain rare earth minerals critical to the functioning of a range of technology products and processes where China is the primary so",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm"
+  },
+  {
+   "key": "skhynix>nvidia>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "NVIDIA：“We purchase memory from SK Hynix”。",
+   "quote": "We purchase memory from SK Hynix Inc., Micron Technology, Inc., and Samsung.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm"
+  },
+  {
+   "key": "micron>nvidia>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "同上，NVIDIA 采购 Micron 内存。",
+   "quote": "We purchase memory from SK Hynix Inc., Micron Technology, Inc., and Samsung.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm"
+  },
+  {
+   "key": "foxconn>apple>供货",
+   "grade_before": "C",
+   "verdict": "correct",
+   "comment": "Wikipedia：Hongfujin primarily manufactures Apple products。",
+   "quote": "A Foxconn branch that primarily manufactures Apple products is Hongfujin.",
+   "url": "https://en.wikipedia.org/wiki/Foxconn"
+  },
+  {
+   "key": "foxconn>nvidia>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "NVIDIA：Hon Hai 为合同制造商。",
+   "quote": "We engage with independent subcontractors and contract manufacturers such as Hon Hai Precision Industry Co., Ltd., Wistron Corporation, and Fabrinet to perform assembly, testing and packaging of our final products.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm"
+  },
+  {
+   "key": "catl>tesla>供货",
+   "grade_before": "A",
+   "verdict": "correct",
+   "comment": "Tesla 10-K：rely on suppliers such as … Contemporary Amperex；Wikipedia 一致。",
+   "quote": "Currently, we rely on suppliers such as Panasonic and Contemporary Amperex Technology Co.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm"
+  },
+  {
+   "key": "catl>bmw>供货",
+   "grade_before": "C",
+   "verdict": "correct",
+   "comment": "Wikipedia：BMW Brilliance first main customer；CATL 2025 年报亦称获得 BMW 等海外客户定点（将另加一手）。",
+   "quote": "In 2012, CATL established cooperation with BMW Brilliance, its first main customer.",
+   "url": "https://en.wikipedia.org/wiki/CATL"
+  },
+  {
+   "key": "catl>liauto>供货",
+   "grade_before": "C",
+   "verdict": "correct",
+   "comment": "Wikipedia 客户名单含 Li Auto。",
+   "quote": "In China, its clients include BAIC Motor, Geely, GAC Group, Yutong Bus, Zhongtong Bus, Xiamen King Long, SAIC Motor, Foton Motor, Li Auto, Nio and XPeng.",
+   "url": "https://en.wikipedia.org/wiki/CATL"
+  },
+  {
+   "key": "lges>tesla>供货",
+   "grade_before": "C",
+   "verdict": "correct",
+   "comment": "Wikipedia：Tesla purchases … from … LG Energy Solution。",
+   "quote": "Tesla purchases these batteries from three suppliers, CATL, LG Energy Solution, and Panasonic, the latter of which has co-located some of its battery production inside Tesla's Gigafactory Nevada.",
+   "url": "https://en.wikipedia.org/wiki/Tesla,_Inc."
+  },
+  {
+   "key": "lges>gm>合资",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "GM：Ultium Cells JV with LG Energy Solution。",
+   "quote": "Our EV portfolio takes advantage of integrated supply chain development, including battery cell production from Ultium Cells Holdings LLC (a joint venture with LG Energy Solution) in plants in Warren, Ohio and Spring Hill, Tennessee.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000013/gm-20251231.htm"
+  },
+  {
+   "key": "panasonic>tesla>供货",
+   "grade_before": "A",
+   "verdict": "correct",
+   "comment": "Tesla 10-K + Wikipedia Gigafactory 合作。",
+   "quote": "Currently, we rely on suppliers such as Panasonic and Contemporary Amperex Technology Co.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm"
+  },
+  {
+   "key": "ganfeng>tesla>供货",
+   "grade_before": "C",
+   "verdict": "correct",
+   "comment": "Wikipedia：sells products to clients including Tesla。",
+   "quote": "It sells products to clients including Tesla, BMW, and LG Chem.",
+   "url": "https://en.wikipedia.org/wiki/Ganfeng_Lithium"
+  },
+  {
+   "key": "tianqi>sqm>投资",
+   "grade_before": "C",
+   "verdict": "correct",
+   "comment": "Wikipedia：Tianqi acquired a 24% stake in SQM。",
+   "quote": "In 2018, Tianqi acquired a 24% stake in the Chilean mining company Sociedad Química y Minera (SQM) for approximately $4.1 billion.",
+   "url": "https://en.wikipedia.org/wiki/Tianqi_Lithium"
+  },
+  {
+   "key": "hesai>liauto>供货",
+   "grade_before": "C",
+   "verdict": "correct",
+   "comment": "Wikipedia：Li Auto became a customer of Hesai … largest one。",
+   "quote": "Li Auto became a customer of Hesai in 2021 and is its largest one.",
+   "url": "https://en.wikipedia.org/wiki/Hesai_Technology"
+  },
+  {
+   "key": "horizon>liauto>供货",
+   "grade_before": "C",
+   "verdict": "correct",
+   "comment": "Wikipedia：Initial automotive customers include … Li Auto。",
+   "quote": "Initial automotive customers include SAIC, Volkswagen Group, BYD, Li Auto, GAC, Deepal, BAIC, Chery, Exeed Sterra, and Voyah, and Tier 1 customers include Bosch, Luxshare, Huaqin, and TzTek, with interest shown from Continental, Denso, Valeo, and ZF.",
+   "url": "https://en.wikipedia.org/wiki/Horizon_Robotics"
+  },
+  {
+   "key": "mobileye>vw>供货",
+   "grade_before": "C",
+   "verdict": "weak",
+   "comment": "原句为“partnerships with … Volkswagen”，未明确供货。降为待核实。",
+   "quote": "In 2018, Mobileye announced partnerships with BMW, Nissan and Volkswagen.",
+   "url": "https://en.wikipedia.org/wiki/Mobileye"
+  },
+  {
+   "key": "firstsolar>nextera>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "First Solar 10-K：NextEra 占模块业务净销售 ≥10%。",
+   "quote": "During 2025, Silicon Ranch Corporation and NextEra Energy each accounted for 10% or more of our modules business net sales.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1274494/000127449426000021/fslr-20251231.htm"
+  },
+  {
+   "key": "catl>lges>竞争",
+   "grade_before": "C",
+   "verdict": "correct",
+   "comment": "第三方引述称 LGES 为竞争对手。",
+   "quote": "According to Kumar, unlike competitors such as LG Energy Solution or SK Innovation, CATL is more willing to adopt external technology rather than relying on a fully in-house design.",
+   "url": "https://en.wikipedia.org/wiki/CATL"
+  },
+  {
+   "key": "tesla>byd>竞争",
+   "grade_before": "C",
+   "verdict": "correct",
+   "comment": "明确称 BYD 为 competitor。",
+   "quote": "In January 2026, the title of world's largest battery electric vehicle manufacturer was lost to Chinese competitor BYD after full year 2025 deliveries were reported by both companies (2,256,714 vs 1,636,129 BEV sales).",
+   "url": "https://en.wikipedia.org/wiki/Tesla,_Inc."
+  },
+  {
+   "key": "tsmc>samsung>竞争",
+   "grade_before": "C",
+   "verdict": "wrong",
+   "comment": "所引 Wikipedia 句讲的是 GlobalFoundries/UMC，未提及 Samsung 为竞争者。证据不支持，降级。",
+   "quote": "While the competitors in the foundry industry (primarily GlobalFoundries and United Microelectronics Corporation) have encountered difficulties ramping leading-edge 28 nm capacity, the leading integrated device manufacturers such as Samsung and Intel that seek to offer foundry capacity to third parties were also unable to match the requirements for advanced mobile applications.",
+   "url": "https://en.wikipedia.org/wiki/TSMC"
+  },
+  {
+   "key": "tsmc>intel>竞争",
+   "grade_before": "A",
+   "verdict": "correct",
+   "comment": "Intel：primary competitor … is TSMC。",
+   "quote": "Our primary competitor in leading-edge semiconductor process technology is TSMC, which holds a leading position in manufacturing at scale for the most advanced nodes.",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm"
+  },
+  {
+   "key": "nvidia>amd>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "AMD：compete primarily against … Nvidia。",
+   "quote": "Competition in Data Center Segment In the Data Center segment, we compete primarily against Intel Corporation (Intel) and Nvidia Corporation (Nvidia with our CPU, GPU DPU and AI NIC server products.",
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm"
+  },
+  {
+   "key": "enphase>solaredge>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "SolarEdge 10-K 列 Enphase 为竞争对手。",
+   "quote": "In the North American residential market, we compete with manufacturers such as Tesla Inc. with traditional string-based solutions, as well as microinverter manufacturers such as Enphase Energy, Inc.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1419612/000117891326001595/zk2634863.htm"
+  },
+  {
+   "key": "nextracker>array>竞争",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "Array 10-K 列 Nextracker 为主要竞争者。",
+   "quote": "Our principal tracker competitors include Nextpower Inc. (f/k/a Nextracker, Inc.), PV Hardware and GameChange Solar.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1820721/000182072126000008/arry-20251231.htm"
+  },
+  {
+   "key": "foxconn>apple>供货",
+   "grade_before": "C",
+   "verdict": "duplicate",
+   "comment": "重复关系条目，保留一条",
+   "quote": "A Foxconn branch that primarily manufactures Apple products is Hongfujin.",
+   "url": "https://en.wikipedia.org/wiki/Foxconn"
+  },
+  {
+   "key": "pegatron>apple>供货",
+   "grade_before": "C",
+   "verdict": "correct",
+   "comment": "Wikipedia：Taiwanese Apple suppliers such as … Pegatron。",
+   "quote": "Taiwanese Apple suppliers such as Foxconn, Wistron, Pegatron, Quanta, and Compal Electronics established a sizable manufacturing presence in China.",
+   "url": "https://en.wikipedia.org/wiki/Apple_Inc."
+  },
+  {
+   "key": "luxshare>apple>供货",
+   "grade_before": "C",
+   "verdict": "correct",
+   "comment": "Wikipedia：key assembler of AirPods for Apple。",
+   "quote": "It designs and manufacturers computer cables; it is also a key assembler of AirPods for Apple Inc.",
+   "url": "https://en.wikipedia.org/wiki/Luxshare"
+  },
+  {
+   "key": "quanta>apple>供货",
+   "grade_before": "C",
+   "verdict": "outdated",
+   "comment": "原句讲 1990s 合同，过于陈旧。降为待核实，除非另有近三年证据。",
+   "quote": "Throughout the 1990s, Quanta established contracts with Apple and Gateway, opening an after-sales office in California in 1991 and another in Augsburg, Germany in 1994.",
+   "url": "https://en.wikipedia.org/wiki/Quanta_Computer"
+  },
+  {
+   "key": "lgd>apple>供货",
+   "grade_before": "C",
+   "verdict": "correct",
+   "comment": "Wikipedia：IPS panels used by … Apple。",
+   "quote": "They are one of the main licensed manufacturers of the more color-accurate IPS panels used by Dell, NEC, ASUS, Apple (including iMacs, iPads, iPhones, iPod Touches) and others, which were developed by Hitachi.",
+   "url": "https://en.wikipedia.org/wiki/LG_Display"
+  },
+  {
+   "key": "boe>apple>供货",
+   "grade_before": "C",
+   "verdict": "correct",
+   "comment": "Wikipedia：OLED supplier for Apple beginning in 2021。",
+   "quote": "BOE also became an OLED supplier for Apple beginning in 2021 for the iPhone.",
+   "url": "https://en.wikipedia.org/wiki/BOE_Technology"
+  },
+  {
+   "key": "lens>apple>供货",
+   "grade_before": "C",
+   "verdict": "correct",
+   "comment": "Apple 公告称 Lens Technology 为其 major supplier。",
+   "quote": "Apple announced on August 16, 2016, that Lens Technology, one of its major suppliers in China, has committed to power all its glass production for Apple with 100 percent renewable energy by 2018.",
+   "url": "https://en.wikipedia.org/wiki/Apple_Inc."
+  },
+  {
+   "key": "qualcomm>samsung>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "Qualcomm：largest mobile handset customers include Samsung。",
+   "quote": "Certain of our largest mobile handset customers (for example, Apple, Samsung and Xiaomi) develop their own integrated circuit products, which they have in the past utilized, and/or currently utilize, in certain of their devices.",
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000085/qcom-20250928.htm"
+  },
+  {
+   "key": "qualcomm>xiaomi>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "同上，含 Xiaomi。",
+   "quote": "Certain of our largest mobile handset customers (for example, Apple, Samsung and Xiaomi) develop their own integrated circuit products, which they have in the past utilized, and/or currently utilize, in certain of their devices.",
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000085/qcom-20250928.htm"
+  },
+  {
+   "key": "tsmc>broadcom>供货",
+   "grade_before": "A",
+   "verdict": "correct",
+   "comment": "Broadcom：outsourced to TSMC。",
+   "quote": "The majority of our front-end wafer manufacturing operations is outsourced to external foundries, including Taiwan Semiconductor Manufacturing Company Limited (“TSMC”).",
+   "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm"
+  },
+  {
+   "key": "tsmc>marvell>供货",
+   "grade_before": "C",
+   "verdict": "correct",
+   "comment": "Wikipedia：Marvell … are customers of TSMC。",
+   "quote": "Most fabless semiconductor companies such as AMD, Apple, ARM, Broadcom, Marvell, MediaTek, Qualcomm, and Nvidia are customers of TSMC, as are emerging companies such as Allwinner Technology, HiSilicon, Spectra7, and UNISOC.",
+   "url": "https://en.wikipedia.org/wiki/TSMC"
+  },
+  {
+   "key": "lges>hyundai>合资",
+   "grade_before": "C",
+   "verdict": "correct",
+   "comment": "Wikipedia：Hyundai … joint venture with LG Energy Solution。",
+   "quote": "In May 2023, Hyundai established a joint venture with LG Energy Solution to manufacture electric vehicle batteries in the US.",
+   "url": "https://en.wikipedia.org/wiki/Hyundai_Motor_Company"
+  },
+  {
+   "key": "samsungsdi>stellantis>合资",
+   "grade_before": "A",
+   "verdict": "correct",
+   "comment": "Stellantis：StarPlus Energy JV with Samsung SDI。",
+   "quote": "In October 2023, Stellantis and StarPlus Energy joint venture partn er Samsung SDI announced plans to locate a second battery manufacturing facility in Kokomo, Indiana, U.S. with production expe cted to begin in 2027.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1605484/000160548424000022/stellantis-20231231.htm"
+  },
+  {
+   "key": "tsmc>intel>供货",
+   "grade_before": "A",
+   "verdict": "correct",
+   "comment": "Intel：utilized third-party foundry … TSMC。",
+   "quote": "In recent years, however, we have also strategically utilized third-party foundry manufacturing capacity, including at one of our key foundry competitors, TSMC, for various tiles or an entire product where advantageous for cost, performance, schedule or other considerations.",
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm"
+  },
+  {
+   "key": "amkor>apple>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "Amkor：Direct sales to Apple … 29.8% of net sales。",
+   "quote": "Direct sales to Apple and Qualcomm accounted for 29.8% and 11.1% of our net sales, respectively, for the year ended December 31, 2025.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1047127/000104712726000014/amkr-20251231.htm"
+  },
+  {
+   "key": "byd>bydelec>控股",
+   "grade_before": "C",
+   "verdict": "weak",
+   "comment": "仅 Wikidata 属性、无原句。维持 C，建议补年报。",
+   "quote": "",
+   "url": "https://www.wikidata.org/wiki/Q4836868"
+  },
+  {
+   "key": "amazon>rivian>持股",
+   "grade_before": "A",
+   "verdict": "correct",
+   "comment": "Rivian 10-K：Amazon … beneficially owns shares。",
+   "quote": "Amazon is the parent company of both Logistics and Amazon.com NV Investment Holdings LLC, which beneficially owns shares of our capital stock (including s hares issuable upon the exercise of a warrant to purchase 3,723,050 shares of Class A common stock, as amended) representing 12.7% of our voting power as of December 31, 2025. 21 RIVIAN AUTOMOTIVE, INC.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1874178/000187417826000008/rivn-20251231.htm"
+  },
+  {
+   "key": "ford>rivian>持股",
+   "grade_before": "A",
+   "verdict": "weak",
+   "comment": "Ford 10-K 提及 Rivian investment losses，支持曾持股；当前比例与是否仍持股未核实。保留 B。",
+   "quote": "Other segment items for the Ford Credit segment primarily consists of interest expense and depreciation. (d) Primarily reflects losses on our Rivian investment and the impairment of our Argo AI equity method investment. (e) Ford Blue includes $ 305 million, $ 909 million, and $ 844 million of spending attributable to electric vehicles at shared manufacturing plants in 2022, 2023, and 2024, respect",
+   "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799625000013/f-20241231.htm"
+  },
+  {
+   "key": "vw>rivian>持股",
+   "grade_before": "A",
+   "verdict": "correct",
+   "comment": "Rivian：Volkswagen … beneficially owns shares … 11.5% voting power。",
+   "quote": "Volkswagen US-Holdings, Inc. (formerly known as Volkswagen International America Inc ), a wholly-owned subsidiary of Volkswagen AG, beneficially owns shares of our capital stock representing 11.5% of our voting power as of December 31, 2025.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1874178/000187417826000008/rivn-20251231.htm"
+  },
+  {
+   "key": "samsung>samsungsdi>持股",
+   "grade_before": "C",
+   "verdict": "weak",
+   "comment": "仅 Wikidata 属性、无原句。维持 C。",
+   "quote": "",
+   "url": "https://www.wikidata.org/wiki/Q21120876"
+  },
+  {
+   "key": "intel>mobileye>控股",
+   "grade_before": "A",
+   "verdict": "correct",
+   "comment": "Mobileye：Intel acquired Mobileye … wholly-owned subsidiary。",
+   "quote": "Intel Corporation (“Intel”) acquired Mobileye for $15.3 billion in 2017, after which we became a wholly-owned subsidiary of Intel.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1910139/000110465926014300/mbly-20251227x10k.htm"
+  },
+  {
+   "key": "catl>vw>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "年报原句含对手方名称及客户/供货表述",
+   "quote": "务，持续获得 VW、BMW、Stellantis、Volvo、DMG 等海外客户诸多定点",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603091820421719_1.pdf"
+  },
+  {
+   "key": "catl>stellantis>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "年报原句含对手方名称及客户/供货表述",
+   "quote": "务，持续获得 VW、BMW、Stellantis、Volvo、DMG 等海外客户诸多定点",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603091820421719_1.pdf"
+  },
+  {
+   "key": "ganfeng>bmw>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "年报原句含对手方名称及客户/供货表述",
+   "quote": "与 LG 化学、特斯拉、宝马等核心客户建立长期战略合作，锁定长期订单",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603301820873426_1.pdf"
+  },
+  {
+   "key": "lens>tesla>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "年报原句含对手方名称及客户/供货表述",
+   "quote": "在 AI 智能终端和智能汽车领域，公司一直是众多全球知名客户的长期战略合作伙伴，如：苹果、特斯拉、三星、",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603301820884466_1.pdf"
+  },
+  {
+   "key": "lens>samsung>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "年报原句含对手方名称及客户/供货表述",
+   "quote": "在 AI 智能终端和智能汽车领域，公司一直是众多全球知名客户的长期战略合作伙伴，如：苹果、特斯拉、三星、",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603301820884466_1.pdf"
+  },
+  {
+   "key": "sanhua>panasonic>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "年报原句含对手方名称及客户/供货表述",
+   "quote": "格力、海尔、LG、美的、三菱、松下、三星、西门子和特灵等主要客户合作，获得了客户的广泛认可",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603231820706482_1.pdf"
+  },
+  {
+   "key": "sanhua>samsung>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "年报原句含对手方名称及客户/供货表述",
+   "quote": "格力、海尔、LG、美的、三菱、松下、三星、西门子和特灵等主要客户合作，获得了客户的广泛认可",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603231820706482_1.pdf"
+  },
+  {
+   "key": "autowell>longi>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "年报原句含对手方名称及客户/供货表述",
+   "quote": "前全球主要硅片生产商隆基绿能、弘元绿能等均是公司硅片分选机客户",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202604221821448293_1.pdf"
+  },
+  {
+   "key": "autowell>jinko>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "年报原句含对手方名称及客户/供货表述",
+   "quote": "储能、海博思创、海辰储能、阿特斯、天合储能、晶科储能、中车株洲所等客户的订单",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202604221821448293_1.pdf"
+  },
+  {
+   "key": "autowell>trina>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "年报原句含对手方名称及客户/供货表述",
+   "quote": "储能、海博思创、海辰储能、阿特斯、天合储能、晶科储能、中车株洲所等客户的订单",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202604221821448293_1.pdf"
+  },
+  {
+   "key": "dmegc>panasonic>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "年报原句含对手方名称及客户/供货表述",
+   "quote": "略供应商，并多次被 Brose、Eaton、Panasonic、Nidec 等客户评为最佳供应商",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603271820808582_1.pdf"
+  },
+  {
+   "key": "dynanonic>catl>合资",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "年报原句含对手方名称及客户/供货表述",
+   "quote": "2.公司与宁德时代于 2019 年 5 月 12 日签署了《合资经营协议》，依据《合资经营协议》的约定，宁德时代向曲靖",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202604281821711294_1.pdf"
+  },
+  {
+   "key": "easpring>bmw>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "年报原句含对手方名称及客户/供货表述",
+   "quote": "顺利进入大众、现代、戴姆勒、宝马、奔驰等海外高端新能源车企供应链，成功交付众多标杆项目并获",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603301820870837_1.pdf"
+  },
+  {
+   "key": "easpring>mercedes>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "年报原句含对手方名称及客户/供货表述",
+   "quote": "顺利进入大众、现代、戴姆勒、宝马、奔驰等海外高端新能源车企供应链，成功交付众多标杆项目并获",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603301820870837_1.pdf"
+  },
+  {
+   "key": "easpring>vw>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "年报原句含对手方名称及客户/供货表述",
+   "quote": "顺利进入大众、现代、戴姆勒、宝马、奔驰等海外高端新能源车企供应链，成功交付众多标杆项目并获",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603301820870837_1.pdf"
+  },
+  {
+   "key": "easpring>byd>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "年报原句含对手方名称及客户/供货表述",
+   "quote": "导入比亚迪、亿纬锂能、远景、蜂巢能源、微宏动力、中汽新能等国内主流动力电池厂商，配套用于蔚",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603301820870837_1.pdf"
+  },
+  {
+   "key": "easpring>samsung>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "年报原句含对手方名称及客户/供货表述",
+   "quote": "场方面，公司与 LGES、SK on、三星 SDI、Murata 等电池企业建立长期服务、配套开发的合作关系，",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603301820870837_1.pdf"
+  },
+  {
+   "key": "easpring>apple>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "年报原句含对手方名称及客户/供货表述",
+   "quote": "国家和地区，已进入国际一线消费类电子制造商供应链，终端客户包括三星、苹果、华为、小米等国际",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603301820870837_1.pdf"
+  },
+  {
+   "key": "easpring>huawei>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "年报原句含对手方名称及客户/供货表述",
+   "quote": "国家和地区，已进入国际一线消费类电子制造商供应链，终端客户包括三星、苹果、华为、小米等国际",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603301820870837_1.pdf"
+  },
+  {
+   "key": "easpring>xiaomi>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "年报原句含对手方名称及客户/供货表述",
+   "quote": "国家和地区，已进入国际一线消费类电子制造商供应链，终端客户包括三星、苹果、华为、小米等国际",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603301820870837_1.pdf"
+  },
+  {
+   "key": "eve>bmw>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "年报原句含对手方名称及客户/供货表述",
+   "quote": "世、小米、顺丰、思摩尔等；知名车企客户包括国际品牌 BMW、梅赛德斯奔驰、捷豹路虎等，国内知名车企广汽、一汽、",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603271820812500_1.pdf"
+  },
+  {
+   "key": "eve>xpeng>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "年报原句含对手方名称及客户/供货表述",
+   "quote": "长安以及知名新势力小鹏、零跑等，商用车客户三一重卡、吉利远程、东风商用车等；知名储能客户包括 Wärtsilä、ABB、",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603271820812500_1.pdf"
+  },
+  {
+   "key": "eve>mercedes>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "年报原句含对手方名称及客户/供货表述",
+   "quote": "世、小米、顺丰、思摩尔等；知名车企客户包括国际品牌 BMW、梅赛德斯奔驰、捷豹路虎等，国内知名车企广汽、一汽、",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603271820812500_1.pdf"
+  },
+  {
+   "key": "eve>geely>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "年报原句含对手方名称及客户/供货表述",
+   "quote": "长安以及知名新势力小鹏、零跑等，商用车客户三一重卡、吉利远程、东风商用车等；知名储能客户包括 Wärtsilä、ABB、",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603271820812500_1.pdf"
+  },
+  {
+   "key": "eve>gac>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "年报原句含对手方名称及客户/供货表述",
+   "quote": "世、小米、顺丰、思摩尔等；知名车企客户包括国际品牌 BMW、梅赛德斯奔驰、捷豹路虎等，国内知名车企广汽、一汽、",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603271820812500_1.pdf"
+  },
+  {
+   "key": "eve>samsung>供货",
+   "grade_before": "B",
+   "verdict": "weak",
+   "comment": "原句过短",
+   "quote": "公司合作的知名消费电池客户包括三星、SB＆D、博",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603271820812500_1.pdf"
+  },
+  {
+   "key": "eve>xiaomi>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "年报原句含对手方名称及客户/供货表述",
+   "quote": "世、小米、顺丰、思摩尔等；知名车企客户包括国际品牌 BMW、梅赛德斯奔驰、捷豹路虎等，国内知名车企广汽、一汽、",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603271820812500_1.pdf"
+  },
+  {
+   "key": "first_applied>longi>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "年报原句含对手方名称及客户/供货表述",
+   "quote": "部客户资源，与晶科能源、隆基绿能、天合光能等全球前十大光伏组件厂商建立长期稳定的战略",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202604081821063392_1.pdf"
+  },
+  {
+   "key": "first_applied>jinko>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "年报原句含对手方名称及客户/供货表述",
+   "quote": "部客户资源，与晶科能源、隆基绿能、天合光能等全球前十大光伏组件厂商建立长期稳定的战略",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202604081821063392_1.pdf"
+  },
+  {
+   "key": "first_applied>trina>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "年报原句含对手方名称及客户/供货表述",
+   "quote": "部客户资源，与晶科能源、隆基绿能、天合光能等全球前十大光伏组件厂商建立长期稳定的战略",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202604081821063392_1.pdf"
+  },
+  {
+   "key": "flat>jinko>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "年报原句含对手方名称及客户/供货表述",
+   "quote": "定晶科能源及其子公司计划于 2024 年-2025 年向公司及子公司采购约 77GW 光伏组件用光伏玻璃",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603261820771832_1.pdf"
+  },
+  {
+   "key": "fusion>tongwei>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "年报原句含对手方名称及客户/供货表述",
+   "quote": "供优质、高效、迭代迅速的产品，积累了众多优质客户，包括通威太阳能、晶科能源、天合光能、",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603301820871894_1.pdf"
+  },
+  {
+   "key": "fusion>jinko>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "年报原句含对手方名称及客户/供货表述",
+   "quote": "供优质、高效、迭代迅速的产品，积累了众多优质客户，包括通威太阳能、晶科能源、天合光能、",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603301820871894_1.pdf"
+  },
+  {
+   "key": "fusion>trina>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "年报原句含对手方名称及客户/供货表述",
+   "quote": "能、天合光能、阿特斯、中润能源、横店东磁、东方日升、正泰新能源等多家客户连续多年荣誉",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603301820871894_1.pdf"
+  },
+  {
+   "key": "gac>toyota>合资",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "年报原句含对手方名称及客户/供货表述",
+   "quote": "（1）乘用车主要通过子公司广汽传祺、广汽埃安和合营公司广汽本田、广汽丰田生产",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603271820813175_1.pdf"
+  },
+  {
+   "key": "gac>byd>合资",
+   "grade_before": "B",
+   "verdict": "weak",
+   "comment": "原句过短",
+   "quote": "广州广汽比亚迪新能源客车有限公司（注 1） 合营企业",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603271820813175_1.pdf"
+  },
+  {
+   "key": "gotion>vw>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "年报原句含对手方名称及客户/供货表述",
+   "quote": "厂商，深化与大众、奇瑞、吉利、零跑等头部客户的长期战略合作，采用“定制化研发+批量供货”模式，",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202604291821742693_1.pdf"
+  },
+  {
+   "key": "gotion>geely>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "年报原句含对手方名称及客户/供货表述",
+   "quote": "厂商，深化与大众、奇瑞、吉利、零跑等头部客户的长期战略合作，采用“定制化研发+批量供货”模式，",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202604291821742693_1.pdf"
+  },
+  {
+   "key": "easpring>hyundai>供货",
+   "grade_before": "B",
+   "verdict": "correct",
+   "comment": "年报原句含对手方名称及客户/供货表述",
+   "quote": "顺利进入大众、现代、戴姆勒、宝马、奔驰等海外高端新能源车企供应链，成功交付众多标杆项目并获",
+   "url": "https://pdf.dfcfw.com/pdf/H2_AN202603301820870837_1.pdf"
+  }
+ ]
+}

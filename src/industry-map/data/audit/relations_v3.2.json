@@ -1,0 +1,247 @@
+{
+ "round": "v3.2",
+ "date": "2026-11-03",
+ "method": "v3.2 人工逐句复核 SEC 一手原文",
+ "items": [
+  {
+   "key": "polestar>tesla>竞争",
+   "verdict": "correct",
+   "comment": "Polestar FY2025 20-F（2026-04-17）principal premium competitors 原句点名 Tesla"
+  },
+  {
+   "key": "polestar>lucid>竞争",
+   "verdict": "correct",
+   "comment": "Polestar FY2025 20-F（2026-04-17）principal premium competitors 原句点名 Lucid"
+  },
+  {
+   "key": "polestar>rivian>竞争",
+   "verdict": "correct",
+   "comment": "Polestar FY2025 20-F（2026-04-17）principal premium competitors 原句点名 Rivian"
+  },
+  {
+   "key": "polestar>xpeng>竞争",
+   "verdict": "correct",
+   "comment": "Polestar FY2025 20-F（2026-04-17）principal premium competitors 原句点名 XPeng（小鹏）"
+  },
+  {
+   "key": "polestar>nio>竞争",
+   "verdict": "correct",
+   "comment": "Polestar FY2025 20-F（2026-04-17）principal premium competitors 原句点名 NIO（蔚来）"
+  },
+  {
+   "key": "polestar>bmw>竞争",
+   "verdict": "correct",
+   "comment": "Polestar FY2025 20-F（2026-04-17）principal premium competitors 原句点名 BMW（宝马）"
+  },
+  {
+   "key": "polestar>mercedes>竞争",
+   "verdict": "correct",
+   "comment": "Polestar FY2025 20-F（2026-04-17）principal premium competitors 原句点名 Mercedes（梅赛德斯）"
+  },
+  {
+   "key": "polestar>gm>竞争",
+   "verdict": "correct",
+   "comment": "Polestar FY2025 20-F：ADAS/AD 竞品原句点名 General Motors"
+  },
+  {
+   "key": "catl>polestar>供货",
+   "verdict": "correct",
+   "comment": "Polestar FY2025 20-F：CATL 为主要电池来源并有长期供货关系"
+  },
+  {
+   "key": "nvidia>polestar>供货",
+   "verdict": "correct",
+   "comment": "Polestar FY2025 20-F：Polestar 3 采用 NVIDIA DRIVE 中央计算"
+  },
+  {
+   "key": "lucid>tesla>竞争",
+   "verdict": "correct",
+   "comment": "Lucid FY2025 10-K（2026-02-24）竞品原句点名 Tesla"
+  },
+  {
+   "key": "lucid>rivian>竞争",
+   "verdict": "correct",
+   "comment": "Lucid FY2025 10-K（2026-02-24）竞品原句点名 Rivian"
+  },
+  {
+   "key": "tesla>lucid>授权",
+   "verdict": "correct",
+   "comment": "Lucid FY2025 10-K：2025-01-31 起客户可使用特斯拉超充网络"
+  },
+  {
+   "key": "nvidia>lucid>授权",
+   "verdict": "correct",
+   "comment": "Lucid FY2025 10-K 风险因素点名与 NVIDIA 的战略合作伙伴关系（未披露具体商务条款）"
+  },
+  {
+   "key": "albemarle>sqm>竞争",
+   "verdict": "correct",
+   "comment": "Albemarle FY2025 10-K（2026-02-11）锂化合物竞品原句点名 SQM（智利化工）"
+  },
+  {
+   "key": "albemarle>tianqi>竞争",
+   "verdict": "correct",
+   "comment": "Albemarle FY2025 10-K（2026-02-11）锂化合物竞品原句点名 天齐锂业"
+  },
+  {
+   "key": "albemarle>ganfeng>竞争",
+   "verdict": "correct",
+   "comment": "Albemarle FY2025 10-K（2026-02-11）锂化合物竞品原句点名 赣锋锂业"
+  },
+  {
+   "key": "albemarle>pilbara>竞争",
+   "verdict": "correct",
+   "comment": "Albemarle FY2025 10-K（2026-02-11）锂化合物竞品原句点名 皮尔巴拉矿业"
+  },
+  {
+   "key": "albemarle>tesla>竞争",
+   "verdict": "correct",
+   "comment": "Albemarle FY2025 10-K（2026-02-11）锂化合物竞品原句点名 Tesla"
+  },
+  {
+   "key": "sqm>albemarle>竞争",
+   "verdict": "correct",
+   "comment": "SQM FY2025 20-F（2026-04-22）锂市场竞品及份额原句点名 Albemarle（雅保）"
+  },
+  {
+   "key": "sqm>ganfeng>竞争",
+   "verdict": "correct",
+   "comment": "SQM FY2025 20-F（2026-04-22）锂市场竞品及份额原句点名 赣锋锂业"
+  },
+  {
+   "key": "sqm>tianqi>竞争",
+   "verdict": "correct",
+   "comment": "SQM FY2025 20-F（2026-04-22）锂市场竞品及份额原句点名 天齐锂业"
+  },
+  {
+   "key": "tianqi>sqm>持股",
+   "verdict": "correct",
+   "comment": "SQM FY2025 20-F：天齐锂业及其全资子公司合计持股约 21.9%"
+  },
+  {
+   "key": "panasonic>tesla>供货",
+   "verdict": "correct",
+   "comment": "Tesla FY2025 10-K（2026-01-29）：松下 为电芯供应商原句"
+  },
+  {
+   "key": "catl>tesla>供货",
+   "verdict": "correct",
+   "comment": "Tesla FY2025 10-K（2026-01-29）：宁德时代 为电芯供应商原句"
+  },
+  {
+   "key": "lges>gm>合资",
+   "verdict": "correct",
+   "comment": "GM FY2025 10-K（2026-01-27）：与 LG Energy Solution 合资 Ultium Cells（俄亥俄/田纳西工厂）"
+  },
+  {
+   "key": "onsemi>sony>竞争",
+   "verdict": "correct",
+   "comment": "onsemi FY2025 10-K（2026-02-09）ISG 竞品原句点名 索尼半导体"
+  },
+  {
+   "key": "onsemi>samsung>竞争",
+   "verdict": "correct",
+   "comment": "onsemi FY2025 10-K（2026-02-09）ISG 竞品原句点名 三星电子"
+  },
+  {
+   "key": "onsemi>omnivision>竞争",
+   "verdict": "correct",
+   "comment": "onsemi FY2025 10-K（2026-02-09）ISG 竞品原句点名 豪威"
+  },
+  {
+   "key": "onsemi>infineon>竞争",
+   "verdict": "correct",
+   "comment": "onsemi FY2025 10-K PSG 主要竞品原句点名 英飞凌"
+  },
+  {
+   "key": "onsemi>st>竞争",
+   "verdict": "correct",
+   "comment": "onsemi FY2025 10-K PSG 主要竞品原句点名 意法半导体"
+  },
+  {
+   "key": "catl>liauto>供货",
+   "verdict": "correct",
+   "comment": "理想汽车 FY2025 20-F（2026-04-10）：CATL 供应多数电池包（含 5C 超充专用电芯）"
+  },
+  {
+   "key": "nvidia>nio>供货",
+   "verdict": "correct",
+   "comment": "NIO FY2025 20-F（2026-04-10）：换电站 4.0 配备 NVIDIA DRIVE Orin X"
+  },
+  {
+   "key": "chargepoint>tesla>竞争",
+   "verdict": "correct",
+   "comment": "ChargePoint FY2026 10-K（2026-04-02）硬件充电竞品原句点名 Tesla"
+  },
+  {
+   "key": "mobileye>amd>竞争",
+   "verdict": "correct",
+   "comment": "Mobileye FY2025 10-K（2026-02-12）硅供应商竞品原句点名 AMD"
+  },
+  {
+   "key": "mobileye>qualcomm>竞争",
+   "verdict": "correct",
+   "comment": "Mobileye FY2025 10-K（2026-02-12）硅供应商竞品原句点名 Qualcomm"
+  },
+  {
+   "key": "mobileye>blacksesame>竞争",
+   "verdict": "correct",
+   "comment": "Mobileye FY2025 10-K（2026-02-12）硅供应商竞品原句点名 黑芝麻智能"
+  },
+  {
+   "key": "mobileye>horizon>竞争",
+   "verdict": "correct",
+   "comment": "Mobileye FY2025 10-K（2026-02-12）硅供应商竞品原句点名 地平线"
+  },
+  {
+   "key": "mobileye>huawei>竞争",
+   "verdict": "correct",
+   "comment": "Mobileye FY2025 10-K（2026-02-12）硅供应商竞品原句点名 华为"
+  },
+  {
+   "key": "mobileye>nvidia>竞争",
+   "verdict": "correct",
+   "comment": "Mobileye FY2025 10-K（2026-02-12）硅供应商竞品原句点名 NVIDIA"
+  },
+  {
+   "key": "mobileye>nxp>竞争",
+   "verdict": "correct",
+   "comment": "Mobileye FY2025 10-K（2026-02-12）硅供应商竞品原句点名 NXP"
+  },
+  {
+   "key": "mobileye>renesas>竞争",
+   "verdict": "correct",
+   "comment": "Mobileye FY2025 10-K（2026-02-12）硅供应商竞品原句点名 瑞萨"
+  },
+  {
+   "key": "mobileye>ti>竞争",
+   "verdict": "correct",
+   "comment": "Mobileye FY2025 10-K（2026-02-12）硅供应商竞品原句点名 德州仪器"
+  },
+  {
+   "key": "stellantis>leapmotor>合资",
+   "verdict": "correct",
+   "comment": "Stellantis FY2025 20-F（2026-02-26）：与零跑合资 Leapmotor International（Stellantis 持股 51%）"
+  },
+  {
+   "key": "vw>xpeng>持股",
+   "verdict": "correct",
+   "comment": "XPeng FY2025 20-F（2026-04-16）：大众中国/指定方按 SPA 认购约 4.99% 股份"
+  },
+  {
+   "key": "xpeng>vw>授权",
+   "verdict": "correct",
+   "comment": "XPeng FY2025 20-F：与大众集团签订 E/E 架构技术合作框架协议与主协议（2024-04/07）"
+  },
+  {
+   "key": "vw>rivian>合资",
+   "verdict": "correct",
+   "comment": "Rivian FY2025 10-K（2026-02-12）：与大众集团设有合资，软件与服务收入相当部分来自大众"
+  },
+  {
+   "key": "amazon>rivian>持股",
+   "verdict": "correct",
+   "comment": "Rivian FY2025 10-K：Amazon 为首个商用客户并下单 10 万辆 EDV（既有股东关系，本轮刷新证据）"
+  }
+ ]
+}

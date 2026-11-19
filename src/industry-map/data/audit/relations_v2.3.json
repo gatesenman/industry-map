@@ -1,0 +1,197 @@
+{
+ "round": "v2.3",
+ "date": "2026-10-25",
+ "method": "v2.3 人工逐句复核 SEC 一手原文",
+ "items": [
+  {
+   "key": "lam>amat>竞争",
+   "verdict": "correct",
+   "comment": "Lam Research FY2026 Form 10-K 监管原句点名 Applied Materials 为介质/金属沉积与刻蚀主要竞争对手"
+  },
+  {
+   "key": "lam>tel>竞争",
+   "verdict": "correct",
+   "comment": "Lam 10-K 将 Tokyo Electron 列为刻蚀与湿法清洗主要竞争对手"
+  },
+  {
+   "key": "lam>asmi>竞争",
+   "verdict": "correct",
+   "comment": "Lam 10-K 点名 ASM International 为 ALD/PECVD 竞争对手"
+  },
+  {
+   "key": "kla>amat>竞争",
+   "verdict": "correct",
+   "comment": "KLA FY2026 Form 10-K 监管原句将 Applied Materials 列为产品市场竞争对手"
+  },
+  {
+   "key": "kla>asml>竞争",
+   "verdict": "correct",
+   "comment": "KLA 10-K 将 ASML Holding 列为产品市场竞争对手"
+  },
+  {
+   "key": "asml>amat>竞争",
+   "verdict": "correct",
+   "comment": "ASML 2025 Annual Report / 20-F 原句称 Applied Materials 与 KLA 的应用与 ASML 产品竞争"
+  },
+  {
+   "key": "tel>lam>竞争",
+   "verdict": "correct",
+   "comment": "Lam 10-K 双向确认东京电子为刻蚀/湿法主要对手；用监管原句为 tel>lam 落证"
+  },
+  {
+   "key": "gf>intel>竞争",
+   "verdict": "correct",
+   "comment": "GlobalFoundries FY2025 20-F 将 Intel 列为提供代工服务的 IDM 竞争对手"
+  },
+  {
+   "key": "intel>gf>竞争",
+   "verdict": "correct",
+   "comment": "Intel FY2025 Form 10-K 将 GlobalFoundries 列为 Intel Foundry 竞争对手（成熟制程）"
+  },
+  {
+   "key": "lilly>novo>竞争",
+   "verdict": "correct",
+   "comment": "Novo Nordisk Form 20-F 监管原句：全球糖尿病与肥胖症/GLP-1 市场中 Novo 与 Eli Lilly 为市占最显著两家（互为主要对手）"
+  },
+  {
+   "key": "moderna>pfizer>竞争",
+   "verdict": "correct",
+   "comment": "Moderna FY2025 Form 10-K 监管原句：COVID 疫苗销售主要与 Pfizer 和 BioNTech 竞争"
+  },
+  {
+   "key": "goodwe>sungrow>竞争",
+   "verdict": "correct",
+   "comment": "Wood Mackenzie 2026 全球逆变器厂商排名官方新闻：阳光与华为并列第一，固德威进入前五，同场竞争"
+  },
+  {
+   "key": "goodwe>huawei>竞争",
+   "verdict": "correct",
+   "comment": "WoodMac 2026 排名将固德威与华为同列入全球逆变器头部梯队"
+  },
+  {
+   "key": "apsystems>sungrow>竞争",
+   "verdict": "correct",
+   "comment": "WoodMac 2026：APSystems 首次进入全球逆变器前十，与阳光同场竞争"
+  },
+  {
+   "key": "apsystems>huawei>竞争",
+   "verdict": "correct",
+   "comment": "WoodMac 2026：APSystems 进入前十，与华为同场竞争"
+  },
+  {
+   "key": "samsungsdi>bmw>供货",
+   "verdict": "correct",
+   "comment": "BMW Group 官方新闻披露与 Samsung SDI 长期电芯供货合同约 29 亿欧元（2021–2031），OEM 一手，升 B"
+  },
+  {
+   "key": "sungrow>huawei>竞争",
+   "verdict": "correct",
+   "comment": "原 OFweek 转述降为 WoodMac 官方新闻一手：2026 全球逆变器排名阳光与华为并列第一；C→B"
+  },
+  {
+   "key": "catl>nio>供货",
+   "verdict": "correct",
+   "comment": "刷新为 NIO 官方 2025 换电战略合作原句（含电池标准/网络与资本合作）；仍为公司新闻非监管，维持 C"
+  },
+  {
+   "key": "catl>mercedes>供货",
+   "verdict": "correct",
+   "comment": "CATL 官方新闻原句：Mercedes 称 CATL will be a major supplier；公司一手非监管，维持 C 并刷新原句"
+  },
+  {
+   "key": "flex>apple>供货",
+   "verdict": "correct",
+   "comment": "核对 Apple Supplier List FY2023 仍含 Flex Limited；维持 C（买家官方名单，非 SEC 合同）并确认名单可达"
+  },
+  {
+   "key": "ase>apple>供货",
+   "verdict": "correct",
+   "comment": "核对 Apple Supplier List FY2023 含 Advanced Semiconductor Engineering Technology Holding；维持 C 并确认"
+  },
+  {
+   "key": "sony>apple>供货",
+   "verdict": "correct",
+   "comment": "再核 Apple FY2023 供应商名单含 Sony Corporation；维持 C"
+  },
+  {
+   "key": "murata>apple>供货",
+   "verdict": "correct",
+   "comment": "再核 Apple FY2023 供应商名单含 Murata；维持 C"
+  },
+  {
+   "key": "samsung>apple>供货",
+   "verdict": "correct",
+   "comment": "再核 Apple FY2023 供应商名单含 Samsung Electronics；维持 C"
+  },
+  {
+   "key": "intel>umc>竞争",
+   "verdict": "correct",
+   "comment": "Intel FY2025 10-K 将 UMC 列为 Intel Foundry 竞争对手"
+  },
+  {
+   "key": "intel>smic>竞争",
+   "verdict": "correct",
+   "comment": "Intel FY2025 10-K 将 SMIC 列为 Intel Foundry 竞争对手"
+  },
+  {
+   "key": "lam>screen>竞争",
+   "verdict": "correct",
+   "comment": "Lam 10-K 将 Screen Holding 列为湿法清洗主要竞争对手"
+  },
+  {
+   "key": "pfizer>moderna>竞争",
+   "verdict": "correct",
+   "comment": "Moderna 10-K 确认 COVID 疫苗与 Pfizer 直接竞争；为对称边落证"
+  },
+  {
+   "key": "enphase>goodwe>竞争",
+   "verdict": "correct",
+   "comment": "WoodMac 2026：Enphase 与 GoodWe 同列全球逆变器前五"
+  },
+  {
+   "key": "fluence>sungrow>竞争",
+   "verdict": "correct",
+   "comment": "Fluence FY2025 Form 10-K 将 Sungrow 列为 key competitors"
+  },
+  {
+   "key": "amat>lam>竞争",
+   "verdict": "correct",
+   "comment": "Lam 10-K 点名 Applied 为沉积/刻蚀主要对手；对称边 amat>lam 落证"
+  },
+  {
+   "key": "asmi>lam>竞争",
+   "verdict": "correct",
+   "comment": "Lam 10-K 点名 ASM International 为 ALD/PECVD 对手；对称边落证"
+  },
+  {
+   "key": "fluence>tesla>竞争",
+   "verdict": "correct",
+   "comment": "Fluence FY2025 10-K 将 Tesla 列为 key competitors"
+  },
+  {
+   "key": "goodwe>enphase>竞争",
+   "verdict": "correct",
+   "comment": "WoodMac 2026 全球逆变器排名固德威与 Enphase 同列前五"
+  },
+  {
+   "key": "screen>lam>竞争",
+   "verdict": "correct",
+   "comment": "Lam 10-K 将 Screen Holding 列为湿法清洗主要对手；对称边落证"
+  },
+  {
+   "key": "umc>intel>竞争",
+   "verdict": "correct",
+   "comment": "Intel 10-K 将 UMC 列为 Foundry 竞争对手；对称边落证"
+  },
+  {
+   "key": "smic>intel>竞争",
+   "verdict": "correct",
+   "comment": "Intel 10-K 将 SMIC 列为 Foundry 竞争对手；对称边落证"
+  },
+  {
+   "key": "foxconn>apple>供货",
+   "verdict": "correct",
+   "comment": "再核 Apple FY2023 供应商名单含 Hon Hai (Foxconn)；维持 C"
+  }
+ ]
+}

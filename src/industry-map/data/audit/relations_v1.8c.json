@@ -1,0 +1,97 @@
+{
+ "round": "v1.8",
+ "date": "2026-10-22",
+ "method": "v1.8 人工逐句复核 SEC 一手原文",
+ "items": [
+  {
+   "key": "autowell>sungrow>供货",
+   "verdict": "correct",
+   "comment": "奥特维 2025 年报原句（v1.8 中文别名匹配 + 人工逐句复核）"
+  },
+  {
+   "key": "autowell>hyperstrong>供货",
+   "verdict": "correct",
+   "comment": "奥特维 2025 年报原句（v1.8 中文别名匹配 + 人工逐句复核）"
+  },
+  {
+   "key": "autowell>canadian>供货",
+   "verdict": "correct",
+   "comment": "奥特维 2025 年报原句（v1.8 中文别名匹配 + 人工逐句复核）"
+  },
+  {
+   "key": "dmegc>nidec>供货",
+   "verdict": "correct",
+   "comment": "横店东磁 2025 年报原句（v1.8 中文别名匹配 + 人工逐句复核）"
+  },
+  {
+   "key": "huayou>easpring>供货",
+   "verdict": "correct",
+   "comment": "当升科技 2025 年报原句（v1.8 中文别名匹配 + 人工逐句复核）"
+  },
+  {
+   "key": "sqm>easpring>供货",
+   "verdict": "correct",
+   "comment": "当升科技 2025 年报原句（v1.8 中文别名匹配 + 人工逐句复核）"
+  },
+  {
+   "key": "easpring>lges>供货",
+   "verdict": "correct",
+   "comment": "当升科技 2025 年报原句（v1.8 中文别名匹配 + 人工逐句复核）"
+  },
+  {
+   "key": "easpring>samsungsdi>供货",
+   "verdict": "correct",
+   "comment": "当升科技 2025 年报原句（v1.8 中文别名匹配 + 人工逐句复核）"
+  },
+  {
+   "key": "easpring>murata>供货",
+   "verdict": "correct",
+   "comment": "当升科技 2025 年报原句（v1.8 中文别名匹配 + 人工逐句复核）"
+  },
+  {
+   "key": "easpring>calb>供货",
+   "verdict": "correct",
+   "comment": "当升科技 2025 年报原句（v1.8 中文别名匹配 + 人工逐句复核）"
+  },
+  {
+   "key": "easpring>eve>供货",
+   "verdict": "correct",
+   "comment": "当升科技 2025 年报原句（v1.8 中文别名匹配 + 人工逐句复核）"
+  },
+  {
+   "key": "easpring>sunwoda>供货",
+   "verdict": "correct",
+   "comment": "当升科技 2025 年报原句（v1.8 中文别名匹配 + 人工逐句复核）"
+  },
+  {
+   "key": "fusion>ja>供货",
+   "verdict": "correct",
+   "comment": "聚和材料 2025 年报原句（v1.8 中文别名匹配 + 人工逐句复核）"
+  },
+  {
+   "key": "fusion>canadian>供货",
+   "verdict": "correct",
+   "comment": "聚和材料 2025 年报原句（v1.8 中文别名匹配 + 人工逐句复核）"
+  },
+  {
+   "key": "fusion>risen>供货",
+   "verdict": "correct",
+   "comment": "聚和材料 2025 年报原句（v1.8 中文别名匹配 + 人工逐句复核）"
+  },
+  {
+   "key": "fusion>dmegc>供货",
+   "verdict": "correct",
+   "comment": "聚和材料 2025 年报原句（v1.8 中文别名匹配 + 人工逐句复核）"
+  },
+  {
+   "key": "fusion>jietai>供货",
+   "verdict": "correct",
+   "comment": "聚和材料 2025 年报原句（v1.8 中文别名匹配 + 人工逐句复核）"
+  },
+  {
+   "key": "gotion>rivian>供货",
+   "verdict": "correct",
+   "comment": "国轩高科 2025 年报原句（v1.8 中文别名匹配 + 人工逐句复核）"
+  }
+ ]
+}

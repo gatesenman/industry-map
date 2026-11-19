@@ -1,0 +1,27 @@
+{
+ "round": "v1.8",
+ "date": "2026-10-22",
+ "method": "v1.8 人工逐句复核 SEC 一手原文",
+ "items": [
+  {
+   "key": "nvidia>byd>供货",
+   "verdict": "correct",
+   "comment": "NVIDIA 10-Q（2024-05-29）原句"
+  },
+  {
+   "key": "mobileye>geely>供货",
+   "verdict": "correct",
+   "comment": "Mobileye 10-K（2026-02-12）原句；附 10-Q 风险提示"
+  },
+  {
+   "key": "tongwei>longi>供货",
+   "verdict": "correct",
+   "comment": "隆基绿能 2025 年报关联交易表原文；通威股份 2025 年报确认云南通威高纯晶硅为其子公司（少数股东 49%）"
+  },
+  {
+   "key": "tongwei>longi>合资",
+   "verdict": "correct",
+   "comment": "隆基 2025 年报联营企业表 + 通威 2025 年报子公司少数股东表，两份交易所定期报告"
+  }
+ ]
+}

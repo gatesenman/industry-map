@@ -1,0 +1,60 @@
+{
+  "name": "industry-map",
+  "productName": "全球产业链地图",
+  "version": "3.3.0",
+  "description": "全球产业链地图 桌面版（内置 v3.3 数据 + 本机数据自更新）",
+  "author": "GAOSICHUN",
+  "main": "main.js",
+  "build": {
+    "appId": "com.gaosichun.industrymap",
+    "productName": "全球产业链地图",
+    "files": [
+      "main.js",
+      "preload.js",
+      "updater/**/*",
+      "seed/**/*",
+      "web/**/*",
+      "icon.png"
+    ],
+    "directories": {
+      "output": "/workspace/desktop/out-3.3/build"
+    },
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "zip",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "icon.png",
+      "artifactName": "IndustryMap-${version}-win-${arch}.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "shortcutName": "全球产业链地图",
+      "artifactName": "IndustryMap-${version}-x64-setup.exe"
+    },
+    "linux": {
+      "target": [
+        "dir"
+      ]
+    },
+    "compression": "maximum"
+  },
+  "dependencies": {
+    "xlsx": "0.18.5"
+  },
+  "devDependencies": {
+    "electron": "33.4.11",
+    "electron-builder": "^25.1.8"
+  }
+}

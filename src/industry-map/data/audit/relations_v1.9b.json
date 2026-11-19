@@ -1,0 +1,17 @@
+{
+ "round": "v1.9",
+ "date": "2026-10-22",
+ "method": "v1.9 补审此前未抽检的 C 级关系（逐句复核 Wikipedia 原句）",
+ "items": [
+  {
+   "key": "thermofisher>pfizer>供货",
+   "verdict": "correct",
+   "comment": "Wikipedia 原句：Thermo Fisher 与其生物医药客户（含 Pfizer）合作支持 mRNA 疫苗开发与生产；支持客户关系，按 C"
+  },
+  {
+   "key": "wuxiapptec>pfizer>供货",
+   "verdict": "correct",
+   "comment": "Wikipedia 原句：Its clients have included ... Pfizer；支持客户关系（历史口径），按 C"
+  }
+ ]
+}

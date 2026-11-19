@@ -1,0 +1,62 @@
+{
+ "round": "v1.9",
+ "date": "2026-10-22",
+ "method": "v1.9 人工逐句复核 SEC 一手原文",
+ "items": [
+  {
+   "key": "tsmc>apple>供货",
+   "verdict": "correct",
+   "comment": "两份独立一手来源：TSMC 6-K（监管）+ Apple Supplier List（客户方）"
+  },
+  {
+   "key": "micron>apple>供货",
+   "verdict": "correct",
+   "comment": "Micron 8-K Ex.99.1（监管）+ Apple Supplier List（客户方）"
+  },
+  {
+   "key": "catl>liauto>供货",
+   "verdict": "correct",
+   "comment": "Li Auto 20-F（FY2025，监管）+ Wikipedia 独立来源"
+  },
+  {
+   "key": "horizon>liauto>供货",
+   "verdict": "correct",
+   "comment": "Li Auto 20-F（FY2022，监管）+ Wikipedia 独立来源"
+  },
+  {
+   "key": "tianqi>sqm>投资",
+   "verdict": "correct",
+   "comment": "SQM 20-F（FY2025，监管）+ Wikipedia 独立来源"
+  },
+  {
+   "key": "byd>bydelec>控股",
+   "verdict": "correct",
+   "comment": "比亚迪 2025 年报重要子公司表（交易所定期报告）+ Wikidata"
+  },
+  {
+   "key": "robosense>xpeng>供货",
+   "verdict": "correct",
+   "comment": "RoboSense 2024 年报（港交所披露）原句"
+  },
+  {
+   "key": "robosense>geely>供货",
+   "verdict": "correct",
+   "comment": "RoboSense 2024 年报（港交所披露）原句"
+  },
+  {
+   "key": "tel>samsung>供货",
+   "verdict": "correct",
+   "comment": "TEL 综合报告 2026 主要客户表（重新抽取干净原文，替换此前混排的引文）"
+  },
+  {
+   "key": "tel>tsmc>供货",
+   "verdict": "correct",
+   "comment": "TEL 综合报告 2026 主要客户表"
+  },
+  {
+   "key": "apple>intel>竞争",
+   "verdict": "correct",
+   "comment": "Intel 10-K（FY2025）原句"
+  }
+ ]
+}

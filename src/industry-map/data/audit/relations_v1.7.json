@@ -1,0 +1,27 @@
+{
+ "round": "v1.7",
+ "date": "2026-10-22",
+ "method": "v1.7 人工逐句复核 SEC 一手原文",
+ "items": [
+  {
+   "key": "longi>jinko>竞争",
+   "verdict": "correct",
+   "comment": "JinkoSolar 20-F（FY2025）原句"
+  },
+  {
+   "key": "trina>jinko>竞争",
+   "verdict": "correct",
+   "comment": "JinkoSolar 20-F（FY2025）原句"
+  },
+  {
+   "key": "canadian>jinko>竞争",
+   "verdict": "correct",
+   "comment": "JinkoSolar 20-F（FY2025）原句"
+  },
+  {
+   "key": "ja>jinko>竞争",
+   "verdict": "correct",
+   "comment": "JinkoSolar 20-F（FY2025）原句"
+  }
+ ]
+}

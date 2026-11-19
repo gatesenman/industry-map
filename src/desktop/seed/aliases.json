@@ -1,0 +1,1116 @@
+{
+ "synopsys": [
+  "Synopsys",
+  "新思",
+  "新思科技"
+ ],
+ "cadence": [
+  "Cadence Design Systems",
+  "楷登",
+  "楷登电子"
+ ],
+ "arm": [
+  "Arm",
+  "Arm Holdings",
+  "安谋"
+ ],
+ "asml": [
+  "ASML",
+  "阿斯麦"
+ ],
+ "amat": [
+  "Applied Materials",
+  "应用材料"
+ ],
+ "lam": [
+  "Lam Research",
+  "泛林",
+  "泛林集团"
+ ],
+ "tel": [
+  "Tokyo Electron",
+  "东京",
+  "东京电子"
+ ],
+ "naura": [
+  "002371",
+  "NAURA Technology",
+  "北方华创"
+ ],
+ "amec": [
+  "688012",
+  "AMEC",
+  "中微公司"
+ ],
+ "kla": [
+  "KLA",
+  "科磊"
+ ],
+ "advantest": [
+  "Advantest",
+  "爱德万测试"
+ ],
+ "screen": [
+  "SCREEN",
+  "SCREEN Holdings",
+  "斯库林"
+ ],
+ "shinetsu": [
+  "Shin-Etsu Chemical",
+  "信越化学"
+ ],
+ "sumco": [
+  "SUMCO",
+  "胜高"
+ ],
+ "gwc": [
+  "GlobalWafers",
+  "环球晶圆"
+ ],
+ "nsig": [
+  "688126",
+  "NSIG",
+  "沪硅产业"
+ ],
+ "tok": [
+  "Tokyo Ohka Kogyo",
+  "东京应化"
+ ],
+ "linde": [
+  "Linde",
+  "林德"
+ ],
+ "airliquide": [
+  "Air Liquide",
+  "液化空气"
+ ],
+ "nvidia": [
+  "NVIDIA",
+  "英伟达"
+ ],
+ "amd": [
+  "AMD",
+  "超威半导体"
+ ],
+ "intel": [
+  "Intel",
+  "英特尔"
+ ],
+ "qualcomm": [
+  "Qualcomm",
+  "高通"
+ ],
+ "mediatek": [
+  "MediaTek",
+  "联发科"
+ ],
+ "broadcom": [
+  "Broadcom",
+  "博通"
+ ],
+ "samsung": [
+  "005930",
+  "Samsung Electronics",
+  "三星",
+  "三星电子"
+ ],
+ "skhynix": [
+  "000660",
+  "SK hynix",
+  "SK 海力士"
+ ],
+ "micron": [
+  "Micron Technology",
+  "美光",
+  "美光科技"
+ ],
+ "gigadevice": [
+  "603986",
+  "GigaDevice",
+  "兆易创新"
+ ],
+ "ti": [
+  "Texas Instruments",
+  "德州仪器"
+ ],
+ "infineon": [
+  "Infineon Technologies",
+  "英飞凌"
+ ],
+ "st": [
+  "STMicroelectronics",
+  "意法半导体"
+ ],
+ "nxp": [
+  "NXP Semiconductors",
+  "恩智浦"
+ ],
+ "onsemi": [
+  "onsemi",
+  "安森美"
+ ],
+ "tsmc": [
+  "TSMC",
+  "台积电"
+ ],
+ "smic": [
+  "00981.HK",
+  "688981",
+  "SMIC",
+  "中芯国际"
+ ],
+ "gf": [
+  "GlobalFoundries",
+  "格芯"
+ ],
+ "umc": [
+  "UMC",
+  "联华",
+  "联华电子"
+ ],
+ "huahong": [
+  "01347.HK",
+  "688347",
+  "Hua Hong Semiconductor",
+  "华虹半导体"
+ ],
+ "ase": [
+  "ASE Technology",
+  "日月光投控"
+ ],
+ "amkor": [
+  "Amkor Technology",
+  "安靠"
+ ],
+ "jcet": [
+  "600584",
+  "JCET",
+  "长电",
+  "长电科技"
+ ],
+ "tfme": [
+  "002156",
+  "TongFu Microelectronics",
+  "通富微电"
+ ],
+ "apple": [
+  "Apple",
+  "苹果"
+ ],
+ "xiaomi": [
+  "01810.HK",
+  "Xiaomi",
+  "小米",
+  "小米集团"
+ ],
+ "microsoft": [
+  "Microsoft",
+  "微软"
+ ],
+ "amazon": [
+  "Amazon",
+  "亚马逊"
+ ],
+ "alphabet": [
+  "Alphabet",
+  "谷歌母公司 Alphabet"
+ ],
+ "foxconn": [
+  "Hon Hai Precision (Foxconn)",
+  "鸿海精密"
+ ],
+ "dell": [
+  "Dell Technologies",
+  "戴尔",
+  "戴尔科技"
+ ],
+ "albemarle": [
+  "Albemarle",
+  "雅保"
+ ],
+ "sqm": [
+  "SQM",
+  "智利化工矿业"
+ ],
+ "tianqi": [
+  "002466",
+  "09696.HK",
+  "Tianqi Lithium",
+  "天齐锂业"
+ ],
+ "ganfeng": [
+  "002460",
+  "01772.HK",
+  "Ganfeng Lithium",
+  "赣锋锂业"
+ ],
+ "pilbara": [
+  "Pilbara Minerals",
+  "皮尔巴拉矿业"
+ ],
+ "ronbay": [
+  "688005",
+  "Ronbay Technology",
+  "容百",
+  "容百科技"
+ ],
+ "umicore": [
+  "Umicore",
+  "优美科"
+ ],
+ "easpring": [
+  "300073",
+  "Easpring",
+  "当升",
+  "当升科技"
+ ],
+ "btr": [
+  "835185",
+  "BTR New Material",
+  "贝特瑞"
+ ],
+ "putailai": [
+  "603659",
+  "Putailai",
+  "璞泰来"
+ ],
+ "tinci": [
+  "002709",
+  "Tinci Materials",
+  "天赐材料"
+ ],
+ "semcorp": [
+  "002812",
+  "SEMCORP",
+  "恩捷",
+  "恩捷股份"
+ ],
+ "catl": [
+  "03750.HK",
+  "300750",
+  "CATL",
+  "Contemporary Amperex",
+  "宁德时代"
+ ],
+ "byd": [
+  "002594",
+  "01211.HK",
+  "BYD",
+  "比亚迪"
+ ],
+ "lges": [
+  "373220",
+  "LG ",
+  "LG Energy Solution",
+  "LG 新能源",
+  "LG新能源"
+ ],
+ "panasonic": [
+  "Panasonic",
+  "Panasonic Holdings",
+  "松下",
+  "松下控股"
+ ],
+ "samsungsdi": [
+  "006400",
+  "Samsung SDI",
+  "三星 SDI"
+ ],
+ "calb": [
+  "03931.HK",
+  "CALB",
+  "中创新航"
+ ],
+ "gotion": [
+  "002074",
+  "Gotion High-tech",
+  "国轩高科"
+ ],
+ "inovance": [
+  "300124",
+  "Inovance",
+  "汇川",
+  "汇川技术"
+ ],
+ "nidec": [
+  "Nidec",
+  "尼得科"
+ ],
+ "sanhua": [
+  "002050",
+  "Sanhua",
+  "Sanhua Intelligent Controls",
+  "三花",
+  "三花智控"
+ ],
+ "starpower": [
+  "603290",
+  "StarPower",
+  "斯达半导"
+ ],
+ "mobileye": [
+  "Mobileye"
+ ],
+ "horizon": [
+  "09660.HK",
+  "Horizon Robotics",
+  "地平线"
+ ],
+ "hesai": [
+  "02525.HK",
+  "Hesai",
+  "Hesai Group",
+  "禾赛",
+  "禾赛科技"
+ ],
+ "tesla": [
+  "Tesla",
+  "特斯拉"
+ ],
+ "vw": [
+  "Volkswagen",
+  "Volkswagen Group",
+  "大众汽车"
+ ],
+ "bmw": [
+  "BMW",
+  "BMW Group",
+  "宝马"
+ ],
+ "mercedes": [
+  "Mercedes-Benz",
+  "Mercedes-Benz Group",
+  "梅赛德斯-奔驰"
+ ],
+ "hyundai": [
+  "005380",
+  "Hyundai Motor",
+  "现代汽车"
+ ],
+ "toyota": [
+  "Toyota Motor",
+  "丰田汽车"
+ ],
+ "gm": [
+  "General Motors",
+  "通用汽车"
+ ],
+ "ford": [
+  "Ford Motor",
+  "福特汽车"
+ ],
+ "stellantis": [
+  "Stellantis"
+ ],
+ "nio": [
+  "09866.HK",
+  "NIO",
+  "NIO Inc",
+  "蔚来"
+ ],
+ "xpeng": [
+  "09868.HK",
+  "XPeng",
+  "小鹏",
+  "小鹏汽车"
+ ],
+ "liauto": [
+  "02015.HK",
+  "Li Auto",
+  "理想汽车"
+ ],
+ "geely": [
+  "00175.HK",
+  "Geely",
+  "Geely Automobile",
+  "Zeekr",
+  "吉利",
+  "吉利汽车",
+  "极氪"
+ ],
+ "seres": [
+  "601127",
+  "Seres",
+  "Seres Group",
+  "赛力斯"
+ ],
+ "rivian": [
+  "Rivian",
+  "Rivian Automotive"
+ ],
+ "chargepoint": [
+  "ChargePoint"
+ ],
+ "tgood": [
+  "300001",
+  "TGOOD",
+  "特锐德"
+ ],
+ "tongwei": [
+  "600438",
+  "Tongwei",
+  "通威",
+  "通威股份"
+ ],
+ "gcltech": [
+  "03800.HK",
+  "GCL Technology",
+  "协鑫",
+  "协鑫科技"
+ ],
+ "daqo": [
+  "688303",
+  "Daqo New Energy",
+  "大全能源"
+ ],
+ "wacker": [
+  "Wacker Chemie",
+  "瓦克化学"
+ ],
+ "oci": [
+  "010060",
+  "OCI",
+  "OCI ",
+  "OCI Holdings",
+  "OCI 控股"
+ ],
+ "xinte": [
+  "01799.HK",
+  "Xinte Energy",
+  "新特能源"
+ ],
+ "longi": [
+  "601012",
+  "LONGi",
+  "LONGi Green Energy",
+  "隆基",
+  "隆基绿能"
+ ],
+ "tclzh": [
+  "002129",
+  "TCL Zhonghuan",
+  "TCL 中环"
+ ],
+ "flat": [
+  "06865.HK",
+  "601865",
+  "Flat Glass",
+  "Flat Glass Group",
+  "福莱特"
+ ],
+ "xinyisolar": [
+  "00968.HK",
+  "Xinyi Solar",
+  "信义光能"
+ ],
+ "first_applied": [
+  "603806",
+  "Hangzhou First Applied Material",
+  "福斯特"
+ ],
+ "dke": [
+  "300842",
+  "DK Electronic Materials",
+  "帝科",
+  "帝科股份"
+ ],
+ "maxwell": [
+  "300751",
+  "Maxwell Technologies",
+  "迈为",
+  "迈为股份"
+ ],
+ "sc": [
+  "300724",
+  "S.C New Energy",
+  "捷佳伟创"
+ ],
+ "jsg": [
+  "300316",
+  "Jingsheng Mechanical & Electrical",
+  "晶盛机电"
+ ],
+ "gaoce": [
+  "688556",
+  "Gaoce Technology",
+  "高测",
+  "高测股份"
+ ],
+ "jinko": [
+  "688223",
+  "JinkoSolar",
+  "晶科能源"
+ ],
+ "trina": [
+  "688599",
+  "Trina Solar",
+  "天合光能"
+ ],
+ "ja": [
+  "002459",
+  "JA Solar",
+  "晶澳",
+  "晶澳科技"
+ ],
+ "canadian": [
+  "Canadian Solar",
+  "阿特斯"
+ ],
+ "firstsolar": [
+  "First Solar"
+ ],
+ "aiko": [
+  "600732",
+  "AIKO",
+  "爱旭",
+  "爱旭股份"
+ ],
+ "jietai": [
+  "002865",
+  "Jiangsu Jietai (Drinda)",
+  "钧达",
+  "钧达股份"
+ ],
+ "hanwha": [
+  "009830",
+  "Hanwha Solutions",
+  "韩华解决方案"
+ ],
+ "risen": [
+  "300118",
+  "Risen Energy",
+  "东方日升"
+ ],
+ "sungrow": [
+  "300274",
+  "Sungrow",
+  "Sungrow Power",
+  "阳光电源"
+ ],
+ "huawei": [
+  "Huawei",
+  "Huawei Digital Power",
+  "华为",
+  "华为技术",
+  "华为（数字能源）"
+ ],
+ "sma": [
+  "SMA Solar Technology",
+  "SMA 太阳能"
+ ],
+ "enphase": [
+  "Enphase",
+  "Enphase Energy"
+ ],
+ "solaredge": [
+  "SolarEdge",
+  "SolarEdge Technologies"
+ ],
+ "goodwe": [
+  "688390",
+  "GoodWe",
+  "固德威"
+ ],
+ "ginlong": [
+  "300763",
+  "Ginlong (Solis)",
+  "锦浪",
+  "锦浪科技"
+ ],
+ "deye": [
+  "605117",
+  "Deye",
+  "德业",
+  "德业股份"
+ ],
+ "nextracker": [
+  "Nextracker"
+ ],
+ "array": [
+  "Array Technologies"
+ ],
+ "nextera": [
+  "NextEra Energy",
+  "新纪元能源"
+ ],
+ "iberdrola": [
+  "Iberdrola",
+  "伊维尔德罗拉"
+ ],
+ "enel": [
+  "Enel",
+  "意大利国家电力"
+ ],
+ "ctg": [
+  "600905",
+  "China Three Gorges Renewables",
+  "三峡能源"
+ ],
+ "fluence": [
+  "Fluence",
+  "Fluence Energy"
+ ],
+ "sunrun": [
+  "Sunrun"
+ ],
+ "marvell": [
+  "Marvell Technology",
+  "迈威尔",
+  "迈威尔科技"
+ ],
+ "renesas": [
+  "Renesas Electronics",
+  "瑞萨",
+  "瑞萨电子"
+ ],
+ "microchip": [
+  "Microchip Technology",
+  "微芯",
+  "微芯科技"
+ ],
+ "adi": [
+  "Analog Devices",
+  "亚德诺"
+ ],
+ "kioxia": [
+  "Kioxia",
+  "Kioxia Holdings",
+  "铠侠"
+ ],
+ "omnivision": [
+  "603501",
+  "OmniVision (Will Semiconductor)",
+  "豪威",
+  "豪威集团"
+ ],
+ "cambricon": [
+  "688256",
+  "Cambricon Technologies",
+  "寒武纪"
+ ],
+ "hygon": [
+  "688041",
+  "Hygon Information Technology",
+  "海光信息"
+ ],
+ "teradyne": [
+  "Teradyne",
+  "泰瑞达"
+ ],
+ "asmi": [
+  "ASM International",
+  "ASM 国际"
+ ],
+ "entegris": [
+  "Entegris",
+  "英特格"
+ ],
+ "huayou": [
+  "603799",
+  "Zhejiang Huayou Cobalt",
+  "华友钴业"
+ ],
+ "eve": [
+  "300014",
+  "EVE Energy",
+  "亿纬锂能"
+ ],
+ "sunwoda": [
+  "300207",
+  "Sunwoda Electronic",
+  "欣旺达"
+ ],
+ "dynanonic": [
+  "300769",
+  "Shenzhen Dynanonic",
+  "德方纳米"
+ ],
+ "senior": [
+  "300568",
+  "Shenzhen Senior Technology Material",
+  "星源材质"
+ ],
+ "capchem": [
+  "300037",
+  "Shenzhen Capchem",
+  "新宙邦"
+ ],
+ "tuopu": [
+  "601689",
+  "Ningbo Tuopu",
+  "Ningbo Tuopu Group",
+  "拓普",
+  "拓普集团"
+ ],
+ "valeo": [
+  "Valeo",
+  "法雷奥"
+ ],
+ "leapmotor": [
+  "09863.HK",
+  "Leapmotor",
+  "零跑汽车"
+ ],
+ "gwm": [
+  "02333.HK",
+  "601633",
+  "Great Wall Motor",
+  "长城汽车"
+ ],
+ "gac": [
+  "02238.HK",
+  "601238",
+  "GAC",
+  "GAC Group",
+  "广汽",
+  "广汽集团"
+ ],
+ "saic": [
+  "600104",
+  "SAIC Motor",
+  "上汽",
+  "上汽集团"
+ ],
+ "lucid": [
+  "Lucid",
+  "Lucid Group"
+ ],
+ "polestar": [
+  "Polestar Automotive",
+  "极星"
+ ],
+ "blacksesame": [
+  "02533.HK",
+  "Black Sesame Technologies",
+  "黑芝麻",
+  "黑芝麻智能"
+ ],
+ "robosense": [
+  "02498.HK",
+  "RoboSense",
+  "速腾聚创"
+ ],
+ "shangji": [
+  "603185",
+  "Wuxi Shangji Automation",
+  "上机数控"
+ ],
+ "shuangliang": [
+  "600481",
+  "Shuangliang Eco-Energy",
+  "双良节能"
+ ],
+ "hiuv": [
+  "688680",
+  "Shanghai HIUV New Materials",
+  "海优新材"
+ ],
+ "fusion": [
+  "688503",
+  "Changzhou Fusion New Material",
+  "聚和材料"
+ ],
+ "laplace": [
+  "688726",
+  "Laplace Renewable Energy",
+  "拉普拉斯"
+ ],
+ "autowell": [
+  "688516",
+  "Wuxi Autowell",
+  "奥特维"
+ ],
+ "dmegc": [
+  "002056",
+  "DMEGC",
+  "横店东磁"
+ ],
+ "chint": [
+  "601877",
+  "Zhejiang Chint Electrics",
+  "正泰电器"
+ ],
+ "hoymiles": [
+  "688032",
+  "Hoymiles",
+  "禾迈",
+  "禾迈股份"
+ ],
+ "apsystems": [
+  "688348",
+  "APsystems",
+  "昱能",
+  "昱能科技"
+ ],
+ "sineng": [
+  "300827",
+  "Sineng Electric",
+  "上能电气"
+ ],
+ "arctech": [
+  "688408",
+  "Arctech Solar",
+  "中信博"
+ ],
+ "maxeon": [
+  "Maxeon Solar Technologies",
+  "迈升"
+ ],
+ "brookfieldre": [
+  "Brookfield Renewable Partners",
+  "布鲁克菲尔德可再生能源"
+ ],
+ "chinapower": [
+  "02380.HK",
+  "China Power International Development",
+  "中国电力"
+ ],
+ "boe": [
+  "000725",
+  "BOE Technology",
+  "京东方"
+ ],
+ "lgd": [
+  "034220",
+  "LG Display",
+  "LG 显示"
+ ],
+ "tcltech": [
+  "000100",
+  "TCL ",
+  "TCL Technology",
+  "TCL 科技"
+ ],
+ "sony": [
+  "Sony",
+  "Sony Group",
+  "索尼",
+  "索尼集团"
+ ],
+ "sunny": [
+  "02382.HK",
+  "Sunny Optical Technology",
+  "舜宇光学"
+ ],
+ "murata": [
+  "Murata Manufacturing",
+  "村田制作所"
+ ],
+ "tdk": [
+  "TDK",
+  "TDK Corporation"
+ ],
+ "cctc": [
+  "300408",
+  "CCTC",
+  "三环",
+  "三环集团"
+ ],
+ "luxshare": [
+  "002475",
+  "Luxshare Precision",
+  "立讯精密"
+ ],
+ "lens": [
+  "300433",
+  "Lens Technology",
+  "蓝思",
+  "蓝思科技"
+ ],
+ "goertek": [
+  "002241",
+  "Goertek",
+  "歌尔",
+  "歌尔股份"
+ ],
+ "lingyi": [
+  "002600",
+  "Lingyi iTech",
+  "领益智造"
+ ],
+ "pegatron": [
+  "Pegatron",
+  "和硕"
+ ],
+ "quanta": [
+  "Quanta Computer",
+  "广达电脑"
+ ],
+ "wistron": [
+  "Wistron",
+  "纬创资通"
+ ],
+ "bydelec": [
+  "00285.HK",
+  "BYD Electronic",
+  "比亚迪",
+  "比亚迪电子"
+ ],
+ "jabil": [
+  "Jabil",
+  "捷普"
+ ],
+ "flex": [
+  "Flex",
+  "伟创力"
+ ],
+ "lenovo": [
+  "00992.HK",
+  "Lenovo",
+  "Lenovo Group",
+  "联想",
+  "联想集团"
+ ],
+ "hp": [
+  "HP Inc.",
+  "惠普"
+ ],
+ "transsion": [
+  "688036",
+  "Transsion",
+  "Transsion Holdings",
+  "传音",
+  "传音控股"
+ ],
+ "bestbuy": [
+  "Best Buy",
+  "百思买"
+ ],
+ "jd": [
+  "09618.HK",
+  "JD.com",
+  "京东",
+  "京东集团"
+ ],
+ "steminc": [
+  "Stem",
+  "Stem Inc."
+ ],
+ "eosenergy": [
+  "Eos Energy",
+  "Eos Energy Enterprises"
+ ],
+ "crrc": [
+  "03898.HK",
+  "688187",
+  "CRRC Times Electric",
+  "时代电气/中车"
+ ],
+ "hyperstrong": [
+  "688411",
+  "Beijing Hyperstrong",
+  "海博思创"
+ ],
+ "pfizer": [
+  "Pfizer",
+  "辉瑞"
+ ],
+ "jnj": [
+  "Johnson & Johnson",
+  "强生"
+ ],
+ "lilly": [
+  "Eli Lilly",
+  "礼来"
+ ],
+ "novo": [
+  "Novo Nordisk",
+  "诺和诺德"
+ ],
+ "merck": [
+  "Merck & Co.",
+  "默沙东"
+ ],
+ "abbvie": [
+  "AbbVie",
+  "艾伯维"
+ ],
+ "roche": [
+  "Roche",
+  "Roche Holding",
+  "罗氏"
+ ],
+ "novartis": [
+  "Novartis",
+  "诺华"
+ ],
+ "astrazeneca": [
+  "AstraZeneca",
+  "阿斯利康"
+ ],
+ "bms": [
+  "Bristol-Myers Squibb",
+  "百时美施贵宝"
+ ],
+ "amgen": [
+  "Amgen",
+  "安进"
+ ],
+ "gilead": [
+  "Gilead Sciences",
+  "吉利德"
+ ],
+ "moderna": [
+  "Moderna",
+  "莫德纳"
+ ],
+ "regeneron": [
+  "Regeneron",
+  "再生元"
+ ],
+ "thermofisher": [
+  "Thermo Fisher Scientific",
+  "赛默飞"
+ ],
+ "danaher": [
+  "Danaher",
+  "丹纳赫"
+ ],
+ "wuxibiologics": [
+  "02269.HK",
+  "WuXi Biologics",
+  "药明生物"
+ ],
+ "wuxiapptec": [
+  "02359.HK",
+  "603259",
+  "WuXi AppTec",
+  "药明康德"
+ ],
+ "catalent": [
+  "Catalent"
+ ],
+ "lonza": [
+  "Lonza",
+  "Lonza Group",
+  "龙沙"
+ ],
+ "cspc": [
+  "01093.HK",
+  "CSPC Pharmaceutical",
+  "石药",
+  "石药集团"
+ ],
+ "hansoh": [
+  "03692.HK",
+  "Hansoh Pharmaceutical",
+  "翰森制药"
+ ],
+ "innovent": [
+  "01801.HK",
+  "Innovent Biologics",
+  "信达生物"
+ ],
+ "beigene": [
+  "06160.HK",
+  "BeOne Medicines (BeiGene)",
+  "百济神州"
+ ],
+ "sinopharm": [
+  "01099.HK",
+  "Sinopharm",
+  "Sinopharm Group",
+  "国药",
+  "国药控股"
+ ]
+}
