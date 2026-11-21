@@ -40,6 +40,14 @@ npx electron .          # 调试可用 IM_NOAUTO=1
 - [构建说明](README-构建说明.md)
 - [使用说明](使用说明.txt)
 
+## 贡献
+
+欢迎通过 Issue 和 Pull Request 参与，详见 [CONTRIBUTING.md](CONTRIBUTING.md)。安全问题请按 [SECURITY.md](SECURITY.md) 私下报告。参与时请遵守 [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)。
+
+## 许可证
+
+本仓库尚未附带 LICENSE 文件，许可证未指定。
+
 ---
 
 ## English
@@ -86,3 +94,10 @@ On Windows, local data lives in `%APPDATA%\全球产业链地图\industry-data\`
 - [构建说明](README-构建说明.md)
 - [使用说明](使用说明.txt)
 
+## Contributing
+
+Issues and pull requests are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md). Please report vulnerabilities privately via [SECURITY.md](SECURITY.md). This project follows [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
+
+## License
+
+No LICENSE file is included in this repository; the license is unspecified.
